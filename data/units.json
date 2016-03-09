@@ -71,20 +71,27 @@
   },
   {
     "_id" : 20009,
+    "name" : "bag",
+    "relational_unit" : "kg",
+    "conversion_factor" : 80,
+    "countries_used" : [ "South Africa" ]
+  },
+  {
+    "_id" : 20010,
     "name" : "sack",
     "relational_unit" : "kg",
     "conversion_factor" : 90,
     "countries_used" : [ "Burundi", "Kenya", "Rwanda", "Tanzania", "Uganda" ]
   },
   {
-    "_id" : 20010,
+    "_id" : 20011,
     "name" : "quintal",
     "relational_unit" : "kg",
     "conversion_factor" : 100,
     "countries_used" : [ "Ethiopia" ]
   },
   {
-    "_id" : 20011,
+    "_id" : 20012,
     "name" : "debe",
     "relational_unit" : "kg",
     "conversion_factor" : 18,

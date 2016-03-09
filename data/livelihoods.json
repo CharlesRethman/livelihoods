@@ -21,6 +21,7 @@
   "photos" : [ "59301001.jpg", "59301002.jpg" ],
   "wealth_group" : [
     {
+      "ordinal" : 1,
       "name" : "Very poor",
       "local_name": "[Tshivenda: very poor]",
       "notes" : "",
@@ -274,11 +275,23 @@
                 "num" : 0,
                 "converts_to" : [
                   {
-                    "staple purchase" : [
-                      {
-
-                      }
-                    ]
+                    "source" : "maize purchase",
+                    "source_category" : "staple purchases",
+                    "source_dims" : [ "food", "expenditure" ],
+                    "commodity_id" : 1001,
+                    "acquisition_unit_id" : 20009,
+                    "acquired" : 1,
+                    "freq" : "monthly",
+                    "period" : {
+                      "start" : 4,
+                      "end" : 3,
+                    },
+                    "price" : 400
+                  },
+                  {
+                    "source" : "rice purchase",
+                    "source_category" : "staple purchase",
+                    "source_dims" : [ "food", "expenditure" ]
                   }
                 ]
 
@@ -290,14 +303,17 @@
       ]
     },
     {
+      "ordinal" : 2,
       "name" : "poor",
       "local_name" : "[Tshivenda: poor]"
     },
     {
+      "ordinal" : 3,
       "name" : "middle",
       "local_name" : "[Tshivenda: middle]"
     },
     {
+      "ordinal" : 4,
       "name" : "better-off",
       "local_name" : "[Tshivenda: better-off]"
     }
