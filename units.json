@@ -1,0 +1,237 @@
+{
+  "_id" : 20000,
+  "name" : "kilogram",
+  "abbrev" : ["kg"],
+  "relational_unit" : "kg",
+  "conversion_factor" : 1,
+  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
+},
+  {
+    "_id" : 20001,
+    "name" : "gram",
+    "abbrev" : "g",
+    "relational_unit" : "kg",
+    "conversion_factor" : 1000,
+    "countries_used" : [ "South Africa" ]
+  },
+  {
+    "_id" : 20002,
+    "name" : "ton",
+    "abbrev" : [ "t", "Mt", "MT" ],
+    "relational_unit" : "kg",
+    "conversion_factor" : 0.001,
+    "countries_used" : [ "South Africa" ]
+  },
+  {
+    "_id" : 20003,
+    "name" : "US pound",
+    "abbrev" : [ "lb" ],
+    "relational_unit" : "kg",
+    "conversion_factor" : 0.028349523,
+    "countries_used" : [ "United States" ]
+  },
+  {
+    "_id" : 20004,
+    "name" : "US ounce",
+    "abbrev" : [ "oz" ],
+    "relational_unit" : "kg",
+    "conversion_factor" : 0.028349523,
+    "countries_used" : [ "United States" ]
+  },
+  {
+    "_id" : 20005,
+    "name" : "short ton",
+    "abbrev" : [ "ton" ],
+    "relational_unit" : "kg",
+    "conversion_factor" : 907.18474,
+    "countries_used" : [ "United States" ]
+  },
+  {
+    "_id" : 20006,
+    "name" : "stone",
+    "abbrev" : [ "st" ],
+    "relational_unit" : "kg",
+    "conversion_factor" : 6.3502932,
+    "countries_used" : [ "United Kingdom" ]
+  },
+  {
+    "_id" : 20007,
+    "name" : "long ton",
+    "abbrev" : [ "ton" ],
+    "relational_unit" : "kg",
+    "conversion_factor" : 1016.0469,
+    "countries_used" : [ "United Kingdom" ]
+  },
+  {
+    "_id" : 20008,
+    "name" : "bag",
+    "relational_unit" : "kg",
+    "conversion_factor" : 50,
+    "countries_used" : [ "Malawi", "Zambia" ]
+  },
+  {
+    "_id" : 20009,
+    "name" : "sack",
+    "relational_unit" : "kg",
+    "conversion_factor" : 90,
+    "countries_used" : [ "Burundi", "Kenya", "Rwanda", "Tanzania", "Uganda" ]
+  },
+  {
+    "_id" : 20010,
+    "name" : "quintal",
+    "relational_unit" : "kg",
+    "conversion_factor" : 100,
+    "countries_used" : [ "Ethiopia" ]
+  },
+  {
+    "_id" : 20011,
+    "name" : "debe",
+    "relational_unit" : "kg",
+    "conversion_factor" : 18,
+    "countries_used" : [ "Burundi", "Rwanda", "Tanzania" ]
+  },
+  {
+    "_id" : 20050,
+    "name" : "metre",
+    "relational_unit" : "metre",
+    "conversion_factor" : 1,
+    "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
+  },
+  {
+    "_id" : 20100,
+    "name" : "hectare",
+    "abbrev" : "ha",
+    "relational_unit" : "ha",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20101,
+    "name" : "square metre",
+    "abbrev" : "sq m",
+    "relational_unit" : "ha",
+    "conversion_factor" : 0.0001
+  },
+  {
+    "_id" : 20102,
+    "name" : "acre",
+    "abbrev" : "a",
+    "relational_unit" : "ha",
+    "conversion_factor" : 0.42
+  },
+  {
+    "_id" : 20150,
+    "name" : "kilojoule",
+    "abbrev" : "kJ",
+    "relational_unit" : "kJ",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20151,
+    "name" : "joule",
+    "abbrev" : "J",
+    "relational_unit" : "kJ",
+    "conversion_factor" : 0.001
+  },
+  {
+    "_id" : 20152,
+    "name" : "kilocalorie",
+    "abbrev" : "kcal",
+    "relational_unit" : "kJ",
+    "conversion_factor" : 4.1868
+  },
+  {
+    "_id" : 20153,
+    "name" : "Calorie",
+    "abbrev" : "Cal",
+    "relational_unit" : "kcal",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20154,
+    "name" : "calorie",
+    "abbrev" : "cal",
+    "relational_unit" : "kJ",
+    "conversion_factor" : 0.0041868
+  },
+  {
+    "_id" : 20400,
+    "name" : "adult equivalent",
+    "abbrev" : "A-Eq",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20401,
+    "name" : "adult man >19 years",
+    "abbrev" : "man",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20402,
+    "name" : "adult woman >19 years",
+    "abbrev" : "woman",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20403,
+    "name" : "teenager 15-19 years",
+    "abbrev" : "teen",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20404,
+    "name" : "child 5-14 years",
+    "abbrev" : "child",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20405,
+    "name" : "infant 0-4 years",
+    "abbrev" : "infant",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20406,
+    "name" : "pensioner (man > 65, woman > 60)",
+    "abbrev" : "pensioner",
+    "relational_unit" : "A-Eq",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20500,
+    "name" : "FAO southern Africa livestock unit",
+    "abbrev" : "SALU",
+    "relational_unit" : "SALU",
+    "conversion_factor" : 1
+  },
+  {
+    "_id" : 20501,
+    "name" : "tropical livestock unit",
+    "abbrev" : "TLU",
+    "relational_unit" : "SALU",
+    "conversion_factor" : 0.71429
+  },
+  {
+    "_id" : 20502,
+    "name" : "camel",
+    "relational_unit" : "SALU",
+    "conversion_factor": 1.1
+  },
+  {
+    "_id" : 20503,
+    "name" : "cattle head",
+    "relational_unit" : "SALU",
+    "conversion_factor" : 0.5
+  },
+  {
+    "_id" : 20504,
+    "name" : "goat",
+    "relational_unit" : "SALU",
+    "conversion_factor" : 0.1
+  }
+]
