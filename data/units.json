@@ -91,6 +91,13 @@
     "countries_used" : [ "Burundi", "Rwanda", "Tanzania" ]
   },
   {
+    "_id" : 20030,
+    "name" : "head, pumpkin",
+    "relational_unit" : "kg",
+    "conversion_factor" : 25,
+    "countries_used" : [ "South Africa" ]
+  },
+  {
     "_id" : 20050,
     "name" : "metre",
     "relational_unit" : "metre",

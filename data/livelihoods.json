@@ -235,26 +235,20 @@
                         "unit_id" : 20100,
                         "converts_to" : [
                           {
-                            "livelihood": "crops",
                             "crop" : [
                               {
                                 "commodity_id" : 1000,
-                                "field_area" : 0.6,
-                                "produced" : 12,
-                                "sold" : 5,
-                                "price" : 6.99,
-                                "pricing_unit": "kg",
-                                "kept_for_seed" : 0.5,
-                                "given_out" : 0,
-                                "other" : 0,
-                                "consumed" : 6.5,
-                                "unit_id" : 2000,
+                                "production_unit_id" : 20000,
+                                "produced" : 80,
+                                "consumed" : 80,
+                                "other" : 0
                               },
                               {
-                                "commodity_id" : 1002
-                              },
-                              {
-                                "commodity_id" : 1003
+                                "commodity_id" : 1260,
+                                "production_unit_id" : 20030,
+                                "produced" : 25,
+                                "consumed" : 25,
+                                "other" : 0
                               }
                             ]
                           }
@@ -267,8 +261,19 @@
             ],
             "environmental" : [],
             "social" : [],
-            "political" : [],
-            "financial" : []
+            "financial" : [
+              {
+                "item_name" : "cash holding",
+                "num" : 0,
+                "converts_to" : [
+                  {
+                    
+                  }
+                ]
+
+              }
+            ],
+            "political" : []
           }
         }
       ]
