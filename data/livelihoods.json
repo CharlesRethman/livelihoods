@@ -143,29 +143,26 @@
                     "unit_id" : 20403,
                     "converts_to" : [
                       {
-                        "source" : [
-                          {
-                            "name" : "child grant",
-                            "category" : "social grants",
-                            "source_dim" : [ "income" ],
-                            "freq" : "monthly",
-                            "period" :
-                              {
-                                "start" : "1 April 2013",
-                                "end" : "31 March 2014"
-                              },
-                            "rate" : 300
-                          }
-                        ]
+                        "source" : "child grant",
+                        "category" : "social grants",
+                        "source_dims" : [ "income" ],
+                        "freq" : "monthly",
+                        "period" : {
+                            "start" : 4,
+                            "end" : 3
+                        },
+                        "rate" : 300
                       },
                       {
-                        "source" : [
-                          {
-                            "name" : "health",
-                            "category" : "services",
-                            "source_dim" : "expenditure"
-                          }
-                        ]
+                        "source" : "health",
+                        "category" : "services",
+                        "source_dims" : [ "expenditure" ],
+                        "freq" : "annually",
+                        "period" : {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 200
                       }
                     ]
                   },
@@ -175,7 +172,15 @@
                     "unit_id" : 20404,
                     "converts_to" : [
                       {
-
+                        "source" : "child grant",
+                        "category" : "social_grants",
+                        "source_dims" : [ "income" ],
+                        "freq" : "monthly",
+                        "period" : {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 300
                       }
                     ]
                   },
@@ -185,7 +190,15 @@
                     "unit_id" : 20405,
                     "converts_to" : [
                       {
-
+                        "source" : "child grant",
+                        "category" : "social grants",
+                        "source_dims" : [ "income" ],
+                        "freq" : "monthly",
+                        "period" : {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 300
                       }
                     ]
                   },
@@ -195,19 +208,11 @@
                     "unit_id" : 20406,
                     "converts_to" : [
                       {
-                        "source" :
-                        {
-                          "_id" : 1004,
-                          "name" : "old-age grant",
-                          "source_dim" : [
-                            { "dim" : "cash"}
-                          ],
-                          "source_categories" : [ "social_grant" ]
-                        },
-                        "num_people" : 1,
+                        "source" : "old-age grant",
+                        "source_categories" : "social grants",
+                        "source_dims" : [ "income" ],
                         "freq" : "monthly",
-                        "period" :
-                        {
+                        "period" : {
                           "start" : 4,
                           "end" : 3
                         },
@@ -235,22 +240,24 @@
                         "unit_id" : 20100,
                         "converts_to" : [
                           {
-                            "crop" : [
-                              {
-                                "commodity_id" : 1000,
-                                "production_unit_id" : 20000,
-                                "produced" : 80,
-                                "consumed" : 80,
-                                "other" : 0
-                              },
-                              {
-                                "commodity_id" : 1260,
-                                "production_unit_id" : 20030,
-                                "produced" : 25,
-                                "consumed" : 25,
-                                "other" : 0
-                              }
-                            ]
+                            "source" : "maize crop",
+                            "source_category" : "own crops - food",
+                            "source_dims" : [ "food" ],
+                            "commodity_id" : 1000,
+                            "production_unit_id" : 20000,
+                            "produced" : 80,
+                            "consumed" : 80,
+                            "other" : 0
+                          },
+                          {
+                            "source" : "pumpkin crop",
+                            "source_category" : "own crops - food",
+                            "source_dims" : [ "food" ],
+                            "commodity_id" : 1260,
+                            "production_unit_id" : 20030,
+                            "produced" : 25,
+                            "consumed" : 25,
+                            "other" : 0
                           }
                         ]
                       }
@@ -267,7 +274,11 @@
                 "num" : 0,
                 "converts_to" : [
                   {
-                    
+                    "staple purchase" : [
+                      {
+
+                      }
+                    ]
                   }
                 ]
 
