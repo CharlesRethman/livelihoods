@@ -1,8 +1,12 @@
 # Livelihoods
 
-## Intro--Why _Livelihoods_ and what the $%@#! is H.E.A?
+## Intro--Why _Livelihoods_ and what the $%@#* is HEA?
 
-The Livelihoods project is basically the design of a suitable backend to store Household Economy Approach (HEA) data. Presently, data are stored in **_dreadful_** spreadsheets that are a nightmare to keep concurrent, cannot be shared easily, and cannot be made publicly accessible (e.g. via the web).
+The Livelihoods project is basically the design of a suitable backend to store Household Economy Approach (HEA) data.
+
+HEA ... blah, blah, blah
+
+Presently, data are stored in **_dreadful_** spreadsheets that are a nightmare to keep concurrent, cannot be shared easily, and cannot be made publicly accessible (e.g. via the web).
 
 ## So, what am I doing here?
 
