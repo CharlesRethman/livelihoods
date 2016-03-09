@@ -1,0 +1,293 @@
+{
+  "lz_code" : 59203,
+  "lz_abbrev" : "ZANOC"
+},
+{
+  "lz_code" : 59204,
+  "lz_abbrev" : "ZASLC"
+},
+{
+  "lz_code" : 59301,
+  "lz_abbrev" : "ZALOF",
+  "lz_name" : "North eastern Limpopo open access farming",
+  "description" : "A short description of the LZ",
+  "notes" : "",
+  "consumption_year" : {
+    "start" : "1 April 2013",
+    "end" : "31 March 2014"
+  },
+  "map image" : "graphics/maps/lzs/59301.jpeg",
+  "photo_path" : "graphics/photos/",
+  "photos" : [ "59301001.jpg", "59301002.jpg" ],
+  "wealth_group" : [
+    {
+      "name" : "Very poor",
+      "local_name": "[Tshivenda: very poor]",
+      "notes" : "",
+      "pc_households" : 0.26,
+      "interviews" : [
+        {
+          "data_entry" : "community interview",
+          "interview_num": 1,
+          "location_id": 201,
+          "date_first_visited": "20 February 2015",
+          "num_women": 9,
+          "num_men" : 14,
+          "date_interviewed" : "20 February 2016",
+          "hh_capital": {
+            "human" : [
+              {
+                "item_name" : "household",
+                "num" : 11
+              }
+            ],
+            "physical" : [
+              {
+                "item_name" : "land owned",
+                "num" : 1,
+                "unit_id" : 20100,
+                "sub-items" : [
+                  {
+                    "item_name" : "land cultivated",
+                    "num" : 1,
+                    "unit_id" : 20100,
+                    "sub-items" : [
+                      {
+                        "item_name" : "land food crops",
+                        "num" : 1,
+                        "unit_id" : 20100,
+                      },
+                      {
+                        "item_name" : "land cash crops",
+                        "num" : 0,
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item_name" : "livestock",
+                "num" : 2,
+                "unit_id" : 20500,
+                "sub-items" : [
+                  {
+                    "item_name" : "cattle",
+                    "num" : 4,
+                    "unit_id" : 20503,
+                    "sub-items" : [
+                      {
+                        "item_name" : "cows",
+                        "num" : 2
+                      }
+                    ]
+                  },
+                  {
+                    "item_name" : "goats",
+                    "num" : 10,
+                    "unit_id" : 20504,
+                    "sub-items" : [
+                      {
+                        "item_name" : "nannies",
+                        "num" : 4,
+                        "unit_id" : 20504
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "environmental" : [],
+            "social" : [],
+            "financial" : [],
+            "political" : []
+          }
+        },
+        {
+          "data_entry" : "wealth group interview",
+          "interview_num": 1,
+          "location_id": 201,
+          "date_first_visited": "20 February 2015",
+          "num_women": 9,
+          "num_men" : 14,
+          "date_interviewed" : "21 February 2016",
+          "hh_capital": {
+            "human" : [
+              {
+                "item_name" : "household",
+                "num" : 11,
+                "unit_id" : 20400,
+                "sub-items" : [
+                  {
+                    "name" : "adult men",
+                    "num" : 1.5,
+                    "unit_id" : 20401,
+                    "converts_to" : [
+                      {
+
+                      }
+                    ]
+                  },
+                  {
+                    "name" : "adult women",
+                    "num" : 3,
+                    "unit_id" : 20402,
+                    "converts_to" : [
+                      {
+
+                      }
+                    ]
+                  },
+                  {
+                    "name" : "infants",
+                    "num" : 1.5,
+                    "unit_id" : 20403,
+                    "converts_to" : [
+                      {
+                        "source" : [
+                          {
+                            "name" : "child grant",
+                            "category" : "social grants",
+                            "source_dim" : [ "income" ],
+                            "freq" : "monthly",
+                            "period" :
+                              {
+                                "start" : "1 April 2013",
+                                "end" : "31 March 2014"
+                              },
+                            "rate" : 300
+                          }
+                        ]
+                      },
+                      {
+                        "source" : [
+                          {
+                            "name" : "health",
+                            "category" : "services",
+                            "source_dim" : "expenditure"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name" : "child",
+                    "num" : 2.5,
+                    "unit_id" : 20404,
+                    "converts_to" : [
+                      {
+
+                      }
+                    ]
+                  },
+                  {
+                    "name" : "teens",
+                    "num" : 1.5,
+                    "unit_id" : 20405,
+                    "converts_to" : [
+                      {
+
+                      }
+                    ]
+                  },
+                  {
+                    "name" : "pensioner",
+                    "num" : 1,
+                    "unit_id" : 20406,
+                    "converts_to" : [
+                      {
+                        "source" :
+                        {
+                          "_id" : 1004,
+                          "name" : "old-age grant",
+                          "source_dim" : [
+                            { "dim" : "cash"}
+                          ],
+                          "source_categories" : [ "social_grant" ]
+                        },
+                        "num_people" : 1,
+                        "freq" : "monthly",
+                        "period" :
+                        {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 1270
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "physical" : [
+              {
+                "item_name" : "land owned",
+                "num" : 1,
+                "unit_id" : 20100,
+                "sub-items" : [
+                  {
+                    "item_name" : "land cultivated",
+                    "num" : 1,
+                    "unit_id" : 20100,
+                    "sub-items" : [
+                      {
+                        "item_name" : "land food crops",
+                        "num" : 1,
+                        "unit_id" : 20100,
+                        "converts_to" : [
+                          {
+                            "livelihood": "crops",
+                            "crop" : [
+                              {
+                                "commodity_id" : 1000,
+                                "field_area" : 0.6,
+                                "produced" : 12,
+                                "sold" : 5,
+                                "price" : 6.99,
+                                "pricing_unit": "kg",
+                                "kept_for_seed" : 0.5,
+                                "given_out" : 0,
+                                "other" : 0,
+                                "consumed" : 6.5,
+                                "unit_id" : 2000,
+                              },
+                              {
+                                "commodity_id" : 1002
+                              },
+                              {
+                                "commodity_id" : 1003
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "environmental" : [],
+            "social" : [],
+            "political" : [],
+            "financial" : []
+          }
+        }
+      ]
+    },
+    {
+      "name" : "poor",
+      "local_name" : "[Tshivenda: poor]"
+    },
+    {
+      "name" : "middle",
+      "local_name" : "[Tshivenda: middle]"
+    },
+    {
+      "name" : "better-off",
+      "local_name" : "[Tshivenda: better-off]"
+    }
+  ]
+},
+{
+  "lz_code" : 59302,
+  "lz_abbrev" : "ZALOI"
+}
