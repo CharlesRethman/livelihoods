@@ -73,6 +73,34 @@
   "source_categories" : [ "staple purchase" ]
 },
 {
+  "_id" : 1010,
+  "name" : "rice",
+  "local_names" : [ "wali" ],
+  "use" : [
+    {
+      "use_type" : "human food",
+      "food_energy" : 3540,
+      "food_energy_unit_id" : 20152,
+      "protein" : 0,
+      "protein_unit_id" : 20001,
+      "fat" : 0,
+      "fat_unit_id" : 20001,
+      "micro-nutrients_present" : []
+    },
+    {
+      "use_type" : "income",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    }
+  ],
+  "source_categories" : [ "staple purchase" ]
+},
+{
   "_id" : 1050,
   "name" : "beans",
   "use" : [
@@ -94,6 +122,34 @@
   ]
 },
 {
+  "_id" : 1100,
+  "name" : "brown sugar",
+  "local_names" : [ "sukari" ],
+  "use" : [
+    {
+      "use_type" : "human food",
+      "food_energy" : 4000,
+      "food_energy_unit_id" : 20152,
+      "protein" : 0,
+      "protein_unit_id" : 20001,
+      "fat" : 0,
+      "fat_unit_id" : 20001,
+      "micro-nutrients_present" : []
+    },
+    {
+      "use_type" : "income",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    }
+  ],
+  "source_categories" : [ "staple purchase" ]
+},
+{
   "_id" : 1260,
   "name" : "pumpkin",
   "use" : [
@@ -113,71 +169,304 @@
       "base_unit_id" : 20030
     }
   ]
+},
+{
+  "_id" : 1400,
+  "name" : "cooking oil",
+  "use" : [
+    {
+      "use_type" : "human food",
+      "food_energy" : 9000,
+      "food_energy_unit_id" : 20152,
+      "protein" : 0,
+      "protein_unit_id" : 20001,
+      "fat" : 0,
+      "fat_unit_id" : 20001,
+      "micro-nutrients_present" : []
+    },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    }
+  ]
+},
+{
+  "_id" : 1900,
+  "name" : "salt",
+  "use" : [
+    {
+      "use_type" : "human food",
+      "food_energy" : 0,
+      "food_energy_unit_id" : 20152,
+      "protein" : 0,
+      "protein_unit_id" : 20001,
+      "fat" : 0,
+      "fat_unit_id" : 20001,
+      "micro-nutrients_present" : [ "iodine" ]
+    },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 100,
+      "base_unit_id" : 20001
+    }
+  ]
+},
+{
+  "_id" : 1901,
+  "name" : "tea",
+  "use" : [
+    {
+      "use_type" : "human food",
+      "food_energy" : 0,
+      "food_energy_unit_id" : 20152,
+      "protein" : 0,
+      "protein_unit_id" : 20001,
+      "fat" : 0,
+      "fat_unit_id" : 20001,
+      "micro-nutrients_present" : []
+    },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 100,
+      "base_unit_id" : 20001
+    }
+  ]
+},
+{
+  "_id" : 1902,
+  "name" : "coffee",
+  "use" : [
+    {
+      "use_type" : "human food",
+      "food_energy" : 0,
+      "food_energy_unit_id" : 20152,
+      "protein" : 0,
+      "protein_unit_id" : 20001,
+      "fat" : 0,
+      "fat_unit_id" : 20001,
+      "micro-nutrients_present" : []
+    },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 500,
+      "base_unit_id" : 20001
+    }
+  ]
+},
+{
+  "_id" : 2010,
+  "name" : "bar soap",
+  "use" : [
+    { "use_type" : "sanitation"},
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 500,
+      "base_unit_id" : 20001
+    }
+  ]
+},
+{
+  "_id" : 2011,
+  "name" : "toilet soap",
+  "use" : [
+    { "use_type" : "sanitation"},
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 250,
+      "base_unit_id" : 20001
+    }
+  ]
+},
+{
+  "_id" : 2012,
+  "name" : "detergent",
+  "use" : [
+    { "use_type" : "sanitation"},
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    }
+  ]
+},
+{
+  "_id" : 2030,
+  "name" : "kerosene/paraffin",
+  "use" : [
+    { "use_type" : "household"},
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20000
+    }
+  ]
+},
+{
+  "_id" : 2050,
+  "name" : "grinding",
+  "use" : [
+      { "use_type" : "household"},
+      {
+        "use_type" : "expenditure",
+        "base_amt" : 10,
+        "base_unit_id" : 20126
+      }
+    ]
+},
+{
+  "_id" : 2100,
+  "name" : "seeds",
+  "use" : [
+      { "use_type" : "inputs"},
+      {
+        "use_type" : "expenditure",
+        "base_amt" : 1,
+        "base_unit_id" : 20000
+      }
+  ]
+},
+{
+  "_id" : 2400,
+  "name" : "school",
+  "use" : [
+      { "use_type" : "education"},
+      {
+        "use_type" : "expenditure",
+        "base_amt" : 1,
+        "base_unit_id" : 20120
+      }
+  ]
+},
+{
+  "_id" : 2420,
+  "name" : "health",
+  "use" : [
+      { "use_type" : "health"},
+      {
+        "use_type" : "expenditure",
+        "base_amt" : 1,
+        "base_unit_id" : 20120
+      }
+  ]
+},
+{
+  "_id" : 2500,
+  "name" : "clothing",
+  "use" : [
+    { "use_type" : "health" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20200
+    }
+  ]
+},
+{
+  "_id" : 2800,
+  "name" : "telecomms",
+  "use" : [
+    { "use_type" : "communication" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20126
+    }
+  ]
+},
+{
+  "_id" : 2850,
+  "name" : "short journey",
+  "use" : [
+    { "use_type" : "communication" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 10,
+      "base_unit_id" : 20051
+    }
+  ]
+},
+{
+  "_id" : 2851,
+  "name" : "medium journey",
+  "use" : [
+    { "use_type" : "communication" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 50,
+      "base_unit_id" : 20051
+    }
+  ]
+},
+{
+  "_id" : 2852,
+  "name" : "medium long journey",
+  "use" : [
+    { "use_type" : "communication" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 150,
+      "base_unit_id" : 20051
+    }
+  ]
+},
+{
+  "_id" : 2853,
+  "name" : "long journey",
+  "use" : [
+    { "use_type" : "communication" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 500,
+      "base_unit_id" : 20051
+    }
+  ]
+},
+{
+  "_id" : 2900,
+  "name" : "gifts",
+  "use" : [
+    { "use_type" : "obligations" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20900
+    }
+  ]
+},
+{
+  "_id" : 2901,
+  "name" : "fund raisers",
+  "use" : [
+    { "use_type" : "obligations" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20900
+    }
+  ]
+},
+{
+  "_id" : 2902,
+  "name" : "taxes",
+  "use" : [
+    { "use_type" : "obligations" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20900
+    }
+  ]
+},
+{
+  "_id" : 2903,
+  "name" : "rates",
+  "use" : [
+    { "use_type" : "obligations" },
+    {
+      "use_type" : "expenditure",
+      "base_amt" : 1,
+      "base_unit_id" : 20900
+    }
+  ]
 }
-
-/*  {
-    "_id" : 1003,
-    "name" : "child grant",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  },
-  {
-    "_id" : 1004,
-    "name" : "old-age grant",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  },
-  {
-    "_id" : 1005,
-    "name" : "foster care grant",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  }
-  {
-    "_id" : 1006,
-    "name" : "disability grant",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  }
-  {
-    "_id" : 1007,
-    "name" : "care dependency grant",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  },
-  {
-    "_id" : 1007,
-    "name" : "war veterens grant",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  },
-  {
-    "_id" : 1007,
-    "name" : "grant in aid",
-    "source_dim" : [
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  }
-  {
-    "_id" : 1008,
-    "name" : "land preparation",
-    "source_dim" : [
-      { "dim" : "food"},
-      { "dim" : "cash"}
-    ],
-    "source_categories" : [ "social_grant" ]
-  }
-]

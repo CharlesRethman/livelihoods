@@ -14,4 +14,4 @@ I'm starting out by building some JSON files with example data. These are real d
 
 ## And the future?
 
-Eventually, the plan is to import this data into MongoDB and and then build a suitable platform-neutral back and front end for viewing or working on it. With a mobile front end, this will become the myLIVING app.
+The plan is to import this data into MongoDB and and then build a suitable platform-neutral back-end and front-end (web, mobile) for viewing or working on it. The mobile front-end is intended to become the myLIVING app.
