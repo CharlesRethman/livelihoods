@@ -31,6 +31,7 @@
     "entity_name" : "provinces",
     "entities" : [ "Limpopo" ]
   },
+  "map_gids" : [ 59301001, 59301002, 59301003 ],
   "description" : "A short description of the LZ",
   "notes" : "",
   "consumption_year" : {
@@ -40,6 +41,7 @@
   "map image" : "graphics/maps/lzs/59301.jpg",
   "photo_path" : "graphics/photos/59301/",
   "photos" : [ "59301001.jpg", "59301002.jpg" ],
+  "audio_path" : "media/audio/59301/",
   "wealth_group" : [
     {
       "ordinal" : 1,
@@ -58,7 +60,6 @@
           "num_women": 9,
           "num_men" : 14,
           "date_interviewed" : "20 February 2016",
-          "audio_path" : "media/audio/59301/",
           "audio" : [ "001.wav", "002.wav"],
           "gps_coords" : [ 30.2500, -22.9140 ],
           "notes": "",
@@ -96,7 +97,7 @@
               },
               {
                 "item_name" : "livestock",
-                "num" : 2,
+                "num" : 3,
                 "unit_id" : 20500,
                 "sub-items" : [
                   {
@@ -105,8 +106,9 @@
                     "unit_id" : 20503,
                     "sub-items" : [
                       {
-                        "item_name" : "cows",
-                        "num" : 2
+                        "item_name" : "adult females",
+                        "num" : 2,
+                        "unit_id" : 20503
                       }
                     ]
                   },
@@ -116,7 +118,7 @@
                     "unit_id" : 20504,
                     "sub-items" : [
                       {
-                        "item_name" : "nannies",
+                        "item_name" : "adult females",
                         "num" : 4,
                         "unit_id" : 20504
                       }
@@ -136,10 +138,9 @@
           "interview_num": 1,
           "location_id": 201,
           "date_first_visited": "20 February 2015",
-          "num_women": 9,
-          "num_men" : 14,
-          "date_interviewed" : "21 February 2016",
-          "audio_path" : "media/audio/59301/",
+          "num_women": 3,
+          "num_men" : 5,
+          "date_interviewed" : "21 February 2015",
           "audio" : [ "003.wav", "004.wav"],
           "gps_coords" : [ 30.2503, -22.9137 ],
           "notes" : "",
@@ -154,11 +155,7 @@
                     "name" : "adult men",
                     "num" : 1.5,
                     "unit_id" : 20401,
-                    "converts_to" : [
-                      {
-
-                      }
-                    ]
+                    "converts_to" : []
                   },
                   {
                     "name" : "adult women",
@@ -573,6 +570,106 @@
 
               }
             ],
+            "political" : []
+          }
+        },
+        {
+          "data_entry" : "community interview",
+          "interview_num" : 2,
+          "location_id" : 202,
+          "date_first_visited" : "21 February 2015",
+          "num_women" : 7,
+          "num_men" : 19,
+          "date_interviewed" : "21 February 2015",
+          "audio" : [ "005.wav", "006.wav" ],
+          "gps_coords" : [],
+          "notes" : "",
+          "pc_households" : 0.5,
+          "hh_capital" : {
+            "human" : [
+              {
+                "item_name" : "household",
+                "num" : 10
+              }
+            ],
+            "physical" : [
+              {
+                "item_name" : "land owned",
+                "num" : 5,
+                "unit_id": 20100,
+                "sub-items" : [
+                  {
+                    "item_name" : "land cultivated",
+                    "num" : 2,
+                    "unit_id" : 20100,
+                    "sub-items" : [
+                      {
+                        "item_name" : "land food crops",
+                        "num" : 2,
+                        "unit_id" : 20100,
+                      },
+                      {
+                        "item_name" : "land cash crops",
+                        "num" : 0,
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item_name" : "livestock",
+                "num" : 3.5,
+                "unit_id" : 20500,
+                "sub-items" : [
+                  {
+                    "item_name" : "cattle",
+                    "num" : 7,
+                    "unit_id" : 20503,
+                    "sub-items" : [
+                      {
+                        "item_name" : "adult females",
+                        "num" : 4
+                      }
+                    ]
+                  },
+                  {
+                    "item_name" : "goats",
+                    "num" : 10,
+                    "unit_id" : 20504,
+                    "sub-items" : [
+                      {
+                        "item_name" : "adult females",
+                        "num" : 6,
+                        "unit_id" : 20504
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "environmental" : [],
+            "social" : [],
+            "financial" : [],
+            "political" : []
+          }
+        },
+        {
+          "data_entry" : "wealth group interview",
+          "interview_num" : 2,
+          "location_id" : 202,
+          "date_first_visited" : "22 February 2015",
+          "num_women" : 7,
+          "num_men" : 3,
+          "date_interviewed" : "21 February 2015",
+          "audio" : [ "007.wav" ],
+          "gps_coords" : [],
+          "notes" : "",
+          "hh_capital" : {
+            "human" : [],
+            "physical" : [],
+            "environmental" : [],
+            "social" : [],
+            "financial" : [],
             "political" : []
           }
         }
