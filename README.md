@@ -1,17 +1,9 @@
 # Livelihoods
-
 ## Intro--Why _Livelihoods_ and what the $%@#* is HEA?
-
 The Livelihoods project is basically the design of a suitable backend to store Household Economy Approach (HEA) data.
-
-HEA ... blah, blah, blah
-
-Presently, data are stored in **_dreadful_** spreadsheets that are a nightmare to keep concurrent, cannot be shared easily, and cannot be made publicly accessible (e.g. via the web).
-
+HEA is a _framework_ to help practitioners and decision-makers in policy and programming understand how people make a living. This can be used for many things: from managing disasters to finding ways to generate jobs. It does this by understanding the relationships between households' assets, incomes, food sources and expenditures to model the impact of a hazard or shock on this system, taking into account what households can actually do for themselves. It has the desirable ability to enable _predictions_ of deprivation, of need and of the impact of interventions, given a whole set of complex variable changes.
+Presently, data are stored in **_dreadful_** spreadsheets that are a nightmare to keep concurrent, cannot be shared easily, and cannot be made publicly accessible (e.g. via the web). The aim is to be able to capture this complex livelihoods data, organise it and provide a simple way of sharing between ground user, analysts and their audiences.
 ## So, what am I doing here?
-
 I'm starting out by building some JSON files with example data. These are real data sets from real assessments. The aim is to figure out how to the structure HEA livelihoods information in a document NoSQL database (like MongoDB) -- deciding stuff like where embed data, where to use (SQL-like) references, how many collections to use, etc. As a rule, I want to use as few collections as possible, without too much unnecessary repetition of documents. I am therefore building a whole baseline for a livelihood zone as a single document object, containing embedded wealth group arrays and within them, embedded interview arrays.
-
 ## And the future?
-
 The plan is to import this data into MongoDB and and then build a suitable platform-neutral back-end and front-end (web, mobile) for viewing or working on it. The mobile front-end is intended to become the myLIVING app.
