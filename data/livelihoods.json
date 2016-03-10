@@ -1,12 +1,14 @@
 {
   "lz_code" : 59203,
   "lz_abbrev" : "ZANOC",
-  "lz_name" : "",
+  "lz_name" : "Northern open access cattle and dry land crops",
   "country" : "South Africa",
   "sub-national" : {
     "entity_name" : "provinces",
     "entities" : [ "Limpopo" ]
-  }
+  },
+  "description" : "",
+  "notes" : ""
 },
 {
   "lz_code" : 59204,
@@ -596,10 +598,12 @@
 {
   "lz_code" : 59302,
   "lz_abbrev" : "ZALOI",
-  "lz_name" : "",
+  "lz_name" : "Lowveld open access irrigated cropping",
   "country" : "South Africa",
   "sub-national" : {
     "entity_name" : "Provinces",
     "entities" : [ "Limpopo" ]
-  }
+  },
+  "description" : "",
+  "notes" : ""
 }
