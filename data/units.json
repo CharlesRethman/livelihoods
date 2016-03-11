@@ -288,27 +288,33 @@
 },
 {
   "_id" : 20404,
+  "name" : "child 5-14 years",
+  "abbrev" : "child",
+  "relational_unit" : "Aeq",
+  "conversion_factor" : 0.867
+},
+{
+  "_id" : 20405,
   "name" : "child 10-14 years",
   "abbrev" : "child mid",
   "relational_unit" : "Aeq",
   "conversion_factor" : 0.9413
 },
 {
-  "_id" : 20404,
-  "name" : "child 5-9 years - day",
+  "_id" : 20406,
+  "name" : "child 5-9 years",
   "abbrev" : "child young",
   "relational_unit" : "Aeq",
   "conversion_factor" : 0.7927
 },
-  {
-  "_id" : 20405,
-  "name" : "infant 0-4 years",
+{
+  "_id" : 20407,  "name" : "infant 0-4 years",
   "abbrev" : "infant",
   "relational_unit" : "Aeq",
   "conversion_factor" : 0.5495
 },
 {
-  "_id" : 20406,
+  "_id" : 20408,
   "name" : "pensioner (man > 65, woman > 60)",
   "abbrev" : "pensioner",
   "relational_unit" : "Aeq",
