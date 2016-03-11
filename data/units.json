@@ -246,72 +246,72 @@
   },
 {
   "_id" : 20400,
-  "name" : "adult equivalent - day",
-  "abbrev" : "pers-d",
-  "relational_unit" : "pers-d",
+  "name" : "adult equivalent",
+  "abbrev" : "Aeq",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 1
 },
 {
   "_id" : 20401,
-  "name" : "adult man >19 years - day",
-  "abbrev" : "man-d",
-  "relational_unit" : "pers-d",
+  "name" : "adult man >19 years",
+  "abbrev" : "man",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 1.048
 },
 {
   "_id" : 20402,
-  "name" : "adult woman >19 years - day",
-  "abbrev" : "woman-d",
-  "relational_unit" : "pers-d",
+  "name" : "adult woman >19 years",
+  "abbrev" : "woman",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 0.8477
 },
 {
   "_id" : 20402,
-  "name" : "adult woman pregnant - day",
-  "abbrev" : "pregwoman-d",
-  "relational_unit" : "pers-d",
+  "name" : "adult woman pregnant",
+  "abbrev" : "woman preg",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 0.9698
 },
 {
   "_id" : 20402,
-  "name" : "adult woman lactating - day",
-  "abbrev" : "lactwoman-d",
-  "relational_unit" : "pers-d",
+  "name" : "adult woman lactating",
+  "abbrev" : "woman lact",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 1.0603
 },
 {
   "_id" : 20403,
-  "name" : "teenager 15-19 years - day",
-  "abbrev" : "teen-d",
-  "relational_unit" : "pers-d",
+  "name" : "teenager 15-19 years",
+  "abbrev" : "teen",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 1.031
 },
 {
   "_id" : 20404,
-  "name" : "child 10-14 years - day",
-  "abbrev" : "child-d",
-  "relational_unit" : "pers-d",
+  "name" : "child 10-14 years",
+  "abbrev" : "child mid",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 0.9413
 },
 {
   "_id" : 20404,
   "name" : "child 5-9 years - day",
-  "abbrev" : "child-d",
-  "relational_unit" : "pers-d",
+  "abbrev" : "child young",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 0.7927
 },
   {
   "_id" : 20405,
-  "name" : "infant 0-4 years - day",
-  "abbrev" : "infant-d",
-  "relational_unit" : "pers-d",
+  "name" : "infant 0-4 years",
+  "abbrev" : "infant",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 0.5495
 },
 {
   "_id" : 20406,
   "name" : "pensioner (man > 65, woman > 60)",
   "abbrev" : "pensioner",
-  "relational_unit" : "pers-d",
+  "relational_unit" : "Aeq",
   "conversion_factor" : 1
 },
   {
