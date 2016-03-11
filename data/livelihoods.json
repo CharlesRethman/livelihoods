@@ -184,7 +184,7 @@
                         "source_dims" : [ "income" ],
                         "num_utilised" : 1,
                         "freq_utilised" : "weekly",
-                        "freq" : "weekly",
+                        "freq_paid" : "weekly",
                         "period" : {
                           "start" : 4,
                           "end" : 3
@@ -199,20 +199,22 @@
                   {
                     "name" : "infants",
                     "num" : 1.5,
-                    "unit_id" : 20403,
+                    "unit_id" : 20407,
                     "converts_to" : [
                       {
                         "source" : "child grant",
                         "category" : "social grants",
                         "source_dims" : [ "income" ],
                         "num_utilised" : 0,
-                        "freq" : "monthly",
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
                         "period" : {
                             "start" : 4,
                             "end" : 3
                         },
                         "rate" : 300,
-                        "goes_towards" : [ "financial" ]
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0
                       }
                     ],
                     "asset_balance" : 1.5
@@ -227,13 +229,15 @@
                         "category" : "social_grants",
                         "source_dims" : [ "income" ],
                         "num_utilised" : 0,
-                        "freq" : "monthly",
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
                         "period" : {
                           "start" : 4,
                           "end" : 3
                         },
                         "rate" : 300,
-                        "goes_towards" : [ "financial" ]
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0
                       }
                     ],
                     "asset_balance" : 2.5
@@ -241,20 +245,22 @@
                   {
                     "name" : "teenagers",
                     "num" : 1.5,
-                    "unit_id" : 20405,
+                    "unit_id" : 20403,
                     "converts_to" : [
                       {
                         "source" : "child grant",
                         "category" : "social grants",
                         "source_dims" : [ "income" ],
                         "num_utilised" : 0,
-                        "freq" : "monthly",
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
                         "period" : {
                           "start" : 4,
                           "end" : 3
                         },
                         "rate" : 300,
-                        "goes_towards" : [ "financial"]
+                        "goes_towards" : [ "financial"],
+                        "asset_utilised" : 0
                       }
                     ],
                     "asset_balance" : 1.5
@@ -262,20 +268,22 @@
                   {
                     "name" : "pensioners",
                     "num" : 1,
-                    "unit_id" : 20406,
+                    "unit_id" : 20408,
                     "converts_to" : [
                       {
                         "source" : "old-age grant",
                         "source_categories" : "social grants",
                         "source_dims" : [ "income" ],
                         "num_utilised" : 1,
-                        "freq" : "monthly",
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
                         "period" : {
                           "start" : 4,
                           "end" : 3
                         },
                         "rate" : 1350,
-                        "goes_towards" : [ "financial" ]
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 1
                       }
                     ],
                     "asset_balance" : 0
@@ -310,7 +318,8 @@
                             "produced" : 80,
                             "consumed" : 80,
                             "other" : 0,
-                            "goes_towards" : [ "human" ]
+                            "goes_towards" : [ "human" ],
+                            "asset_utilised" : 0.1
                           },
                           {
                             "source" : "pumpkin crop",
@@ -322,13 +331,17 @@
                             "produced" : 25,
                             "consumed" : 25,
                             "other" : 0,
-                            "goes_towards" : [ "human" ]
+                            "goes_towards" : [ "human" ],
+                            "asset_utilised" : 0.1
                           }
-                        ]
+                        ],
+                        "asset_balance" : 0.8
                       }
-                    ]
+                    ],
+                    "asset_balance" : 0.8
                   }
-                ]
+                ],
+                "asset_balance" : 0.8
               }
             ],
             "environmental" : [],
