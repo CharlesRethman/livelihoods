@@ -111,20 +111,20 @@
     "conversion_factor" : 25,
     "countries_used" : [ "South Africa" ]
   },
-  {
-    "_id" : 20050,
-    "name" : "metre",
-    "relational_unit" : "metre",
-    "conversion_factor" : 1,
-    "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-  },
-  {
-    "_id" : 20051,
-    "name" : "kilometre",
-    "relational_unit" : "metre",
-    "conversion_factor" : 1000,
-    "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-  },
+{
+  "_id" : 20050,
+  "name" : "metre",
+  "relational_unit" : "metre",
+  "conversion_factor" : 1,
+  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
+},
+{
+  "_id" : 20051,
+  "name" : "kilometre",
+  "relational_unit" : "metre",
+  "conversion_factor" : 1000,
+  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
+},
 {
   "_id" : 20100,
   "name" : "hectare",
@@ -151,7 +151,7 @@
   "name" : "morgen",
   "abbrev" : "mn",
   "relational_unit" : "ha",
-  "conversion_factor" : 0
+  "conversion_factor" : 0.8567
 },
 {
   "_id" : 20120,
