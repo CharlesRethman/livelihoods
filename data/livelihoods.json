@@ -168,29 +168,33 @@
                         "category" : "social_grants",
                         "source_dims" : [ "income" ],
                         "num_utilised" : 1,
-                        "freq" : "monthly",
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
                         "period" : {
                           "start" : 4,
                           "end" : 3
                         },
                         "rate" : 320,
-                        "goes_towards" : [ "financial" ]
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 1
                       },
                       {
                         "source" : "domestic work",
                         "category" : "casual work",
                         "source_dims" : [ "income" ],
                         "num_utilised" : 1,
+                        "freq_utilised" : "weekly",
                         "freq" : "weekly",
                         "period" : {
                           "start" : 4,
                           "end" : 3
                         },
                         "rate" : 100,
-                        "goes_towards" : [ "financial" ]
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0.1425
                       }
                     ],
-                    "asset_balance" : 1
+                    "asset_balance" : 1.8575
                   },
                   {
                     "name" : "infants",
