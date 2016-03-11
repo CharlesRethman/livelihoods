@@ -167,6 +167,7 @@
                         "source" : "disability grant",
                         "category" : "social_grants",
                         "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
                         "num_utilised" : 1,
                         "freq_utilised" : "daily",
                         "freq_paid" : "monthly",
@@ -182,6 +183,7 @@
                         "source" : "domestic work",
                         "category" : "casual work",
                         "source_dims" : [ "income" ],
+                        "depends_on" : [ "social" ],
                         "num_utilised" : 1,
                         "freq_utilised" : "weekly",
                         "freq_paid" : "weekly",
@@ -205,6 +207,7 @@
                         "source" : "child grant",
                         "category" : "social grants",
                         "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
                         "num_utilised" : 0,
                         "freq_utilised" : "daily",
                         "freq_paid" : "monthly",
@@ -228,6 +231,7 @@
                         "source" : "child grant",
                         "category" : "social_grants",
                         "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
                         "num_utilised" : 0,
                         "freq_utilised" : "daily",
                         "freq_paid" : "monthly",
@@ -251,6 +255,7 @@
                         "source" : "child grant",
                         "category" : "social grants",
                         "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
                         "num_utilised" : 0,
                         "freq_utilised" : "daily",
                         "freq_paid" : "monthly",
@@ -274,6 +279,7 @@
                         "source" : "old-age grant",
                         "source_categories" : "social grants",
                         "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
                         "num_utilised" : 1,
                         "freq_utilised" : "daily",
                         "freq_paid" : "monthly",
@@ -312,6 +318,7 @@
                             "source" : "maize crop",
                             "source_category" : "own crops - food",
                             "source_dims" : [ "food" ],
+                            "depends_on" : [ "human", "financial", "environmental" ],
                             "num_utilised" : 0.1,
                             "commodity_id" : 1000,
                             "prod_unit_id" : 20000,
@@ -325,6 +332,7 @@
                             "source" : "pumpkin crop",
                             "source_category" : "own crops - food",
                             "source_dims" : [ "food" ],
+                            "depends_on" : [ "human", "financial", "environmental" ],
                             "num_utilised" : 0.1,
                             "commodity_id" : 1260,
                             "prod_unit_id" : 20030,
@@ -355,6 +363,7 @@
                     "source" : "maize purchase",
                     "source_category" : "staple food purchases",
                     "source_dims" : [ "food", "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 1001,
                     "purchased" : 1,
                     "purch_unit_id" : 20009,
@@ -364,12 +373,14 @@
                       "end" : 3,
                     },
                     "price" : 400,
-                    "goes_towards" : [ "human"]
+                    "goes_towards" : [ "human"],
+                    "asset_utilised" : 4800
                   },
                   {
                     "source" : "rice purchase",
                     "source_category" : "staple food purchase",
                     "source_dims" : [ "food", "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 1010,
                     "purchased" : 1,
                     "purch_unit_id" : 20013,
@@ -379,12 +390,14 @@
                       "end" : 3
                     },
                     "price" : 110,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 1320
                   },
                   {
                     "source" : "brown sugar purchase",
                     "source_category" : "non-staple food purchase",
                     "source_dims" : [ "food", "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 1100,
                     "purchased" : 2,
                     "purch_unit_id" : 20000,
@@ -394,12 +407,14 @@
                       "end" : 3
                     },
                     "price" : 11,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 264
                   },
                   {
                     "source" : "oil purchase",
                     "source_category" : "non-staple food purchase",
                     "source_dims" : [ "food", "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 1400,
                     "purchased" : 2,
                     "purch_unit_id" : 20000,
@@ -409,12 +424,14 @@
                       "end" : 3
                     },
                     "price" : 15,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 360
                   },
                   {
                     "source" : "tea purchase",
                     "source_category" : "non-staple food purchase",
                     "source_dims" : [ "food", "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 1901,
                     "purchased" : 11,
                     "purch_unit_id" : 20000,
@@ -424,12 +441,14 @@
                       "end" : 3
                     },
                     "price" : 22,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 242
                   },
                   {
                     "source" : "salt purchase",
                     "source_category" : "non-staple food purchase",
                     "source_dims" : [ "food", "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 1900,
                     "purchased" : 11,
                     "purch_unit_id" : 20000,
@@ -439,12 +458,14 @@
                       "end" : 3
                     },
                     "price" : 10,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 1320
                   },
                   {
                     "source" : "soap purchase",
                     "source_category" : "household goods purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2010,
                     "purchased" : 22,
                     "purch_unit_id" : 20000,
@@ -454,12 +475,14 @@
                       "end" : 3
                     },
                     "price" : 10,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 220
                   },
                   {
                     "source" : "kerosene purchase",
                     "source_category" : "household goods purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2030,
                     "purchased" : 1,
                     "purch_unit_id" : 20000,
@@ -469,12 +492,14 @@
                       "end" : 3
                     },
                     "price" : 100,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 1200
                   },
                   {
                     "source" : "grinding purchase",
                     "source_category" : "household services purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2050,
                     "purchased" : 1,
                     "purch_unit_id" : 20000,
@@ -484,12 +509,14 @@
                       "end" : 3
                     },
                     "price" : 100,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 1200
                   },
                   {
                     "source" : "seed purchase",
                     "source_category" : "inputs purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2100,
                     "purchased" : 40,
                     "purch_unit_id" : 20000,
@@ -499,12 +526,14 @@
                       "end" : 3
                     },
                     "price" : 9,
-                    "goes_towards" : [ "physical", "human" ]
+                    "goes_towards" : [ "physical" ],
+                    "asset_utilised" : 360
                   },
                   {
                     "source" : "education",
                     "source_category" : "social services",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2400,
                     "purchased" : 4,
                     "purch_unit_id" : 20120,
@@ -514,12 +543,14 @@
                       "end" : 1
                     },
                     "price" : 250,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 1000
                   },
                   {
                     "source" : "health",
                     "category" : "social services",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2420,
                     "purchased" : 1,
                     "freq" : "annually",
@@ -528,12 +559,14 @@
                       "end" : 3
                     },
                     "price" : 180,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 180
                   },
                   {
                     "source" : "clothing",
                     "category" : "household goods purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2500,
                     "purchased" : 7,
                     "freq" : "annually",
@@ -542,12 +575,14 @@
                       "end" : 12
                     },
                     "price" : 100,
-                    "goes_towards" : [ "human" ]
+                    "goes_towards" : [ "human" ],
+                    "asset_utilised" : 700
                   },
                   {
                     "source" : "airtime",
                     "category" : "household services purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2800,
                     "purchased" : 1,
                     "freq" : "monthly",
@@ -556,12 +591,14 @@
                       "end" : 3
                     },
                     "price" : 30,
-                    "goes_towards" : [ "social" ]
+                    "goes_towards" : [ "social" ],
+                    "asset_utilised" : 360
                   },
                   {
                     "source" : "transport",
                     "category" : "household services purchase",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2851,
                     "purchased" : 10,
                     "freq" : "annually",
@@ -570,12 +607,14 @@
                       "end" : 3
                     },
                     "price" : 50,
-                    "goes_towards" : [ "social" ]
+                    "goes_towards" : [ "social" ],
+                    "asset_utilised" : 500
                   },
                   {
                     "source" : "contributions",
                     "category" : "community obligations",
                     "source_dims" : [ "expenditure" ],
+                    "depends_on" : [],
                     "commodity_id" : 2901,
                     "purchased" : 1,
                     "freq" : "monthly",
@@ -584,7 +623,8 @@
                       "end" : 3
                     },
                     "price" : 10,
-                    "goes_towards" : [ "political" ]
+                    "goes_towards" : [ "political" ],
+                    "asset_utilised" : 120
                   }
                 ]
 
