@@ -125,27 +125,34 @@
     "conversion_factor" : 1000,
     "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
   },
-  {
-    "_id" : 20100,
-    "name" : "hectare",
-    "abbrev" : "ha",
-    "relational_unit" : "ha",
-    "conversion_factor" : 1
-  },
-  {
-    "_id" : 20101,
-    "name" : "square metre",
-    "abbrev" : "sq m",
-    "relational_unit" : "ha",
-    "conversion_factor" : 0.0001
-  },
-  {
-    "_id" : 20102,
-    "name" : "acre",
-    "abbrev" : "a",
-    "relational_unit" : "ha",
-    "conversion_factor" : 0.42
-  },
+{
+  "_id" : 20100,
+  "name" : "hectare",
+  "abbrev" : "ha",
+  "relational_unit" : "ha",
+  "conversion_factor" : 1
+},
+{
+  "_id" : 20101,
+  "name" : "square metre",
+  "abbrev" : "sq m",
+  "relational_unit" : "ha",
+  "conversion_factor" : 0.0001
+},
+{
+  "_id" : 20102,
+  "name" : "acre",
+  "abbrev" : "a",
+  "relational_unit" : "ha",
+  "conversion_factor" : 0.42
+},
+{
+  "_id" : 20102,
+  "name" : "morgen",
+  "abbrev" : "mn",
+  "relational_unit" : "ha",
+  "conversion_factor" : 0
+},
 {
   "_id" : 20120,
   "name" : "year",
