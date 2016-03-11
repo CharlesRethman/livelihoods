@@ -626,8 +626,8 @@
                     "goes_towards" : [ "political" ],
                     "asset_utilised" : 120
                   }
-                ]
-
+                ],
+                "asset_balance" : 0
               }
             ],
             "political" : []
@@ -747,25 +747,94 @@
                     "item_name" : "infants",
                     "num" : 1,
                     "unit_id" : 20403,
-                    "converts_to" : []
+                    "converts_to" : [
+                      {
+                        "source" : "child grant",
+                        "category" : "social grants",
+                        "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
+                        "num_utilised" : 0,
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
+                        "period" : {
+                            "start" : 4,
+                            "end" : 3
+                        },
+                        "rate" : 300,
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0
+                      }
+                    ],
+                    "asset_balance" : 1
                   },
                   {
                     "item_name" : "children",
                     "num" : 1.5,
                     "unit_id" : 20404,
-                    "converts_to" : [],
+                    "converts_to" : [
+                      {
+                        "source" : "child grant",
+                        "category" : "social_grants",
+                        "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
+                        "num_utilised" : 0,
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
+                        "period" : {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 300,
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0
+                      }
+                    ],
                   },
                   {
                     "item_name" : "teenagers",
                     "num" : 0.5,
                     "unit_id" : 20405,
-                    "converts_to" : []
+                    "converts_to" : [
+                      {
+                        "source" : "child grant",
+                        "category" : "social_grants",
+                        "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
+                        "num_utilised" : 0,
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
+                        "period" : {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 300,
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0
+                      }
+                    ]
                   },
                   {
                     "item_name" : "pensioners",
                     "num" : 0.5,
                     "unit_id" : 20406,
-                    "converts_to" : []
+                    "converts_to" : [
+                      {
+                        "source" : "old-age grant",
+                        "source_categories" : "social grants",
+                        "source_dims" : [ "income" ],
+                        "depends_on" : [ "political" ],
+                        "num_utilised" : 0,
+                        "freq_utilised" : "daily",
+                        "freq_paid" : "monthly",
+                        "period" : {
+                          "start" : 4,
+                          "end" : 3
+                        },
+                        "rate" : 1350,
+                        "goes_towards" : [ "financial" ],
+                        "asset_utilised" : 0
+                      }
+                    ]
                   }
                 ]
               }
