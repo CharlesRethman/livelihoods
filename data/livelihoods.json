@@ -155,7 +155,8 @@
                     "name" : "adult men",
                     "num" : 1.5,
                     "unit_id" : 20401,
-                    "converts_to" : []
+                    "converts_to" : [],
+                    "asset_balance" : 1.5
                   },
                   {
                     "name" : "adult women",
@@ -188,13 +189,13 @@
                         "rate" : 100,
                         "goes_towards" : [ "financial" ]
                       }
-                    ]
+                    ],
+                    "asset_balance" : 1
                   },
                   {
                     "name" : "infants",
                     "num" : 1.5,
                     "unit_id" : 20403,
-                    "asset_balance" : 1.5,
                     "converts_to" : [
                       {
                         "source" : "child grant",
@@ -209,10 +210,11 @@
                         "rate" : 300,
                         "goes_towards" : [ "financial" ]
                       }
-                    ]
+                    ],
+                    "asset_balance" : 1.5
                   },
                   {
-                    "name" : "child",
+                    "name" : "children",
                     "num" : 2.5,
                     "unit_id" : 20404,
                     "converts_to" : [
@@ -229,13 +231,13 @@
                         "rate" : 300,
                         "goes_towards" : [ "financial" ]
                       }
-                    ]
+                    ],
+                    "asset_balance" : 2.5
                   },
                   {
-                    "name" : "teens",
+                    "name" : "teenagers",
                     "num" : 1.5,
                     "unit_id" : 20405,
-                    "asset_balance" : 1.5,
                     "converts_to" : [
                       {
                         "source" : "child grant",
@@ -250,13 +252,13 @@
                         "rate" : 300,
                         "goes_towards" : [ "financial"]
                       }
-                    ]
+                    ],
+                    "asset_balance" : 1.5
                   },
                   {
-                    "name" : "pensioner",
+                    "name" : "pensioners",
                     "num" : 1,
                     "unit_id" : 20406,
-                    "asset_balance" : 1,
                     "converts_to" : [
                       {
                         "source" : "old-age grant",
@@ -271,7 +273,8 @@
                         "rate" : 1350,
                         "goes_towards" : [ "financial" ]
                       }
-                    ]
+                    ],
+                    "asset_balance" : 0
                   }
                 ]
               }
@@ -665,7 +668,51 @@
           "gps_coords" : [],
           "notes" : "",
           "hh_capital" : {
-            "human" : [],
+            "human" : [
+              {
+                "item_name" : "household",
+                "num" : 6,
+                "unit_id" : 20400,
+                "sub-items" : [
+                  {
+                    "item_name" : "adult men",
+                    "num" : 1,
+                    "unit_id" : 20401,
+                    "converts_to" : []
+                  },
+                  {
+                    "item_name" : "adult women",
+                    "num" : 1.5,
+                    "unit_id" : 20402,
+                    "converts_to" : []
+                  },
+                  {
+                    "item_name" : "infants",
+                    "num" : 1,
+                    "unit_id" : 20403,
+                    "converts_to" : []
+                  },
+                  {
+                    "item_name" : "children",
+                    "num" : 1.5,
+                    "unit_id" : 20404,
+                    "converts_to" : [],
+                  },
+                  {
+                    "item_name" : "teenagers",
+                    "num" : 0.5,
+                    "unit_id" : 20405,
+                    "converts_to" : []
+                  },
+                  {
+                    "item_name" : "pensioners",
+                    "num" : 0.5,
+                    "unit_id" : 20406,
+                    "converts_to" : []
+                  }
+                ]
+              }
+            ],
             "physical" : [],
             "environmental" : [],
             "social" : [],
