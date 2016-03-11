@@ -27,7 +27,7 @@
   "lz_abbrev" : "ZALOF",
   "lz_name" : "North eastern Limpopo open access farming",
   "country" : "South Africa",
-  "sub-national" : {
+  "sub_national" : {
     "entity_name" : "provinces",
     "entities" : [ "Limpopo" ]
   },
@@ -38,31 +38,31 @@
     "start" : "1 April 2013",
     "end" : "31 March 2014"
   },
-  "map image" : "graphics/maps/lzs/59301.jpg",
-  "photo_path" : "graphics/photos/59301/",
-  "photos" : [ "59301001.jpg", "59301002.jpg" ],
+  "map_image" : "graphics/maps/lzs/59301.png",
+  "image_path" : "graphics/images/59301/",
+  "images" : [ "59301001.jpg", "59301002.jpg" ],
   "audio_path" : "media/audio/59301/",
-  "wealth_group" : [
+  "interviews" : [
     {
-      "ordinal" : 1,
-      "name" : "Very poor",
-      "local_name": "[Tshivenda: very poor]",
-      "notes" : "",
-      "photo_path" : "graphics/photos/59301/wg/",
-      "photos" : [ "59301003.jpg" ],
-      "notes" : "",
-      "interviews" : [
+      "data_entry" : "community interview",
+      "interview_num": 1,
+      "location_id": 201,
+      "date_first_visited": "20 February 2015",
+      "num_women": 9,
+      "num_men" : 14,
+      "date_interviewed" : "20 February 2016",
+      "audio" : [ "001.wav", "002.wav"],
+      "gps_coords" : [ 30.2500, -22.9140 ],
+      "notes": "",
+      "wealth_group" : [
         {
-          "data_entry" : "community interview",
-          "interview_num": 1,
-          "location_id": 201,
-          "date_first_visited": "20 February 2015",
-          "num_women": 9,
-          "num_men" : 14,
-          "date_interviewed" : "20 February 2016",
-          "audio" : [ "001.wav", "002.wav"],
-          "gps_coords" : [ 30.2500, -22.9140 ],
-          "notes": "",
+          "ordinal" : 1,
+          "name" : "very poor",
+          "local_name": "[Tshivenda: very poor]",
+          "notes" : "",
+          "image_path" : "graphics/images/59301/wg/",
+          "images" : [ "59301003.jpg" ],
+          "notes" : "",
           "pc_households" : 0.26,
           "hh_capital": {
             "human" : [
@@ -134,19 +134,43 @@
           }
         },
         {
-          "data_entry" : "wealth group interview",
-          "interview_num": 1,
-          "location_id": 201,
-          "date_first_visited": "20 February 2015",
-          "num_women": 3,
-          "num_men" : 5,
-          "date_interviewed" : "21 February 2015",
-          "audio" : [ "003.wav", "004.wav"],
-          "gps_coords" : [ 30.2503, -22.9137 ],
-          "notes" : "",
-          "hh_capital": {
-            "human" : [
-              {
+          "ordinal" : 2,
+          "name" : "poor"
+        },
+        {
+          "ordinal" : 3,
+          "name" : "middle"
+        },
+        {
+          "ordinal" : 4,
+          "name" : "better-off"
+        }
+      ]
+    },
+    {
+      "data_entry" : "wealth group interview",
+      "interview_num": 2,
+      "location_id": 201,
+      "date_first_visited": "20 February 2015",
+      "num_women": 3,
+      "num_men" : 5,
+      "date_interviewed" : "21 February 2015",
+      "audio" : [ "003.wav", "004.wav"],
+      "gps_coords" : [ 30.2503, -22.9137 ],
+      "notes" : "",
+      "wealth_group" : [
+      {
+        "ordinal" : 1,
+        "name" : "very poor",
+        "local_name": "[Tshivenda: very poor]",
+        "notes" : "",
+        "image_path" : "graphics/images/59301/wg/",
+        "images" : [ "59301003.jpg" ],
+        "notes" : "",
+        "pc_households" : 0.26,
+        "hh_capital": {
+          "human" : [
+            {
                 "item_name" : "household",
                 "num" : 11,
                 "unit_id" : 20400,
@@ -631,11 +655,11 @@
               }
             ],
             "political" : []
-          }
+          }]
         },
         {
           "data_entry" : "community interview",
-          "interview_num" : 2,
+          "interview_num" : 6,
           "location_id" : 202,
           "date_first_visited" : "21 February 2015",
           "num_women" : 7,
@@ -715,7 +739,7 @@
         },
         {
           "data_entry" : "wealth group interview",
-          "interview_num" : 2,
+          "interview_num" : 7,
           "location_id" : 202,
           "date_first_visited" : "22 February 2015",
           "num_women" : 7,
@@ -845,9 +869,11 @@
             "financial" : [],
             "political" : []
           }
+        },
+        {
+          "data_entry" : "community interview",
+          "interview_num" : 11,
         }
-      ]
-    },
     {
       "ordinal" : 2,
       "name" : "poor",
