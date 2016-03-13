@@ -1,0 +1,24 @@
+{
+  "asset_type" : "human",
+  "asset_sub_type" : []
+},
+{
+  "asset_type" : "physical",
+  "asset_sub_type" : []
+},
+{
+  "asset_type" : "environmental",
+  "asset_sub_type" : []
+},
+{
+  "asset_type" : "social",
+  "asset_sub_type" : []
+},
+{
+  "asset_type" : "financial",
+  "asset_sub_type" : []
+},
+{
+  "asset_type" : "political",
+  "asset_sub_type" : []
+}
