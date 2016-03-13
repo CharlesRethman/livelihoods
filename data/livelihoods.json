@@ -83,12 +83,12 @@
                 "item_name" : "land owned",
                 "num" : 1,
                 "unit_id" : 20100,
-                "sub-items" : [
+                "sub_items" : [
                   {
                     "item_name" : "land cultivated",
                     "num" : 1,
                     "unit_id" : 20100,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "land food crops",
                         "num" : 1,
@@ -106,12 +106,12 @@
                 "item_name" : "livestock",
                 "num" : 3,
                 "unit_id" : 20500,
-                "sub-items" : [
+                "sub_items" : [
                   {
                     "item_name" : "cattle",
                     "num" : 4,
                     "unit_id" : 20503,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "adult females",
                         "num" : 2,
@@ -123,7 +123,7 @@
                     "item_name" : "goats",
                     "num" : 10,
                     "unit_id" : 20504,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "adult females",
                         "num" : 4,
@@ -693,12 +693,12 @@
                 "item_name" : "land owned",
                 "num" : 5,
                 "unit_id": 20100,
-                "sub-items" : [
+                "sub_items" : [
                   {
                     "item_name" : "land cultivated",
                     "num" : 2,
                     "unit_id" : 20100,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "land food crops",
                         "num" : 2,
@@ -716,12 +716,12 @@
                 "item_name" : "livestock",
                 "num" : 3.5,
                 "unit_id" : 20500,
-                "sub-items" : [
+                "sub_items" : [
                   {
                     "item_name" : "cattle",
                     "num" : 7,
                     "unit_id" : 20503,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "adult females",
                         "num" : 4
@@ -732,7 +732,7 @@
                     "item_name" : "goats",
                     "num" : 10,
                     "unit_id" : 20504,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "adult females",
                         "num" : 6,
@@ -766,7 +766,7 @@
                 "item_name" : "household",
                 "num" : 6,
                 "unit_id" : 20400,
-                "sub-items" : [
+                "sub_items" : [
                   {
                     "item_name" : "adult men",
                     "num" : 1,

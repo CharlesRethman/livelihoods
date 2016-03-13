@@ -18,34 +18,37 @@
             },
             {
               "char" : "converts_to",
-              "sub-chars" : [
+              "sub_chars" : [
                 {
                   "char" : "source",
                   "sub_chars" : [],
                 },
                 {
                   "char" : "category",
-                  "char_type" : "ref",
-                  "sub-chars" : []
+                  "char_type" : "ref_qry",
+                  "sub_chars" : []
                 },
                 {
                   "char" : "source_dims",
                   "char_type" : "array",
                   "sub_chars" : []
+                },
+                {
+                  
                 }
               ]
             },
             {
               "char" : "asset_balance",
-              "sub-chars" : []
+              "sub_chars" : []
             }
           ],
-          "sub-items" : []
+          "sub_items" : []
         },
         {
           "item_name" : "adult women",
           "charecteristics" : [],
-          "sub-items" : []
+          "sub_items" : []
         }
       ]
     }
@@ -57,7 +60,7 @@
     {
       "item_name" : "land owned",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     }
   ]
 },
@@ -67,7 +70,7 @@
     {
       "item_name" : "forest",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     }
   ]
 },
@@ -77,12 +80,12 @@
     {
       "item_name" : "local kin",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     },
     {
       "item_name" : "distant kin",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     }
   ]
 },
@@ -92,27 +95,27 @@
     {
       "item_name" : "transitory income",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     },
     {
       "item_name" : "short-term savings",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     },
     {
       "item_name" : "long-term savings",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     },
     {
       "item_name" : "short-term loans",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     },
     {
       "item_name" : "long-term loans",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     }
   ]
 },
@@ -122,7 +125,7 @@
     {
       "item_name" : "access to justice",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : []
     }
   ]
 }
