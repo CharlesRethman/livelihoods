@@ -121,70 +121,13 @@
               ]
             }
           ],
-          "fields" : [ "item_name", "num", "unit_id", "converts_to", "asset_balance" ]
-                {
-                  "char" : "depends_on",
-                  "char_type" : "array",
-                  "sub_chars" : []
-                },
-                {
-                  "char" : "num_asset",
-                  "char_type" : "num",
-                  "sub_chars" : []
-                },
-                {
-                  "char" : "freq_utilised",
-                  "char_type" : "string",
-                  "sub_chars" : []
-                },
-                {
-                  "char" : "freq_paid",
-                  "char_type" : "string",
-                  "sub_chars" : []
-                },
-                {
-                  "char" : "period",
-                  "char_type" : "object",
-                  "sub_chars" : [
-                    {
-                      "char" : "start",
-                      "char_type" : "num",
-                      "sub_chars" : []
-                    },
-                    {
-                      "char" : "end",
-                      "char_type" : "num",
-                      "sub_chars" : []
-                    }
-                  ]
-                },
-                {
-                  "char" : "rate",
-                  "char_type" : "num",
-                  "sub_chars" : []
-                },
-                {
-                  "char" : "asset_built",
-                  "char_type" : "array",
-                  "sub_chars" : []
-                },
-                {
-                "char" : "asset_utilised",
-                "char_type" : "array",
-                "sub_chars" : []
-                }
-              ]
-            },
-            {
-              "char" : "asset_balance",
-              "sub_chars" : []
-            }
-          ],
-          "sub_items" : []
+          "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ]
         },
         {
           "item_name" : "adult women",
-          "charecteristics" : [],
+          "converts_to" : [
+            
+          ],
           "sub_items" : []
         }
       ]
