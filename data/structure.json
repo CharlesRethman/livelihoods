@@ -13,8 +13,6 @@
             "freq_paid",
             "period",
             "rate",
-//            "asset_built",
-//            "asset_utilised"
           ]
         }
       ],
@@ -32,8 +30,6 @@
                 "freq_paid",
                 "period",
                 "rate",
-//                "asset_built"
-//                "asset_utilised"
               ]
             },
             {
@@ -80,10 +76,50 @@
                 "rate"
               ]
             },
-            "second weeding",
-            "harvesting",
-            "threshing",
-            "agricultural season"
+            {
+              "source" : "second weeding",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "harvesting",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "threshing",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "agricultural season",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            }
           ],
           "fields" : [ "item_name", "num", "unit_id", "converts_to", "asset_balance" ]
                 {
