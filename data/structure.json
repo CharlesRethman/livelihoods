@@ -3,43 +3,96 @@
   "asset" : [
     {
       "item_name" : "household",
-      "charecteristics" : [],
+      "converts_to" : [
+        {
+          "source" : "destitute grant",
+          "category" : "social grants",
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate",
+//            "asset_built",
+//            "asset_utilised"
+          ]
+        }
+      ],
+      "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
       "sub_items" : [
         {
           "item_name" : "adult men",
-          "charecteristics§" : [
+          "converts_to" : [
             {
-              "char" : "num",
-              "sub_chars" : []
+              "source" : "land clearing",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate",
+//                "asset_built"
+//                "asset_utilised"
+              ]
             },
             {
-              "char" : "unit_id",
-              "sub_chars" : []
+              "source" : "land preparation",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
             },
             {
-              "char" : "converts_to",
-              "sub_chars" : [
-                {
-                  "char" : "source",
-                  "sub_chars" : [],
-                },
-                {
-                  "char" : "category",
-                  "char_type" : "ref_qry",
-                  "sub_chars" : []
-                },
-                {
-                  "char" : "source_dims",
-                  "char_type" : "array",
-                  "sub_chars" : []
-                },
+              "source" : "planting",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "weeding",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "first weeding",
+              "category" : "casual labour",
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            "second weeding",
+            "harvesting",
+            "threshing",
+            "agricultural season"
+          ],
+          "fields" : [ "item_name", "num", "unit_id", "converts_to", "asset_balance" ]
                 {
                   "char" : "depends_on",
                   "char_type" : "array",
                   "sub_chars" : []
                 },
                 {
-                  "char" : "num_utilised",
+                  "char" : "num_asset",
                   "char_type" : "num",
                   "sub_chars" : []
                 },
@@ -75,7 +128,7 @@
                   "sub_chars" : []
                 },
                 {
-                  "char" : "goes_towards",
+                  "char" : "asset_built",
                   "char_type" : "array",
                   "sub_chars" : []
                 },
