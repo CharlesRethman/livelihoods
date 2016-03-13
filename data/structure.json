@@ -4,7 +4,50 @@
     {
       "item_name" : "household",
       "charecteristics" : [],
-      "sub-items" : []
+      "sub_items" : [
+        {
+          "item_name" : "adult men",
+          "charecteristics§" : [
+            {
+              "char" : "num",
+              "sub_chars" : []
+            },
+            {
+              "char" : "unit_id",
+              "sub_chars" : []
+            },
+            {
+              "char" : "converts_to",
+              "sub-chars" : [
+                {
+                  "char" : "source",
+                  "sub_chars" : [],
+                },
+                {
+                  "char" : "category",
+                  "char_type" : "ref",
+                  "sub-chars" : []
+                },
+                {
+                  "char" : "source_dims",
+                  "char_type" : "array",
+                  "sub_chars" : []
+                }
+              ]
+            },
+            {
+              "char" : "asset_balance",
+              "sub-chars" : []
+            }
+          ],
+          "sub-items" : []
+        },
+        {
+          "item_name" : "adult women",
+          "charecteristics" : [],
+          "sub-items" : []
+        }
+      ]
     }
   ]
 },

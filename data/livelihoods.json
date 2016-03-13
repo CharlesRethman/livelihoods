@@ -186,16 +186,16 @@
                 "item_name" : "household",
                 "num" : 11,
                 "unit_id" : 20400,
-                "sub-items" : [
+                "sub_items" : [
                   {
-                    "name" : "adult men",
+                    "item_name" : "adult men",
                     "num" : 1.5,
                     "unit_id" : 20401,
                     "converts_to" : [],
                     "asset_balance" : 1.5
                   },
                   {
-                    "name" : "adult women",
+                    "item_name" : "adult women",
                     "num" : 3,
                     "unit_id" : 20402,
                     "converts_to" : [
@@ -338,12 +338,12 @@
                 "item_name" : "land owned",
                 "num" : 1,
                 "unit_id" : 20100,
-                "sub-items" : [
+                "sub_items" : [
                   {
                     "item_name" : "land cultivated",
                     "num" : 1,
                     "unit_id" : 20100,
-                    "sub-items" : [
+                    "sub_items" : [
                       {
                         "item_name" : "land food crops",
                         "num" : 1,
