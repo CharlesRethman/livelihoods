@@ -1,24 +1,85 @@
 {
   "asset_type" : "human",
-  "asset_sub_type" : []
+  "asset" : [
+    {
+      "item_name" : "household",
+      "charecteristics" : [],
+      "sub-items" : []
+    }
+  ]
 },
 {
   "asset_type" : "physical",
-  "asset_sub_type" : []
+  "asset_sub_type" : [
+    {
+      "item_name" : "land owned",
+      "charecteristics" : [],
+      "sub-items" : []
+    }
+  ]
 },
 {
   "asset_type" : "environmental",
-  "asset_sub_type" : []
+  "asset_sub_type" : [
+    {
+      "item_name" : "forest",
+      "charecteristics" : [],
+      "sub-items" : []
+    }
+  ]
 },
 {
   "asset_type" : "social",
-  "asset_sub_type" : []
+  "asset_sub_type" : [
+    {
+      "item_name" : "local kin",
+      "charecteristics" : [],
+      "sub-items" : []
+    },
+    {
+      "item_name" : "distant kin",
+      "charecteristics" : [],
+      "sub-items" : []
+    }
+  ]
 },
 {
   "asset_type" : "financial",
-  "asset_sub_type" : []
+  "asset_sub_type" : [
+    {
+      "item_name" : "transitory income",
+      "charecteristics" : [],
+      "sub-items" : []
+    },
+    {
+      "item_name" : "short-term savings",
+      "charecteristics" : [],
+      "sub-items" : []
+    },
+    {
+      "item_name" : "long-term savings",
+      "charecteristics" : [],
+      "sub-items" : []
+    },
+    {
+      "item_name" : "short-term loans",
+      "charecteristics" : [],
+      "sub-items" : []
+    },
+    {
+      "item_name" : "long-term loans",
+      "charecteristics" : [],
+      "sub-items" : []
+    }
+  ]
 },
 {
   "asset_type" : "political",
-  "asset_sub_type" : []
+  "asset_sub_type" : [
+    {
+      "item_name" : "access to justice",
+      "charecteristics" : [],
+      "sub-items" : []
+    }
+  ]
 }
