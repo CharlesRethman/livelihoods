@@ -3,6 +3,7 @@
   "asset" : [
     {
       "item_name" : "household",
+      "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
       "converts_to" : [
         {
           "source" : "destitute grant",
@@ -16,10 +17,10 @@
           ]
         }
       ],
-      "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
       "sub_items" : [
         {
           "item_name" : "adult men",
+          "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
           "converts_to" : [
             {
               "source" : "land clearing",
@@ -146,9 +147,190 @@
                 "period",
                 "rate"
               ]
+            },
+            {
+              "source" : "house work",
+              "source_group" : {
+                  "name" : "domestic labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "washing",
+              "source_group" : {
+                  "name" : "domestic labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "wood collecting work",
+              "source_group" : {
+                  "name" : "domestic labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "fetching water work",
+              "source_group" : {
+                  "name" : "domestic labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "house construction work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "house smearing work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "thatching work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "brick-making work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "stone-collecting work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "pole cutting work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "stone breaking work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "fencing work",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "digging work (latrines, levelling, etc.)",
+              "source_group" : {
+                  "name" : "construction labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
             }
-          ],
-          "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ]
+          ]
         },
         {
           "item_name" : "adult women",
@@ -279,8 +461,7 @@
                 "rate"
               ]
             }
-          ],
-          "sub_items" : []
+          ]
         }
       ]
     }
