@@ -249,7 +249,10 @@
                     "converts_to" : [
                       {
                         "source" : "child grant",
-                        "category" : "social grants",
+                        "source_group" : {
+                            "name" : "social grants",
+                            "category" : "cash transfers formal"
+                        },
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "political" ],
                         "num_asset" : 0,
@@ -273,7 +276,10 @@
                     "converts_to" : [
                       {
                         "source" : "child grant",
-                        "category" : "social grants",
+                        "source_group" : {
+                            "name" : "social grants",
+                            "category" : "cash transfers - formal"
+                        },
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "political" ],
                         "num_asset" : 0,
@@ -297,7 +303,10 @@
                     "converts_to" : [
                       {
                         "source" : "child grant",
-                        "category" : "social grants",
+                        "source_group" : {
+                            "name" : "social grants",
+                            "category" : "cash transfers formal"
+                        },
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "political" ],
                         "num_asset" : 0,
@@ -321,7 +330,10 @@
                     "converts_to" : [
                       {
                         "source" : "old-age grant",
-                        "source_categories" : "social grants",
+                        "source_group" : {
+                            "name" : "social grants",
+                            "category" : "cash transfers formal"
+                        },
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "political" ],
                         "num_asset" : 1,
@@ -359,8 +371,11 @@
                         "asset_balance" : 0.8,
                         "converts_to" : [
                           {
-                            "source" : "maize crop",
-                            "source_category" : "own crops - food",
+                            "source" : "maize main crop",
+                            "source_group" : {
+                                "name" : "maize crop",
+                                "category" : "own crops - food"
+                            },
                             "source_dims" : [ "food" ],
                             "depends_on" : [ "human", "financial", "environmental" ],
                             "num_asset" : 0.1,
@@ -374,7 +389,10 @@
                           },
                           {
                             "source" : "pumpkin crop",
-                            "source_category" : "own crops - food",
+                            "source_group" : {
+                                "name" : "pumpkin crop",
+                                "category" : "own crops - food"
+                            },
                             "source_dims" : [ "food" ],
                             "depends_on" : [ "human", "financial", "environmental" ],
                             "num_asset" : 0.1,
@@ -405,6 +423,10 @@
                 "converts_to" : [
                   {
                     "source" : "maize purchase",
+                    "source_group" : {
+                        "name" : "cereal purchase",
+                        "category" : "staple purchase"
+                    },
                     "source_category" : "staple food purchases",
                     "source_dims" : [ "food", "expenditure" ],
                     "depends_on" : [],
@@ -422,7 +444,10 @@
                   },
                   {
                     "source" : "rice purchase",
-                    "source_category" : "staple food purchase",
+                    "source_group" : {
+                        "name" : "cereal purchase",
+                        "category" : "staple purchase"
+                    },
                     "source_dims" : [ "food", "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 1010,
@@ -439,7 +464,10 @@
                   },
                   {
                     "source" : "brown sugar purchase",
-                    "source_category" : "non-staple food purchase",
+                    "source_group" : {
+                        "name" : "sugar purchase",
+                        "category" : "non-staple purchase"
+                    },
                     "source_dims" : [ "food", "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 1100,
@@ -456,7 +484,10 @@
                   },
                   {
                     "source" : "oil purchase",
-                    "source_category" : "non-staple food purchase",
+                    "source_group" : {
+                        "name" : "oil purchase",
+                        "category" : "non-staple purchase"
+                    },
                     "source_dims" : [ "food", "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 1400,
@@ -473,7 +504,10 @@
                   },
                   {
                     "source" : "tea purchase",
-                    "source_category" : "non-staple food purchase",
+                    "source_group" : {
+                        "name" : "bevarage purchase",
+                        "category" : "non-staple purchase"
+                    },
                     "source_dims" : [ "food", "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 1901,
@@ -490,7 +524,10 @@
                   },
                   {
                     "source" : "salt purchase",
-                    "source_category" : "non-staple food purchase",
+                    "source_group" : {
+                        "name" : "condiment purchase",
+                        "category" : "non-staple purchase"
+                    },
                     "source_dims" : [ "food", "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 1900,
@@ -507,7 +544,10 @@
                   },
                   {
                     "source" : "soap purchase",
-                    "source_category" : "household goods purchase",
+                    "source_group" : {
+                        "name" : "hygeine purchase",
+                        "category" : "household goods purchase"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2010,
@@ -524,7 +564,10 @@
                   },
                   {
                     "source" : "kerosene purchase",
-                    "source_category" : "household goods purchase",
+                    "source_group" : {
+                        "name" : "lighting/cooking purchase",
+                        "category" : "household goods purchase"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2030,
@@ -541,7 +584,10 @@
                   },
                   {
                     "source" : "grinding purchase",
-                    "source_category" : "household services purchase",
+                    "source_group" : {
+                        "name" : "storage/preparation purchase",
+                        "category" : "household services purchase"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2050,
@@ -558,6 +604,10 @@
                   },
                   {
                     "source" : "seed purchase",
+                    "source_group" : {
+                        "name" : "crop farming purchase",
+                        "category" : "inputs purchase"
+                    },
                     "source_category" : "inputs purchase",
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
@@ -575,7 +625,10 @@
                   },
                   {
                     "source" : "education",
-                    "source_category" : "social services",
+                    "source_group" : {
+                        "name" : "education purchase",
+                        "category" : "social services expenditure"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2400,
@@ -592,7 +645,10 @@
                   },
                   {
                     "source" : "health",
-                    "category" : "social services",
+                    "source_group" : {
+                        "name" : "medicine purchase",
+                        "category" : "social services expenditure"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2420,
@@ -608,7 +664,10 @@
                   },
                   {
                     "source" : "clothing",
-                    "category" : "household goods purchase",
+                    "source_group" : {
+                        "name" : "clothing purchase",
+                        "category" : "household goods purchase"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2500,
@@ -624,7 +683,10 @@
                   },
                   {
                     "source" : "airtime",
-                    "category" : "household services purchase",
+                    "source_group" : {
+                        "name" : "communication purchase",
+                        "category" : "household services purchase"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2800,
@@ -640,7 +702,10 @@
                   },
                   {
                     "source" : "transport",
-                    "category" : "household services purchase",
+                    "source_group" : {
+                        "name" : "transport purchase",
+                        "category" : "household services purchase"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2851,
@@ -656,7 +721,10 @@
                   },
                   {
                     "source" : "contributions",
-                    "category" : "community obligations",
+                    "source_group" : {
+                        "name" : "contributions",
+                        "category" : "community obligations"
+                    },
                     "source_dims" : [ "expenditure" ],
                     "depends_on" : [],
                     "commodity_id" : 2901,
@@ -675,7 +743,7 @@
               }
             ],
             "political" : []
-          }]
+          }
         },
         {
           "data_entry" : "community interview",
