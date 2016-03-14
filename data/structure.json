@@ -23,7 +23,10 @@
           "converts_to" : [
             {
               "source" : "land clearing",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -34,7 +37,10 @@
             },
             {
               "source" : "land preparation",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -45,7 +51,10 @@
             },
             {
               "source" : "planting",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -56,7 +65,10 @@
             },
             {
               "source" : "weeding",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -67,7 +79,10 @@
             },
             {
               "source" : "first weeding",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -78,7 +93,10 @@
             },
             {
               "source" : "second weeding",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -89,7 +107,10 @@
             },
             {
               "source" : "harvesting",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -100,7 +121,10 @@
             },
             {
               "source" : "threshing",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -111,7 +135,10 @@
             },
             {
               "source" : "agricultural season",
-              "category" : "casual labour",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
               "fields" : [
                 "num_asset",
                 "freq_utilised",
@@ -126,7 +153,132 @@
         {
           "item_name" : "adult women",
           "converts_to" : [
-            
+            {
+              "source" : "land clearing",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate",
+              ]
+            },
+            {
+              "source" : "land preparation",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "planting",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "weeding",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "first weeding",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "second weeding",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "harvesting",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "threshing",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            },
+            {
+              "source" : "agricultural season",
+              "source_group" : {
+                  "name" : "agricultural labour",
+                  "category" : "casual labour"
+              },
+              "fields" : [
+                "num_asset",
+                "freq_utilised",
+                "freq_paid",
+                "period",
+                "rate"
+              ]
+            }
           ],
           "sub_items" : []
         }

@@ -202,6 +202,10 @@
                     "converts_to" : [
                       {
                         "source" : "disability grant",
+                        "source_group" : {
+                            "name" : "social grants",
+                            "category" : "cash transfers formal"
+                        },
                         "category" : "social grants",
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "political" ],
@@ -218,7 +222,10 @@
                       },
                       {
                         "source" : "domestic work",
-                        "category" : "casual work",
+                        "source_group" : {
+                            "name" : "house work",
+                            "category" : "casual labour"
+                        },
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "social" ],
                         "num_asset" : 1,
