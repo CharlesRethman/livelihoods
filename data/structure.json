@@ -7,7 +7,10 @@
       "converts_to" : [
         {
           "source" : "destitute grant",
-          "category" : "social grants",
+          "source_group" : {
+              "name" : "agricultural labour",
+              "category" : "casual labour"
+          },
           "fields" : [
             "num_asset",
             "freq_utilised",
