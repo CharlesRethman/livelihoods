@@ -17,6 +17,23 @@
             "freq_paid",
             "period",
             "rate",
+          ],
+          "asset" : [
+            {
+              "item_name" : "household",
+              "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+              "asset_type": "human"
+            },
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            }
           ]
         }
       ],
