@@ -1,10 +1,6 @@
 {
   "asset_type" : "human",
   "asset" : [
-    {
-      "item_name" : "household",
-      "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-      "converts_to" : [
         {
           "source" : "destitute grant",
           "source_group" : {
@@ -36,25 +32,32 @@
             }
           ]
         }
+        {
+          "source" : "land clearing",
+          "source_group" : {
+              "name" : "agricultural labour",
+              "category" : "casual labour"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate",
+          ],
+          "asset" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            }
+          ]
+        }
       ],
       "sub_items" : [
         {
-          "item_name" : "adult men",
-          "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
           "converts_to" : [
             {
-              "source" : "land clearing",
-              "source_group" : {
-                  "name" : "agricultural labour",
-                  "category" : "casual labour"
-              },
-              "fields" : [
-                "num_asset",
-                "freq_utilised",
-                "freq_paid",
-                "period",
-                "rate",
-              ]
             },
             {
               "source" : "land preparation",
