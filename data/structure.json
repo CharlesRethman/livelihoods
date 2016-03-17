@@ -1,8 +1,14 @@
+{
+  "type" : "formal cash transfers",
+  "categories" : [
+    {
+      "category" : "social grants",
+      "sources" : [
         {
           "source" : "destitute grant",
           "source_group" : {
-              "name" : "agricultural labour",
-              "category" : "casual labour"
+            "source_type" : "formal cash transfers",
+            "category" : "social grants"
           },
           "fields" : [
             "num_asset",
@@ -29,10 +35,14 @@
             }
           ]
         }
+      ]
+    }
+  ]
+}
         {
           "source" : "land clearing",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -58,7 +68,7 @@
         {
           "source" : "land preparation",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -84,7 +94,7 @@
         {
           "source" : "planting",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -110,7 +120,7 @@
         {
           "source" : "weeding",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -136,7 +146,7 @@
         {
           "source" : "first weeding",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -162,7 +172,7 @@
         {
           "source" : "second weeding",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -188,7 +198,7 @@
         {
           "source" : "harvesting",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
@@ -197,12 +207,24 @@
             "freq_paid",
             "period",
             "rate"
+          ],
+          "asset" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            }
           ]
         },
         {
           "source" : "threshing",
           "source_group" : {
-              "name" : "agricultural labour",
+              "source_type" : "agricultural labour",
               "category" : "casual labour"
           },
           "fields" : [
