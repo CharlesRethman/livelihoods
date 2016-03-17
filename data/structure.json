@@ -50,6 +50,63 @@
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : "household"
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            }
+          ]
+        },
+        {
+          "source" : "land preparation",
+          "source_group" : {
+              "name" : "agricultural labour",
+              "category" : "casual labour"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate"
+          ],
+          "asset" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            }
+          ]
+        },
+        {
+          "source" : "planting",
+          "source_group" : {
+              "name" : "agricultural labour",
+              "category" : "casual labour"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate"
+          ],
+          "asset" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
             }
           ]
         }
@@ -58,34 +115,6 @@
         {
           "converts_to" : [
             {
-            },
-            {
-              "source" : "land preparation",
-              "source_group" : {
-                  "name" : "agricultural labour",
-                  "category" : "casual labour"
-              },
-              "fields" : [
-                "num_asset",
-                "freq_utilised",
-                "freq_paid",
-                "period",
-                "rate"
-              ]
-            },
-            {
-              "source" : "planting",
-              "source_group" : {
-                  "name" : "agricultural labour",
-                  "category" : "casual labour"
-              },
-              "fields" : [
-                "num_asset",
-                "freq_utilised",
-                "freq_paid",
-                "period",
-                "rate"
-              ]
             },
             {
               "source" : "weeding",
