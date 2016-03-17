@@ -34,6 +34,37 @@
               "super_item" : "household"
             }
           ]
+        },
+        {
+          "source" : "child grant",
+          "source_group" : {
+            "source_type" : "formal cash transfers",
+            "category" : "social grants"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate",
+          ],
+          "asset" : [
+            {
+              "item_name" : "infants",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item": "household"
+            },
+            {
+              "item_name" : "children",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : "household"
+            }
+          ]
         }
       ]
     }
