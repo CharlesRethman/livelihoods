@@ -26,12 +26,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -52,17 +58,26 @@
             {
               "item_name" : "infants",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item": "household"
+              "super_item": {
+                "item_name" : "household",
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "children",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -83,7 +98,10 @@
             {
               "item_name" : "pensioners",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item": "household"
+              "super_item": {
+                "item_name": "household",
+                "asset_type" : "human"
+              }
             }
           ]
         }
@@ -114,7 +132,10 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "super_item" : ""
+              }
             },
             {
               "item_name" : "adult women",
