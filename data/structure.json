@@ -90,7 +90,13 @@
       ]
     }
   ]
-}
+},
+{
+  "type" : "casual labour",
+  "categories" : [
+    {
+      "category" : "agricultural labour",
+      "sources" : [
         {
           "source" : "land clearing",
           "source_group" : {
@@ -324,7 +330,12 @@
               "super_item" : "household"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "category" : "domestic labour",
+      "sources" : [
         {
           "source" : "house work",
           "source_group" : {
@@ -428,7 +439,12 @@
               "super_item" : "household"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "category" : "construction work",
+      "sources" : [
         {
           "source" : "house construction work",
           "source_group" : {
@@ -661,16 +677,6 @@
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : "household"
             }
-          ]
-        }
-      ],
-      "sub_items" : [
-        {
-          "converts_to" : [
-            {
-            }
-          ]
-        },
           ]
         }
       ]
