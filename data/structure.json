@@ -1034,7 +1034,17 @@
   ]
 },
 {
-
+  "type" : "own crop production",
+  "categories" : [
+    {
+      "category" : "maize crop",
+      "sources" : [
+        {
+          "source" : "maize crop",
+        }
+      ]
+    }
+  ]
 },
 {
   "asset_type" : "physical",
