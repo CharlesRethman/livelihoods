@@ -706,6 +706,15 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         }
@@ -1023,6 +1032,9 @@
       ]
     }
   ]
+},
+{
+
 },
 {
   "asset_type" : "physical",
