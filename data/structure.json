@@ -194,6 +194,15 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -222,6 +231,15 @@
             },
             {
               "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : {
                 "item_name" : "household",
@@ -262,6 +280,15 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -290,6 +317,15 @@
             },
             {
               "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : {
                 "item_name" : "household",
@@ -330,6 +366,15 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -358,6 +403,15 @@
             },
             {
               "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : {
                 "item_name" : "household",
@@ -398,11 +452,20 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
         {
-          "source" : "agricultural season",
+          "source" : "whole season agricultural work",
           "source_group" : {
               "name" : "agricultural labour",
               "category" : "casual labour"
@@ -426,6 +489,49 @@
             },
             {
               "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ]
+        },
+        {
+          "source" : "herding work",
+          "source_group" : {
+              "name" : "agricultural labour",
+              "category" : "casual labour"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate"
+          ],
+          "asset" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : {
                 "item_name" : "household",
@@ -471,6 +577,15 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -505,6 +620,15 @@
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
               }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -533,6 +657,15 @@
             },
             {
               "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "super_item" : {
                 "item_name" : "household",
@@ -734,12 +867,20 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -760,12 +901,20 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -786,12 +935,20 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -812,12 +969,20 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         },
@@ -838,12 +1003,20 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : "household"
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
             }
           ]
         }
