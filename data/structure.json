@@ -166,8 +166,8 @@
         {
           "source" : "land preparation",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -209,8 +209,8 @@
         {
           "source" : "planting",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -252,8 +252,8 @@
         {
           "source" : "weeding",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -295,8 +295,8 @@
         {
           "source" : "first weeding",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -338,8 +338,8 @@
         {
           "source" : "second weeding",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
