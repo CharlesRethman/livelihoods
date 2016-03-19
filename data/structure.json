@@ -549,8 +549,8 @@
         {
           "source" : "house work",
           "source_group" : {
-              "name" : "domestic labour",
-              "category" : "casual labour"
+              "name" : "casual labour",
+              "category" : "domestic labour"
           },
           "fields" : [
             "num_asset",
@@ -592,8 +592,8 @@
         {
           "source" : "washing",
           "source_group" : {
-              "name" : "domestic labour",
-              "category" : "casual labour"
+              "name" : "casual labour",
+              "category" : "domestic labour"
           },
           "fields" : [
             "num_asset",
@@ -635,8 +635,8 @@
         {
           "source" : "wood collecting work",
           "source_group" : {
-              "name" : "domestic labour",
-              "category" : "casual labour"
+              "name" : "casual labour",
+              "category" : "domestic labour"
           },
           "fields" : [
             "num_asset",
@@ -678,8 +678,8 @@
         {
           "source" : "fetching water work",
           "source_group" : {
-              "name" : "domestic labour",
-              "category" : "casual labour"
+              "name" : "casual labour",
+              "category" : "domestic labour"
           },
           "fields" : [
             "num_asset",
