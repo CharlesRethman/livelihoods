@@ -381,8 +381,8 @@
         {
           "source" : "harvesting",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -424,8 +424,8 @@
         {
           "source" : "threshing",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -467,8 +467,8 @@
         {
           "source" : "whole season agricultural work",
           "source_group" : {
-              "name" : "agricultural labour",
-              "category" : "casual labour"
+              "name" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -501,8 +501,8 @@
         {
           "source" : "herding work",
           "source_group" : {
-              "name" : "agricultural labour",
-              "category" : "casual labour"
+              "name" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
