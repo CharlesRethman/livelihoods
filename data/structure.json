@@ -124,8 +124,8 @@
         {
           "source" : "land clearing",
           "source_group" : {
-              "source_type" : "agricultural labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "agricultural labour"
           },
           "fields" : [
             "num_asset",
@@ -1040,7 +1040,11 @@
       "category" : "maize crop",
       "sources" : [
         {
-          "source" : "maize crop",
+          "source" : "dry maize crop",
+          "source_group" : {
+            "name" : "maize crop",
+            "category" : "own crop production"
+          }
         }
       ]
     }
