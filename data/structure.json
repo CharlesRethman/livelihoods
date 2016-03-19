@@ -1,5 +1,5 @@
 {
-  "type" : "formal cash transfers",
+  "source_type" : "formal cash transfers",
   "categories" : [
     {
       "category" : "social grants",
@@ -116,7 +116,7 @@
   ]
 },
 {
-  "type" : "casual labour",
+  "source_type" : "casual labour",
   "categories" : [
     {
       "category" : "agricultural labour",
@@ -467,7 +467,7 @@
         {
           "source" : "whole season agricultural work",
           "source_group" : {
-              "name" : "casual labour",
+              "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
           "fields" : [
@@ -501,7 +501,7 @@
         {
           "source" : "herding work",
           "source_group" : {
-              "name" : "casual labour",
+              "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
           "fields" : [
@@ -549,7 +549,7 @@
         {
           "source" : "house work",
           "source_group" : {
-              "name" : "casual labour",
+              "source_type" : "casual labour",
               "category" : "domestic labour"
           },
           "fields" : [
@@ -592,7 +592,7 @@
         {
           "source" : "washing",
           "source_group" : {
-              "name" : "casual labour",
+              "source_type" : "casual labour",
               "category" : "domestic labour"
           },
           "fields" : [
@@ -635,7 +635,7 @@
         {
           "source" : "wood collecting work",
           "source_group" : {
-              "name" : "casual labour",
+              "source_type" : "casual labour",
               "category" : "domestic labour"
           },
           "fields" : [
@@ -678,7 +678,7 @@
         {
           "source" : "fetching water work",
           "source_group" : {
-              "name" : "casual labour",
+              "source_type" : "casual labour",
               "category" : "domestic labour"
           },
           "fields" : [
@@ -726,8 +726,8 @@
         {
           "source" : "house construction work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -759,9 +759,9 @@
         },
         {
           "source" : "house smearing work",
-          "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+          "source_type" : {
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -794,8 +794,8 @@
         {
           "source" : "thatching work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -828,8 +828,8 @@
         {
           "source" : "brick-making work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -862,8 +862,8 @@
         {
           "source" : "stone-collecting work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -896,8 +896,8 @@
         {
           "source" : "pole cutting work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -930,8 +930,8 @@
         {
           "source" : "stone breaking work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -964,8 +964,8 @@
         {
           "source" : "fencing work",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -998,8 +998,8 @@
         {
           "source" : "digging work (latrines, levelling, etc.)",
           "source_group" : {
-              "name" : "construction labour",
-              "category" : "casual labour"
+              "source_type" : "casual labour",
+              "category" : "construction labour"
           },
           "fields" : [
             "num_asset",
@@ -1034,7 +1034,7 @@
   ]
 },
 {
-  "type" : "own crop production",
+  "source_type" : "own crop production",
   "categories" : [
     {
       "category" : "maize crop",
@@ -1042,8 +1042,8 @@
         {
           "source" : "dry maize crop",
           "source_group" : {
-            "name" : "maize crop",
-            "category" : "own crop production"
+            "source_type" : "own crop production",
+            "category" : "maize crop"
           }
         }
       ]
