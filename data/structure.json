@@ -17,7 +17,7 @@
             "period",
             "rate",
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "household",
               "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
@@ -56,7 +56,7 @@
             "period",
             "rate",
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "infants",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -99,7 +99,7 @@
             "period",
             "rate",
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "pensioners",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -134,7 +134,7 @@
             "period",
             "rate",
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -176,7 +176,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -219,7 +219,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -262,7 +262,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -305,7 +305,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -348,7 +348,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -391,7 +391,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -434,7 +434,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -477,7 +477,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -511,7 +511,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -559,7 +559,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -602,7 +602,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -645,7 +645,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -688,7 +688,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -736,7 +736,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -770,7 +770,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -804,7 +804,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -838,7 +838,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -872,7 +872,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -906,7 +906,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -940,7 +940,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -974,7 +974,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -1008,7 +1008,7 @@
             "period",
             "rate"
           ],
-          "asset" : [
+          "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -1037,29 +1037,194 @@
   "source_type" : "own crop production",
   "categories" : [
     {
-      "category" : "maize crop",
+      "category" : "maize",
       "sources" : [
         {
-          "source" : "dry maize crop",
+          "source" : "maize crop",
           "source_group" : {
             "source_type" : "own crop production",
-            "category" : "maize crop"
+            "category" : "maize"
+          },
+          "fields" : [
+            "num_asset",
+            "commodity_id",
+            "prod_unit_id",
+            "produced",
+            "consumed",
+            "other",
+            "asset_built"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "source" : "green maize crop",
+          "source_group" : {
+            "source_type" : "own crop production",
+            "category" : "maize",
+            "fields" : [ "num", "unit_id", "proportion_gained" ],
+            "asset_utilised" : [
+              {
+                "item_name" : "land food crops",
+                "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land cultivated",
+                  "fields" : [ "num",  "unit_id", "converts_to", "asset_balance" ],
+                  "super_item" : {
+                    "item_name" : "land owned",
+                    "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                    "asset_type" : "physical"
+                  }
+                }
+              }
+            ]
           }
+        }
+      ]
+    },
+    {
+      "category" : "sorghum",
+      "sources" : [
+        {
+          "Source" : "sorghum crop",
+          "source_group" : {
+            "source_type" : "own crop production",
+            "category" : "sorghum"
+          },
+          "fields" : [
+            "num_asset",
+            "commodity_id",
+            "prod_unit_id",
+            "produced",
+            "consumed",
+            "other",
+            "asset_built"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category" : "cowpeas",
+      "sources" : [
+        {
+          "source" : "cowpeas crop",
+          "source_group" : {
+            "source_type" : "own crop production",
+            "category" : "cowpeas"
+          },
+          "fields" : [
+            "num_asset",
+            "commodity_id",
+            "prod_unit_id",
+            "produced",
+            "consumed",
+            "other",
+            "asset_built"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category" : "beans",
+      "sources" : [
+        {
+          "source" : "beans crop",
+          "source_group" : {
+            "source_type" : "own crop production",
+            "category" : "beans"
+          },
+          "fields" : [
+            "num_asset",
+            "commodity_id",
+            "prod_unit_id",
+            "produced",
+            "consumed",
+            "other",
+            "asset_built"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ]
         }
       ]
     }
   ]
 },
 {
-  "asset_type" : "physical",
-  "asset_sub_type" : [
+  "source_type" : "self employment",
+  "categories" : [
     {
-      "item_name" : "land owned",
-      "charecteristics" : [],
-      "sub_items" : []
+      "category" : "forest products",
+      "sources" : [
+        {
+          "source" : "firewood sales",
+          "source_group" : {
+            "source_type" : "self employment",
+            "category" : "forest products"
+          },
+          "fields" : [
+            
+          ]
+        }
+      ]
     }
   ]
-},
+}
 {
   "asset_type" : "environmental",
   "asset_sub_type" : [
