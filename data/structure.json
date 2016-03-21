@@ -1034,6 +1034,50 @@
   ]
 },
 {
+  "source_type" : "self employment",
+  "categories" : [
+    {
+      "category" : "forest products",
+      "sources" : [
+        {
+          "source" : "firewood sales",
+          "source_group" : {
+            "source_type" : "self employment",
+            "category" : "forest products"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "num_per_occasion",
+            "period",
+            "rate"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance"],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance"],
+                "asset_type" : "human"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+{
   "source_type" : "own crop production",
   "categories" : [
     {
@@ -1205,26 +1249,6 @@
     }
   ]
 },
-{
-  "source_type" : "self employment",
-  "categories" : [
-    {
-      "category" : "forest products",
-      "sources" : [
-        {
-          "source" : "firewood sales",
-          "source_group" : {
-            "source_type" : "self employment",
-            "category" : "forest products"
-          },
-          "fields" : [
-            
-          ]
-        }
-      ]
-    }
-  ]
-}
 {
   "asset_type" : "environmental",
   "asset_sub_type" : [
