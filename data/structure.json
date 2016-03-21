@@ -1034,7 +1034,7 @@
   ]
 },
 {
-  "source_type" : "self employment",
+  "source_type" : "self-employment",
   "categories" : [
     {
       "category" : "forest products",
@@ -1042,7 +1042,7 @@
         {
           "source" : "firewood sales",
           "source_group" : {
-            "source_type" : "self employment",
+            "source_type" : "self-employment",
             "category" : "forest products"
           },
           "fields" : [
@@ -1249,6 +1249,37 @@
     }
   ]
 },
+{
+  "source_type" : "wild foods",
+  "categories" : [
+    {
+      "category" : "wild fruits and berries",
+      "sources" : [
+        {
+          "source" : "marula",
+          "source_group" : {
+            "source_type" : "wild foods",
+            "category" : "wild fruits and berries"
+          },
+          "fields" : [
+            "commodity_id",
+            "prod_unit_id",
+            "collected",
+            "consumed",
+            "other",
+            "asset_built"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
 {
   "asset_type" : "environmental",
   "asset_sub_type" : [
