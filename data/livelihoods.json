@@ -368,7 +368,6 @@
                         "item_name" : "land food crops",
                         "num" : 1,
                         "unit_id" : 20100,
-                        "asset_balance" : 0.8,
                         "converts_to" : [
                           {
                             "source" : "maize main crop",
