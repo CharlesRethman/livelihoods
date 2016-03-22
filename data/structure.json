@@ -1,13 +1,14 @@
-        { "source" : "destitute grant", "source_group" : {
+        {
+          "source" : "destitute grant",
+          "source_group" : {
             "source_type" : "formal cash transfers",
             "category" : "social grants"
-          }, "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ], "asset_utilised" : [
+          },
+          "source_dims" : [ "income" ],
+          "depends_on" : [ "political" ],
+          "enhances" : [ "financial"],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "asset_utilised" : [
             {
               "item_name" : "household",
               "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
@@ -32,16 +33,17 @@
               }
             }
           ] },
-        { "source" : "child grant", "source_group" : {
+        {
+          "source" : "child grant",
+          "source_group" : {
             "source_type" : "formal cash transfers",
             "category" : "social grants"
-          }, "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ], "asset_utilised" : [
+          },
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income" ],
+          "depends_on" : [ "political" ],
+          "enhances" : [ "financial"],
+          "asset_utilised" : [
             {
               "item_name" : "infants",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -70,16 +72,17 @@
               }
             }
           ] },
-        { "source" : "old age grant", "source_group" : {
+        {
+          "source" : "old age grant",
+          "source_group" : {
             "source_type" : "formal cash transfers",
             "category" : "social grants"
-          }, "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ], "asset_utilised" : [
+          },
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income" ],
+          "depends_on" : [ "political" ],
+          "enhances" : [ "financial" ],
+          "asset_utilised" : [
             {
               "item_name" : "pensioners",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -96,13 +99,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -138,13 +138,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -181,13 +178,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -224,13 +218,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -267,13 +258,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -310,13 +298,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -353,13 +338,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -396,13 +378,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -439,13 +418,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -473,13 +449,10 @@
               "source_type" : "casual labour",
               "category" : "agricultural labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -516,13 +489,10 @@
               "source_type" : "casual labour",
               "category" : "domestic labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -559,13 +529,10 @@
               "source_type" : "casual labour",
               "category" : "domestic labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -602,13 +569,10 @@
               "source_type" : "casual labour",
               "category" : "domestic labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -645,13 +609,10 @@
               "source_type" : "casual labour",
               "category" : "domestic labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -1035,7 +996,7 @@
             "produced",
             "consumed",
             "other",
-            "asset_built"
+            "enhances"
           ],
           "asset_utilised" : [
             {
@@ -1089,7 +1050,7 @@
             "produced",
             "consumed",
             "other",
-            "asset_built"
+            "enhances"
           ],
           "asset_utilised" : [
             {
@@ -1120,7 +1081,7 @@
             "produced",
             "consumed",
             "other",
-            "asset_built"
+            "enhances"
           ],
           "asset_utilised" : [
             {
@@ -1151,7 +1112,7 @@
             "produced",
             "consumed",
             "other",
-            "asset_built"
+            "enhances"
           ],
           "asset_utilised" : [
             {
@@ -1181,7 +1142,7 @@
             "collected",
             "consumed",
             "other",
-            "asset_built"
+            "enhances"
           ],
           "asset_utilised" : [
             {

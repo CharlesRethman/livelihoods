@@ -206,7 +206,6 @@
                             "name" : "social grants",
                             "category" : "cash transfers formal"
                         },
-                        "category" : "social grants",
                         "source_dims" : [ "income" ],
                         "depends_on" : [ "political" ],
                         "num_asset" : 1,
@@ -217,7 +216,7 @@
                           "end" : 3
                         },
                         "rate" : 320,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 1
                       },
                       {
@@ -236,7 +235,7 @@
                           "end" : 3
                         },
                         "rate" : 100,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0.1425
                       }
                     ],
@@ -263,7 +262,7 @@
                             "end" : 3
                         },
                         "rate" : 300,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0
                       }
                     ],
@@ -290,7 +289,7 @@
                           "end" : 3
                         },
                         "rate" : 300,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0
                       }
                     ],
@@ -317,7 +316,7 @@
                           "end" : 3
                         },
                         "rate" : 300,
-                        "asset_built" : [ "financial"],
+                        "enhances" : [ "financial"],
                         "asset_utilised" : 0
                       }
                     ],
@@ -344,7 +343,7 @@
                           "end" : 3
                         },
                         "rate" : 1350,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 1
                       }
                     ],
@@ -383,7 +382,7 @@
                             "produced" : 80,
                             "consumed" : 80,
                             "other" : 0,
-                            "asset_built" : [ "human" ],
+                            "enhances" : [ "human" ],
                             "asset_utilised" : 0.1
                           },
                           {
@@ -400,7 +399,7 @@
                             "produced" : 25,
                             "consumed" : 25,
                             "other" : 0,
-                            "asset_built" : [ "human" ],
+                            "enhances" : [ "human" ],
                             "asset_utilised" : 0.1
                           }
                         ],
@@ -438,7 +437,7 @@
                       "end" : 3,
                     },
                     "price" : 400,
-                    "asset_built" : [ "human"],
+                    "enhances" : [ "human"],
                     "asset_utilised" : 4800
                   },
                   {
@@ -458,7 +457,7 @@
                       "end" : 3
                     },
                     "price" : 110,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 1320
                   },
                   {
@@ -478,7 +477,7 @@
                       "end" : 3
                     },
                     "price" : 11,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 264
                   },
                   {
@@ -498,7 +497,7 @@
                       "end" : 3
                     },
                     "price" : 15,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 360
                   },
                   {
@@ -518,7 +517,7 @@
                       "end" : 3
                     },
                     "price" : 22,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 242
                   },
                   {
@@ -538,7 +537,7 @@
                       "end" : 3
                     },
                     "price" : 10,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 1320
                   },
                   {
@@ -558,7 +557,7 @@
                       "end" : 3
                     },
                     "price" : 10,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 220
                   },
                   {
@@ -578,7 +577,7 @@
                       "end" : 3
                     },
                     "price" : 100,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 1200
                   },
                   {
@@ -598,7 +597,7 @@
                       "end" : 3
                     },
                     "price" : 100,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 1200
                   },
                   {
@@ -619,7 +618,7 @@
                       "end" : 3
                     },
                     "price" : 9,
-                    "asset_built" : [ "physical" ],
+                    "enhances" : [ "physical" ],
                     "asset_utilised" : 360
                   },
                   {
@@ -639,7 +638,7 @@
                       "end" : 1
                     },
                     "price" : 250,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 1000
                   },
                   {
@@ -658,7 +657,7 @@
                       "end" : 3
                     },
                     "price" : 180,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 180
                   },
                   {
@@ -677,7 +676,7 @@
                       "end" : 12
                     },
                     "price" : 100,
-                    "asset_built" : [ "human" ],
+                    "enhances" : [ "human" ],
                     "asset_utilised" : 700
                   },
                   {
@@ -696,7 +695,7 @@
                       "end" : 3
                     },
                     "price" : 30,
-                    "asset_built" : [ "social" ],
+                    "enhances" : [ "social" ],
                     "asset_utilised" : 360
                   },
                   {
@@ -715,7 +714,7 @@
                       "end" : 3
                     },
                     "price" : 50,
-                    "asset_built" : [ "social" ],
+                    "enhances" : [ "social" ],
                     "asset_utilised" : 500
                   },
                   {
@@ -734,7 +733,7 @@
                       "end" : 3
                     },
                     "price" : 10,
-                    "asset_built" : [ "political" ],
+                    "enhances" : [ "political" ],
                     "asset_utilised" : 120
                   }
                 ],
@@ -872,7 +871,7 @@
                             "end" : 3
                         },
                         "rate" : 300,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0
                       }
                     ],
@@ -896,7 +895,7 @@
                           "end" : 3
                         },
                         "rate" : 300,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0
                       }
                     ],
@@ -919,7 +918,7 @@
                           "end" : 3
                         },
                         "rate" : 300,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0
                       }
                     ]
@@ -942,7 +941,7 @@
                           "end" : 3
                         },
                         "rate" : 1350,
-                        "asset_built" : [ "financial" ],
+                        "enhances" : [ "financial" ],
                         "asset_utilised" : 0
                       }
                     ]
