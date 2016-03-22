@@ -1271,37 +1271,44 @@
           ],
           "asset_utilised" : [
             {
-              "item_name" : ""
+              "item_name" : "veld",
+              "fields" : [ "converts_to" ],
+              "asset_type" : "environmental"
             }
           ]
         }
       ]
     }
   ]
-
-}
-{
-  "asset_type" : "environmental",
-  "asset_sub_type" : [
-    {
-      "item_name" : "forest",
-      "charecteristics" : [],
-      "sub_items" : []
-    }
-  ]
 },
 {
-  "asset_type" : "social",
-  "asset_sub_type" : [
+  "source_type" : "gifts, cash",
+  "categories" : [
     {
-      "item_name" : "local kin",
-      "charecteristics" : [],
-      "sub_items" : []
-    },
-    {
-      "item_name" : "distant kin",
-      "charecteristics" : [],
-      "sub_items" : []
+      "category" : "remittances",
+      "sources" : [
+        {
+          "source" : "city relatives",
+          "source_group" : {
+            "source_type" : "gifts, cash",
+            "category" : "remittances"
+          },
+          "fields" : [
+            "num_asset",
+            "freq_utilised",
+            "freq_paid",
+            "period",
+            "rate"
+          ],
+          "asset_utilised" : [
+            {
+              "item_name" : "distant kin",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "asset_type" : "social"
+            }
+          ]
+        }
+      ]
     }
   ]
 },
