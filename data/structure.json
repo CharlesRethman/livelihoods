@@ -649,13 +649,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -683,13 +680,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -717,13 +711,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -751,13 +742,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -785,13 +773,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -819,13 +804,7 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -853,13 +832,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -887,13 +863,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -921,13 +894,10 @@
               "source_type" : "casual labour",
               "category" : "construction labour"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "social" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -955,13 +925,10 @@
             "source_type" : "self-employment",
             "category" : "forest products"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "num_per_occasion",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ],
+          "source_dims" : [ "income" ],
+          "depends_on" : [ "environmental" ],
+          "enhances" : [ "financial" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -989,15 +956,10 @@
             "source_type" : "own crop production",
             "category" : "maize"
           },
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "enhances"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "enhances" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -1020,6 +982,9 @@
             "source_type" : "own crop production",
             "category" : "maize",
             "fields" : [ "num", "unit_id", "proportion_gained" ],
+            "source_dims" : [ "income", "food" ],
+            "depends_on" : [ "human", "financial", "environmental" ],
+            "enhances" : [ "financial", "human" ],
             "asset_utilised" : [
               {
                 "item_name" : "land food crops",
@@ -1043,15 +1008,10 @@
             "source_type" : "own crop production",
             "category" : "sorghum"
           },
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "enhances"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -1074,15 +1034,10 @@
             "source_type" : "own crop production",
             "category" : "cowpeas"
           },
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "enhances"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -1105,15 +1060,10 @@
             "source_type" : "own crop production",
             "category" : "beans"
           },
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "enhances"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -1136,14 +1086,10 @@
             "source_type" : "wild foods",
             "category" : "wild fruits and berries"
           },
-          "fields" : [
-            "commodity_id",
-            "prod_unit_id",
-            "collected",
-            "consumed",
-            "other",
-            "enhances"
-          ],
+          "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "veld",
@@ -1158,13 +1104,10 @@
             "source_type" : "gifts, cash",
             "category" : "remittances"
           },
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
             {
               "item_name" : "distant kin",
