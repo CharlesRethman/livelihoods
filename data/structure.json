@@ -653,18 +653,9 @@
     }
   ] },
 { "source_type" : "self-employment", "categories" : [
-    {
-      "category" : "forest products",
-      "sources" : [
-        {
-          "source" : "firewood sales",
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "num_per_occasion",
-            "period",
-            "rate"
-          ],
+    { "category" : "forest products", "sources" : [
+        { "source" : "firewood sales",
+          "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
@@ -686,13 +677,10 @@
             }
           ]
         }
-      ]
-    }
+      ] }
   ] }
 { "source_type" : "own crop production", "categories" : [
-    {
-      "category" : "maize",
-      "sources" : [
+    { "category" : "maize", "sources" : [
         {
           "source" : "maize crop",
           "fields" : [
@@ -739,22 +727,11 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "category" : "sorghum",
-      "sources" : [
+      ] },
+    { "category" : "sorghum", "sources" : [
         {
           "Source" : "sorghum crop",
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "asset_built"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -771,22 +748,11 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "category" : "cowpeas",
-      "sources" : [
+      ] },
+    { "category" : "cowpeas", "sources" : [
         {
           "source" : "cowpeas crop",
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "asset_built"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -803,22 +769,11 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "category" : "beans",
-      "sources" : [
+      ] },
+    { "category" : "beans", "sources" : [
         {
           "source" : "beans crop",
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "asset_built"
-          ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -835,21 +790,13 @@
             }
           ]
         }
-      ]
-    }
+      ] }
   ] },
 { "source_type" : "wild foods", "categories" : [
     { "category" : "wild fruits and berries", "sources" : [
         {
           "source" : "marula",
-          "fields" : [
-            "commodity_id",
-            "prod_unit_id",
-            "collected",
-            "consumed",
-            "other",
-            "asset_built"
-          ],
+          "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other", "asset_built" ],
           "asset_utilised" : [
             {
               "item_name" : "veld",
@@ -864,13 +811,7 @@
     { "category" : "remittances", "sources" : [
         {
           "source" : "city relatives",
-          "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate"
-          ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "asset_utilised" : [
             {
               "item_name" : "distant kin",
