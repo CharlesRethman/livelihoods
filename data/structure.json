@@ -1249,9 +1249,7 @@
     }
   ] },
 { "source_type" : "gifts, cash", "categories" : [
-    {
-      "category" : "remittances",
-      "sources" : [
+    { "category" : "remittances", "sources" : [
         {
           "source" : "city relatives",
           "source_group" : {
@@ -1273,6 +1271,5 @@
             }
           ]
         }
-      ]
-    }
+      ] }
   ] }
