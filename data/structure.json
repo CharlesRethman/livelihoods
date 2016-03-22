@@ -1311,44 +1311,4 @@
       ]
     }
   ]
-},
-{
-  "asset_type" : "financial",
-  "asset_sub_type" : [
-    {
-      "item_name" : "transitory income",
-      "charecteristics" : [],
-      "sub_items" : []
-    },
-    {
-      "item_name" : "short-term savings",
-      "charecteristics" : [],
-      "sub_items" : []
-    },
-    {
-      "item_name" : "long-term savings",
-      "charecteristics" : [],
-      "sub_items" : []
-    },
-    {
-      "item_name" : "short-term loans",
-      "charecteristics" : [],
-      "sub_items" : []
-    },
-    {
-      "item_name" : "long-term loans",
-      "charecteristics" : [],
-      "sub_items" : []
-    }
-  ]
-},
-{
-  "asset_type" : "political",
-  "asset_sub_type" : [
-    {
-      "item_name" : "access to justice",
-      "charecteristics" : [],
-      "sub_items" : []
-    }
-  ]
 }
