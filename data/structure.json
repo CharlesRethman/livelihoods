@@ -1220,9 +1220,7 @@
     }
   ] },
 { "source_type" : "wild foods", "categories" : [
-    {
-      "category" : "wild fruits and berries",
-      "sources" : [
+    { "category" : "wild fruits and berries", "sources" : [
         {
           "source" : "marula",
           "source_group" : {
@@ -1245,8 +1243,7 @@
             }
           ]
         }
-      ]
-    }
+      ] }
   ] },
 { "source_type" : "gifts, cash", "categories" : [
     { "category" : "remittances", "sources" : [
