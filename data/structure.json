@@ -1,23 +1,15 @@
-{
-  "source_type" : "formal cash transfers",
-  "categories" : [
-    {
-      "category" : "social grants",
-      "sources" : [
-        {
-          "source" : "destitute grant",
-          "source_group" : {
+{ "source_type" : "formal cash transfers", "categories" : [
+    { "category" : "social grants", "sources" : [
+        { "source" : "destitute grant", "source_group" : {
             "source_type" : "formal cash transfers",
             "category" : "social grants"
-          },
-          "fields" : [
+          }, "fields" : [
             "num_asset",
             "freq_utilised",
             "freq_paid",
             "period",
             "rate",
-          ],
-          "asset_utilised" : [
+          ], "asset_utilised" : [
             {
               "item_name" : "household",
               "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
@@ -41,22 +33,17 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "child grant",
-          "source_group" : {
+          ] },
+        { "source" : "child grant", "source_group" : {
             "source_type" : "formal cash transfers",
             "category" : "social grants"
-          },
-          "fields" : [
+          }, "fields" : [
             "num_asset",
             "freq_utilised",
             "freq_paid",
             "period",
             "rate",
-          ],
-          "asset_utilised" : [
+          ], "asset_utilised" : [
             {
               "item_name" : "infants",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -84,22 +71,17 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "old age grant",
-          "source_group" : {
+          ] },
+        { "source" : "old age grant", "source_group" : {
             "source_type" : "formal cash transfers",
             "category" : "social grants"
-          },
-          "fields" : [
+          }, "fields" : [
             "num_asset",
             "freq_utilised",
             "freq_paid",
             "period",
             "rate",
-          ],
-          "asset_utilised" : [
+          ], "asset_utilised" : [
             {
               "item_name" : "pensioners",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -109,15 +91,10 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        }
-      ]
-    }
-  ]
-},
-{
-  "source_type" : "casual labour",
-  "categories" : [
+          ] }
+      ] }
+  ] },
+{ "source_type" : "casual labour", "categories" : [
     {
       "category" : "agricultural labour",
       "sources" : [
@@ -1031,11 +1008,8 @@
         }
       ]
     }
-  ]
-},
-{
-  "source_type" : "self-employment",
-  "categories" : [
+  ] },
+{ "source_type" : "self-employment", "categories" : [
     {
       "category" : "forest products",
       "sources" : [
@@ -1075,11 +1049,8 @@
         }
       ]
     }
-  ]
-}
-{
-  "source_type" : "own crop production",
-  "categories" : [
+  ] }
+{ "source_type" : "own crop production", "categories" : [
     {
       "category" : "maize",
       "sources" : [
@@ -1247,11 +1218,8 @@
         }
       ]
     }
-  ]
-},
-{
-  "source_type" : "wild foods",
-  "categories" : [
+  ] },
+{ "source_type" : "wild foods", "categories" : [
     {
       "category" : "wild fruits and berries",
       "sources" : [
@@ -1279,11 +1247,8 @@
         }
       ]
     }
-  ]
-},
-{
-  "source_type" : "gifts, cash",
-  "categories" : [
+  ] },
+{ "source_type" : "gifts, cash", "categories" : [
     {
       "category" : "remittances",
       "sources" : [
@@ -1310,5 +1275,4 @@
         }
       ]
     }
-  ]
-}
+  ] }
