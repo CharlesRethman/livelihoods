@@ -468,15 +468,9 @@
           ]
         }
       ] },
-    { 
-      "category" : "domestic labour",
-      "sources" : [
+    { "category" : "domestic labour", "sources" : [
         {
           "source" : "house work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "domestic labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -516,10 +510,6 @@
         },
         {
           "source" : "washing",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "domestic labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -559,10 +549,6 @@
         },
         {
           "source" : "wood collecting work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "domestic labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -602,10 +588,6 @@
         },
         {
           "source" : "fetching water work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "domestic labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -645,15 +627,9 @@
         }
       ]
     },
-    {
-      "category" : "construction work",
-      "sources" : [
+    { "category" : "construction work", "sources" : [
         {
           "source" : "house construction work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -684,10 +660,6 @@
         },
         {
           "source" : "house smearing work",
-          "source_type" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -718,10 +690,6 @@
         },
         {
           "source" : "thatching work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -752,10 +720,6 @@
         },
         {
           "source" : "brick-making work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -786,10 +750,6 @@
         },
         {
           "source" : "stone-collecting work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -820,10 +780,6 @@
         },
         {
           "source" : "pole cutting work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -854,10 +810,6 @@
         },
         {
           "source" : "stone breaking work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -888,10 +840,6 @@
         },
         {
           "source" : "fencing work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -922,10 +870,6 @@
         },
         {
           "source" : "digging work (latrines, levelling, etc.)",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -963,10 +907,6 @@
       "sources" : [
         {
           "source" : "firewood sales",
-          "source_group" : {
-            "source_type" : "self-employment",
-            "category" : "forest products"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -1004,10 +944,6 @@
       "sources" : [
         {
           "source" : "maize crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "maize"
-          },
           "fields" : [
             "num_asset",
             "commodity_id",
@@ -1035,26 +971,22 @@
         },
         {
           "source" : "green maize crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "maize",
-            "fields" : [ "num", "unit_id", "proportion_gained" ],
-            "asset_utilised" : [
-              {
-                "item_name" : "land food crops",
-                "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+          "fields" : [ "num", "unit_id", "proportion_gained" ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num",  "unit_id", "converts_to", "asset_balance" ],
                 "super_item" : {
-                  "item_name" : "land cultivated",
-                  "fields" : [ "num",  "unit_id", "converts_to", "asset_balance" ],
-                  "super_item" : {
-                    "item_name" : "land owned",
-                    "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                    "asset_type" : "physical"
-                  }
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
                 }
               }
-            ]
-          }
+            }
+          ]
         }
       ]
     },
@@ -1063,10 +995,6 @@
       "sources" : [
         {
           "Source" : "sorghum crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "sorghum"
-          },
           "fields" : [
             "num_asset",
             "commodity_id",
@@ -1099,10 +1027,6 @@
       "sources" : [
         {
           "source" : "cowpeas crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "cowpeas"
-          },
           "fields" : [
             "num_asset",
             "commodity_id",
@@ -1135,10 +1059,6 @@
       "sources" : [
         {
           "source" : "beans crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "beans"
-          },
           "fields" : [
             "num_asset",
             "commodity_id",
@@ -1171,10 +1091,6 @@
     { "category" : "wild fruits and berries", "sources" : [
         {
           "source" : "marula",
-          "source_group" : {
-            "source_type" : "wild foods",
-            "category" : "wild fruits and berries"
-          },
           "fields" : [
             "commodity_id",
             "prod_unit_id",
@@ -1197,10 +1113,6 @@
     { "category" : "remittances", "sources" : [
         {
           "source" : "city relatives",
-          "source_group" : {
-            "source_type" : "gifts, cash",
-            "category" : "remittances"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
