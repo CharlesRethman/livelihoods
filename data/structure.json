@@ -109,8 +109,7 @@
                 "asset_type" : "human"
               } }
           ] },
-        { "source" : "first weeding", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+        { "source" : "first weeding", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -140,10 +139,7 @@
             }
           ]
         },
-        {
-          "source" : "second weeding",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+        { "source" : "second weeding", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -171,12 +167,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "harvesting",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "harvesting", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -204,12 +196,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "threshing",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "threshing", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -237,12 +225,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "whole season agricultural work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "whole season agricultural work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -261,12 +245,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "herding work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "herding work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -294,14 +274,10 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        }
+          ] }
       ] },
     { "category" : "domestic labour", "sources" : [
-        {
-          "source" : "house work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+        { "source" : "house work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -329,12 +305,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "washing",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "washing", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -362,12 +334,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "wood collecting work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "wood collecting work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -395,12 +363,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "fetching water work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "fetching water work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -428,15 +392,10 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        }
-      ]
-    },
+          ] }
+      ] },
     { "category" : "construction work", "sources" : [
-        {
-          "source" : "house construction work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+        { "source" : "house construction work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -455,12 +414,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "house smearing work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "house smearing work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -479,12 +434,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "thatching work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "thatching work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -503,12 +454,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "brick-making work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "brick-making work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -527,12 +474,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "stone-collecting work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "stone-collecting work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -551,12 +494,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "pole cutting work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "pole cutting work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -575,12 +514,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "stone breaking work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "stone breaking work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -599,12 +534,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "fencing work",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "fencing work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -623,12 +554,8 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        },
-        {
-          "source" : "digging work (latrines, levelling, etc.)",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "digging work (latrines, levelling, etc.)", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -647,16 +574,12 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        }
-      ]
-    }
+          ] }
+      ] }
   ] },
 { "source_type" : "self-employment", "categories" : [
     { "category" : "forest products", "sources" : [
-        { "source" : "firewood sales",
-          "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ],
-          "asset_utilised" : [
+        { "source" : "firewood sales", "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -675,23 +598,12 @@
                 "asset_type" : "human"
               }
             }
-          ]
-        }
+          ] }
       ] }
   ] }
 { "source_type" : "own crop production", "categories" : [
     { "category" : "maize", "sources" : [
-        {
-          "source" : "maize crop",
-          "fields" : [
-            "num_asset",
-            "commodity_id",
-            "prod_unit_id",
-            "produced",
-            "consumed",
-            "other",
-            "asset_built"
-          ],
+        { "source" : "maize crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
           "asset_utilised" : [
             {
               "item_name" : "land food crops",
@@ -706,12 +618,8 @@
                 }
               }
             }
-          ]
-        },
-        {
-          "source" : "green maize crop",
-          "fields" : [ "num", "unit_id", "proportion_gained" ],
-          "asset_utilised" : [
+          ] },
+        { "source" : "green maize crop", "fields" : [ "num", "unit_id", "proportion_gained" ], "asset_utilised" : [
             {
               "item_name" : "land food crops",
               "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
@@ -725,14 +633,10 @@
                 }
               }
             }
-          ]
-        }
+          ] }
       ] },
     { "category" : "sorghum", "sources" : [
-        {
-          "Source" : "sorghum crop",
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
-          "asset_utilised" : [
+        { "Source" : "sorghum crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ], "asset_utilised" : [
             {
               "item_name" : "land food crops",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -746,14 +650,10 @@
                 }
               }
             }
-          ]
-        }
+          ] }
       ] },
     { "category" : "cowpeas", "sources" : [
-        {
-          "source" : "cowpeas crop",
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
-          "asset_utilised" : [
+        { "source" : "cowpeas crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ], "asset_utilised" : [
             {
               "item_name" : "land food crops",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -767,14 +667,10 @@
                 }
               }
             }
-          ]
-        }
+          ] }
       ] },
     { "category" : "beans", "sources" : [
-        {
-          "source" : "beans crop",
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
-          "asset_utilised" : [
+        { "source" : "beans crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ], "asset_utilised" : [
             {
               "item_name" : "land food crops",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
@@ -788,37 +684,28 @@
                 }
               }
             }
-          ]
-        }
+          ] }
       ] }
   ] },
 { "source_type" : "wild foods", "categories" : [
     { "category" : "wild fruits and berries", "sources" : [
-        {
-          "source" : "marula",
-          "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other", "asset_built" ],
-          "asset_utilised" : [
+        { "source" : "marula", "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other", "asset_built" ], "asset_utilised" : [
             {
               "item_name" : "veld",
               "fields" : [ "converts_to" ],
               "asset_type" : "environmental"
             }
-          ]
-        }
+          ] }
       ] }
   ] },
 { "source_type" : "gifts, cash", "categories" : [
     { "category" : "remittances", "sources" : [
-        {
-          "source" : "city relatives",
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
-          "asset_utilised" : [
+        { "source" : "distant relatives", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
             {
               "item_name" : "distant kin",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
               "asset_type" : "social"
             }
-          ]
-        }
+          ] }
       ] }
   ] }
