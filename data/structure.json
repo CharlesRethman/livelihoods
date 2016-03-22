@@ -1,87 +1,41 @@
 { "source_type" : "formal cash transfers", "categories" : [
     { "category" : "social grants", "sources" : [
-        { "source" : "destitute grant", "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ], "asset_utilised" : [
-            {
-              "item_name" : "household",
-              "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-              "asset_type": "human"
-            },
-            {
-              "item_name" : "adult men",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
+        { "source" : "destitute grant", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type": "human" },
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
                 "item_name" : "household",
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
-              }
-            },
-            {
-              "item_name" : "adult women",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
                 "item_name" : "household",
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
-              }
-            }
+              } }
           ] },
-        { "source" : "child grant", "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ], "asset_utilised" : [
-            {
-              "item_name" : "infants",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item": {
+        { "source" : "child grant", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "infants", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item": {
                 "item_name" : "household",
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
-              }
-            },
-            {
-              "item_name" : "children",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
+              } },
+            { "item_name" : "children", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
                 "item_name" : "household",
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
-              }
-            },
-            {
-              "item_name" : "teenagers",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
                 "item_name" : "household",
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
-              }
-            }
+              } }
           ] },
-        { "source" : "old age grant", "fields" : [
-            "num_asset",
-            "freq_utilised",
-            "freq_paid",
-            "period",
-            "rate",
-          ], "asset_utilised" : [
-            {
-              "item_name" : "pensioners",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item": {
+        { "source" : "old age grant", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "pensioners", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item": {
                 "item_name": "household",
                 "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
                 "asset_type" : "human"
-              }
-            }
+              } }
           ] }
       ] }
   ] },
