@@ -361,10 +361,6 @@
         },
         {
           "source" : "threshing",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "agricultural labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -404,10 +400,6 @@
         },
         {
           "source" : "whole season agricultural work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "agricultural labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -438,10 +430,6 @@
         },
         {
           "source" : "herding work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "agricultural labour"
-          },
           "fields" : [
             "num_asset",
             "freq_utilised",
@@ -480,7 +468,7 @@
           ]
         }
       ] },
-    {
+    { 
       "category" : "domestic labour",
       "sources" : [
         {
