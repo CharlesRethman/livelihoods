@@ -341,38 +341,23 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "wood collecting work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "domestic labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "domestic labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -381,38 +366,23 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "fetching water work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "domestic labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "domestic labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -421,38 +391,23 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "teenagers",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         }
         {
           "source" : "house construction work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -461,29 +416,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "house smearing work",
-          "source_type" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_type" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -492,29 +436,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "thatching work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -523,29 +456,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "brick-making work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -554,29 +476,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "stone-collecting work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -585,57 +496,35 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "pole cutting work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "asset_utilised" : [
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "stone breaking work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -644,29 +533,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "fencing work",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -675,29 +553,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         },
         {
           "source" : "digging work (latrines, levelling, etc.)",
-          "source_group" : {
-              "source_type" : "casual labour",
-              "category" : "construction labour"
-          },
+          "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
@@ -706,20 +573,12 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" }
             }
           ]
         }
