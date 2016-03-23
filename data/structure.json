@@ -4,7 +4,7 @@
           "source_dims" : [ "income" ],
           "depends_on" : [ "political" ],
           "enhances" : [ "financial"],
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "asset_utilised" : [
             { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type": "human" },
             { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" } },
@@ -14,7 +14,7 @@
         {
           "source" : "child grant",
           "source_group" : { "source_type" : "formal cash transfers", "category" : "social grants" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income" ],
           "depends_on" : [ "political" ],
           "enhances" : [ "financial"],
@@ -27,7 +27,7 @@
         {
           "source" : "old age grant",
           "source_group" : { "source_type" : "formal cash transfers", "category" : "social grants" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income" ],
           "depends_on" : [ "political" ],
           "enhances" : [ "financial" ],
@@ -38,7 +38,7 @@
         {
           "source" : "land clearing",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -51,7 +51,7 @@
         {
           "source" : "land preparation",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -64,7 +64,7 @@
         {
           "source" : "planting",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -77,7 +77,7 @@
         {
           "source" : "weeding",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -90,7 +90,7 @@
         {
           "source" : "first weeding",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -103,7 +103,7 @@
         {
           "source" : "second weeding",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -116,7 +116,7 @@
         {
           "source" : "harvesting",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -129,7 +129,7 @@
         {
           "source" : "threshing",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -142,7 +142,7 @@
         {
           "source" : "whole season agricultural work",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -154,7 +154,7 @@
         {
           "source" : "herding work",
           "source_group" : { "source_type" : "casual labour", "category" : "agricultural labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -167,7 +167,7 @@
         {
           "source" : "house work",
           "source_group" : { "source_type" : "casual labour", "category" : "domestic labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -180,7 +180,7 @@
         {
           "source" : "washing",
           "source_group" : { "source_type" : "casual labour", "category" : "domestic labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -193,7 +193,7 @@
         {
           "source" : "wood collecting work",
           "source_group" : { "source_type" : "casual labour", "category" : "domestic labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -206,7 +206,7 @@
         {
           "source" : "fetching water work",
           "source_group" : { "source_type" : "casual labour", "category" : "domestic labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -219,7 +219,7 @@
         {
           "source" : "house construction work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -231,7 +231,7 @@
         {
           "source" : "house smearing work",
           "source_type" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -243,7 +243,7 @@
         {
           "source" : "thatching work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -255,7 +255,7 @@
         {
           "source" : "brick-making work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -267,7 +267,7 @@
         {
           "source" : "stone-collecting work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -279,7 +279,7 @@
         {
           "source" : "pole cutting work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "asset_utilised" : [
             { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" } },
             { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type" : "human" } }
@@ -288,7 +288,7 @@
         {
           "source" : "stone breaking work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -300,7 +300,7 @@
         {
           "source" : "fencing work",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -312,7 +312,7 @@
         {
           "source" : "digging work (latrines, levelling, etc.)",
           "source_group" : { "source_type" : "casual labour", "category" : "construction labour" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "social" ],
           "enhances" : [ "financial", "human" ],
@@ -324,7 +324,7 @@
         {
           "source" : "firewood sales",
           "source_group" : { "source_type" : "self-employment", "category" : "forest products" },
-          "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate", "narrative" ],
           "source_dims" : [ "income" ],
           "depends_on" : [ "environmental" ],
           "enhances" : [ "financial" ],
@@ -336,7 +336,7 @@
         {
           "source" : "maize crop",
           "source_group" : { "source_type" : "own crop production", "category" : "maize" },
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "enhances" ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
@@ -351,7 +351,7 @@
         {
           "source" : "green maize crop",
           "source_group" : { "source_type" : "own crop production", "category" : "maize" },
-          "fields" : [ "num", "unit_id", "proportion_gained" ],
+          "fields" : [ "num", "unit_id", "proportion_gained", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
@@ -366,7 +366,7 @@
         {
           "Source" : "sorghum crop",
           "source_group" : { "source_type" : "own crop production", "category" : "sorghum" },
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other" ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
@@ -381,7 +381,7 @@
         {
           "source" : "cowpeas crop",
           "source_group" : { "source_type" : "own crop production", "category" : "cowpeas" },
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other" ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
@@ -396,7 +396,7 @@
         {
           "source" : "beans crop",
           "source_group" : { "source_type" : "own crop production", "category" : "beans" },
-          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", ],
+          "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
@@ -411,7 +411,7 @@
         {
           "source" : "marula",
           "source_group" : { "source_type" : "wild foods", "category" : "wild fruits and berries" },
-          "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other" ],
+          "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
@@ -420,7 +420,7 @@
         {
           "source" : "remittances",
           "source_group" : { "source_type" : "gifts, cash", "category" : "remittances" },
-          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
+          "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate", "narrative" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
