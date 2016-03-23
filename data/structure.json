@@ -584,10 +584,7 @@
         }
         {
           "source" : "firewood sales",
-          "source_group" : {
-            "source_type" : "self-employment",
-            "category" : "forest products"
-          },
+          "source_group" : { "source_type" : "self-employment", "category" : "forest products" },
           "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ],
           "source_dims" : [ "income" ],
           "depends_on" : [ "environmental" ],
@@ -596,29 +593,18 @@
             {
               "item_name" : "adult men",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "asset_balance"],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "asset_balance"], "asset_type" : "human" }
             },
             {
               "item_name" : "adult women",
               "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "super_item" : {
-                "item_name" : "household",
-                "fields" : [ "num", "unit_id", "converts_to", "asset_balance"],
-                "asset_type" : "human"
-              }
+              "super_item" : { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "asset_balance"], "asset_type" : "human" }
             }
           ]
         }
         {
           "source" : "maize crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "maize"
-          },
+          "source_group" : { "source_type" : "own crop production", "category" : "maize" },
           "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "enhances" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
@@ -630,47 +616,33 @@
               "super_item" : {
                 "item_name" : "land cultivated",
                 "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                "super_item" : {
-                  "item_name" : "land owned",
-                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                  "asset_type" : "physical"
-                }
+                "super_item" : { "item_name" : "land owned", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "asset_type" : "physical" }
               }
             }
           ]
         },
         {
           "source" : "green maize crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "maize",
-            "fields" : [ "num", "unit_id", "proportion_gained" ],
-            "source_dims" : [ "income", "food" ],
-            "depends_on" : [ "human", "financial", "environmental" ],
-            "enhances" : [ "financial", "human" ],
-            "asset_utilised" : [
-              {
-                "item_name" : "land food crops",
-                "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
-                "super_item" : {
-                  "item_name" : "land cultivated",
-                  "fields" : [ "num",  "unit_id", "converts_to", "asset_balance" ],
-                  "super_item" : {
-                    "item_name" : "land owned",
-                    "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                    "asset_type" : "physical"
-                  }
-                }
+          "source_group" : { "source_type" : "own crop production", "category" : "maize" },
+          "fields" : [ "num", "unit_id", "proportion_gained" ],
+          "source_dims" : [ "income", "food" ],
+          "depends_on" : [ "human", "financial", "environmental" ],
+          "enhances" : [ "financial", "human" ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num",  "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : { "item_name" : "land owned", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "asset_type" : "physical" }
               }
-            ]
-          }
+            }
+          ]
         }
         {
           "Source" : "sorghum crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "sorghum"
-          },
+          "source_group" : { "source_type" : "own crop production", "category" : "sorghum" },
           "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
@@ -682,21 +654,14 @@
               "super_item" : {
                 "item_name" : "land cultivated",
                 "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                "super_item" : {
-                  "item_name" : "land owned",
-                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                  "asset_type" : "physical"
-                }
+                "super_item" : { "item_name" : "land owned", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "asset_type" : "physical" }
               }
             }
           ]
         }
         {
           "source" : "cowpeas crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "cowpeas"
-          },
+          "source_group" : { "source_type" : "own crop production", "category" : "cowpeas" },
           "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
@@ -708,21 +673,14 @@
               "super_item" : {
                 "item_name" : "land cultivated",
                 "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                "super_item" : {
-                  "item_name" : "land owned",
-                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                  "asset_type" : "physical"
-                }
+                "super_item" : { "item_name" : "land owned", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "asset_type" : "physical" }
               }
             }
           ]
         }
         {
           "source" : "beans crop",
-          "source_group" : {
-            "source_type" : "own crop production",
-            "category" : "beans"
-          },
+          "source_group" : { "source_type" : "own crop production", "category" : "beans" },
           "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
@@ -734,48 +692,30 @@
               "super_item" : {
                 "item_name" : "land cultivated",
                 "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                "super_item" : {
-                  "item_name" : "land owned",
-                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-                  "asset_type" : "physical"
-                }
+                "super_item" : { "item_name" : "land owned", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "asset_type" : "physical" }
               }
             }
           ]
         }
         {
           "source" : "marula",
-          "source_group" : {
-            "source_type" : "wild foods",
-            "category" : "wild fruits and berries"
-          },
+          "source_group" : { "source_type" : "wild foods", "category" : "wild fruits and berries" },
           "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
-            {
-              "item_name" : "veld",
-              "fields" : [ "converts_to" ],
-              "asset_type" : "environmental"
-            }
+            { "item_name" : "veld", "fields" : [ "converts_to" ], "asset_type" : "environmental" }
           ]
         }
         {
-          "source" : "city relatives",
-          "source_group" : {
-            "source_type" : "gifts, cash",
-            "category" : "remittances"
-          },
+          "source" : "remittances",
+          "source_group" : { "source_type" : "gifts, cash", "category" : "remittances" },
           "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ],
           "source_dims" : [ "income", "food" ],
           "depends_on" : [ "human", "financial", "environmental" ],
           "enhances" : [ "financial", "human" ],
           "asset_utilised" : [
-            {
-              "item_name" : "distant kin",
-              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
-              "asset_type" : "social"
-            }
+            { "item_name" : "distant kin", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "asset_type" : "social" }
           ]
         }
