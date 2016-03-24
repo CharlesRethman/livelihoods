@@ -3,7 +3,7 @@
   "lz_abbrev" : "ZM01",
   "lz_name" : "Zambezi Plain Rice, Livestock and Fishing",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Western" , "North Western" ]},
   "description" : "The zone is located in the low-lying Zambezi Plains covering the districts of Senanga, Mongu, Kalabo, Lukulu, the western part of Zambezi, and Chavuma in the western part of the country. The average rainfall is between 800 and 1000 mm, and the average temperature varies between 10 degrees Celsius in July to 34 degrees Celsius in October. Miombo woodland and grassland predominates the vegetation in the zone with moderately fertile soils. The major natural resources include wildlife (game), thatching grass (mwange), and timber. The Zambezi River, offering opportunities for fishing and water transport, bisects the area.
 The dominant ethnic groups include Kwangwa, Nyengo, Mwenyi, Mbunda, Lwalange, Lozi, Luvale, Nkoya, Chokwe, Lunda, Shanjo Mashi, Mulonga, Mbukushu, and Fwe. The population density is low at about 10 inhabitants per square kilometer.
 Rainfed agricultural and wetland farming is the predominant livelihood. Landholdings and cattle ownership (with associated plows) for draft power and for sale are the major determinants of wealth in this zone.
@@ -23,7 +23,7 @@ The most common hazards are flooding and livestock diseases, which occur once in
   "lz_abbrev" : "ZM02",
   "lz_name" : "Southwestern Cereal, Livestock and Timber",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Western" , "Southern" ]},
   "description" : "The zone is located in Shang’ombo, Sesheke, and parts of Kazungula and Senanga Districts within the low-lying grassland and wetland across the Zambezi River in Western Province. The zone falls within agro-ecological Region I, with an annual average rainfall of <800 mm falling between November and March. The alluvial soils are fertile with aerosols, greysols, and planosols, especially along the Zambezi river basin. The climate is generally semiarid: hot and dry from August to October and cool and dry from April to July. These conditions support forests with Baikeae and Miombo woodlands important for supporting timber production and a number of species of wild animals. The environment provides a wide range of opportunities for local crafts, lumber, and tourism.
 The inhabitants are mainly Mbunda, Shanjo, Mashi, Mulonga, Mbukushu Fwe, Lozi, Totela, Subiya, Toka, Nkoya, and Chokwe ethnic groups. The population density is moderate with about 10 inhabitants per square kilometer. The main economic activities include crop and livestock production, formal employment related to timber and tourism, timber, handicrafts related to tourism, fishing, and the sale of wild fruits.
 The main rainfed growing season is short (from 90-120 days); during which most households grow pearl millet, sorghum, maize, and some cassava. Households with access to lowlands or wetlands around the Zambezi produce off-season maize and vegetables using mostly residual moisture. The average arable landholding is estimated at 1 ha per household lower than the national average of 1.5 ha. The amount of land cultivated, the number and type of livestock owned, and the range of productive assets determine differences in wealth in this livelihood zone. Better- off households with animal traction and ploughs are able to cultivate more land compared to poor households who rely mostly on hand hoes. This enables better-off households to generate more income and food compared to the poor households.
@@ -41,7 +41,7 @@ Common hazards include flooding and livestock disease outbreaks, which occur onc
   "lz_abbrev" : "ZM03",
   "lz_name" : "Western and Northwestern Cassava, Maize and Cattle",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Western" , "North Western" ]},
   "description" : "The zone is located in the highland area of Kaoma, Zambezi, Mwinilunga, Ikelenge, and parts of Lukulu, Kabombo, and Mufumbwe Districts. It lies across agro-ecological Region II and III, receiving annual rainfall between 800 to 1,200 mm between October and April. Temperatures range from an average minimum of 6 degrees Celsius in July associated with some frost to an average maximum of 33 degrees Celsius in October. The soil is sandy in the South, the central (Luampa), and the northwestern areas, verging on sandy loams in the northeast and northern areas. Soils are moderately fertile, favoring agriculture. Local natural resources include timber, game, grassy wetlands (dambos), and thatching grass (mwange). Woodlands dominate the area with grasslands in the northwest.
 The dominant ethnic groups are Lozi, Lunda, Luchazi, Luvale, Chokwe, Nkoya, and Mbundus. The moderately populated zone has a population density of about eight inhabitants per square kilometer. Landholding for cultivation is relatively low due to presence of forest and game management areas, with an average of one ha per household, used primarily for food crop production.
 Cassava, maize, and cattle are the major sources of food and income in the zone. The major production system is rainfed agriculture, with a long growing season of 140-160 days. The long growing season and sandy soils are particularly good for cassava production. The zone is a cassava-surplus and maize-deficit area. Other common crops include beans, cowpeas, groundnuts, rice, sweet potatoes, and pineapples. The cattle in the zone provide both cash through sale and provide manure, draft power, and milk for consumption.
@@ -59,7 +59,7 @@ Prolonged dry spells and/or droughts are a major hazard in the zone, leading to 
   "lz_abbrev" : "ZM04",
   "lz_name" : "Kaoma Smallholder Food Crop and Tobacco",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Western" , "North Western" ]},
   "description" : "The smallholder farms of Kaoma and Mufumbwe Districts dominate the lowland and plateau grassy wetlands (dambos) and some mountainous areas. The soils are generally fertile, sandy and loamy. The zone lies within agro-ecological Region II with an average rainfall of 800 to 1000 mm, falling between November and April. The long growing period of 120-160 days makes the area suitable for long-cycle maize production. Local temperatures range from an average minimum of 6 degrees Celsius in July to an average maximum of 33 degrees Celsius in October. The vegetation, characterized by Miombo woodlands, has sparse grasslands. Natural resources include game, thatching grass, forests, and dambos.
 The main ethnic groups found in the zone include Lozi, Nkoya, Luvale, Mbunda, Luchazi, Chokwe, and Kaonde tribes. The population density is moderate, with an average of 8 inhabitants per square kilometer. Landholding averages 2.5 ha per household used for the cultivation of multiple staple foods, as well as cash crops.
 Hired labor and oxen are key to cultivation in this zone. The Nkeyema and Kalumwange parts of the zone use primarily animal tillage and tractors. Crop production is mainly rainfed, with some irrigated and wetland farming in isolated parts of the zone. The zone is a surplus-growing area for maize, tobacco, and sweet potato, although other crops including cassava, groundnut, cowpea, sorghum and millet are grown, usually with manual labor for household consumption. The bulk of the tobacco is grown on an out-grower scheme basis. The Dwarf Cavendish banana is commonly grown in the central and southern part of zone, in the Litoya area.
@@ -77,7 +77,7 @@ Livestock disease outbreaks are the major hazard in the zone, caused by its prox
   "lz_abbrev" : "ZM05",
   "lz_name" : "Northwestern Timber and Honey",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "North Western" ]},
   "description" : "The zone lies on a plateau with an altitude ranging from 1000-1500 meters above sea level in Mufumbwe, Kabompo, and parts of Mwinilunga Districts, bordering Angola to the west. The zone lies in agro-ecological Region III, characterized by moderately fertile, sandy and loamy soils. Rainfall is relatively high, ranging between 1000 to 1500 mm per annum falling between November and April. Climatic conditions are typical of the savannah with minimum temperatures of 10-20 degrees Celsius during the dry months of May-July. The hot, dry season has maximum temperatures of 20-32 degrees Celsius. Covered by dense forest and savannah grasslands, the zone is suitable for hardwood timber production and rangelands.
 This sparsely-populated zone has a population density of about 4 inhabitants per square kilometer and average cultivated land area of 1-1.5 hectares per household. The main ethnic groups include Lozi, Nkoya, Luvale, Mbunda, Luchazi, Chokwe, and Toka tribes.
 Forest products are important sources of food and income, particularly game, timber, charcoal, and honey. Mineral resources in the zone include copper, quartz, tourmaline, and amethyst, with new mines expected to open in the coming years.
@@ -96,7 +96,7 @@ Poor households have been able to cope relatively well with shocks in the past t
   "lz_abbrev" : "ZM06",
   "lz_name" : "Solwezi and Kasempa Mining Labor and Agriculture",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "North Western" ]},
   "description" : "The zone covers communal areas in and around new copper mining areas of Solwezi and Kasempa Districts in the Northwestern Province bordering DRC in the north. The land is flat to gently undulating slopes with an altitude of 900-1500 meters above sea level. The zone falls within agro-ecological Region III. The zone receives 1000-1500 mm of rainfall per annum between November and April. Maximum temperatures peak at 32 degrees Celsius between September and December. During the winter months of May-July, average minimum temperatures fall between 16 and 18 degrees Celsius with a slight risk of frost, especially in wetland/dambo areas and particularly damaging to horticulture crops. The well-drained soils consist of deep, strong red, acidic, clayey and coarse, sandy soils. In some parts of the zone, shallow, moderately-to-imperfectly-drained and loamy soils exist. Vegetation is mainly composed of Miombo woodlands and open savannah grasslands. Exploitation of copper, iron, zinc, and nickel began in recent years. The Kafue and Lunga game reserve and management areas provide hunting opportunities.
 Kasempa is sparsely populated with about three people per square kilometer; Solwezi has about 8 people per square kilometer. The average land cultivated in the zone ranges from 1 to 1.5 hectares per household. The Kaonde are the main ethnic group in the zone.
 Mining activities that are increasingly gaining prominence provide an important source of employment and market for local agricultural produce. Trade in agricultural produce and other basic non-food items is an important additional livelihood activity in the zone.
@@ -110,7 +110,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM07",
   "lz_name" : "Kafue Plain Maize, Cattle and Fishing",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" , "Central" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -121,7 +121,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM08",
   "lz_name" : "Commercial Rail Line Maize, Livestock and Cotton",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" , "Central" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -132,7 +132,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM09",
   "lz_name" : "Southern Plateau Cattle, Maize and Tobacco",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -143,7 +143,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM10",
   "lz_name" : "Zambezi Valley Agro-fisheries",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -154,7 +154,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM11",
   "lz_name" : "Mkushi, Chisamba, and Mpongwe Commercial Farming Block",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Central" , "Copperbelt" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -165,7 +165,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM12",
   "lz_name" : "Central Copperbelt Maize, Cassava and Sweet Potato",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "North Western" , "Copperbelt" , "Central" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -176,7 +176,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM13",
   "lz_name" : "Copperbelt Labor and Trade",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Copperbelt" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -187,7 +187,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM14",
   "lz_name" : "Mkushi and Serenje Maize, Sweet Potato and Horticulture",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Central" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -198,7 +198,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM15",
   "lz_name" : "Luangwa Valley Informal Mining, Fishing and Hunting",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Central" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -209,7 +209,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM16",
   "lz_name" : "Eastern Plateau Maize, Cotton and Groundnuts",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Eastern" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -220,7 +220,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM17",
   "lz_name" : "Eastern Plateau Maize, Groundnut, Tobacco, and Trade",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Eastern" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -231,7 +231,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM18",
   "lz_name" : "Luangwa Valley Subsistence Farming, Hunting and Tourism",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Eastern" , "Northern" , "Central" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -242,7 +242,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM19",
   "lz_name" : "Northern Border Maize, Beans, Livestock and Trade",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Northern" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -253,7 +253,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM20",
   "lz_name" : "Muchinga, Northern, and Luapula Cassava, Groundnut and Millet",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Northern" , "Central" , "Luapula" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
@@ -264,7 +264,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "lz_abbrev" : "ZM21",
   "lz_name" : "Mweru Bangweulu Tanganyika Fisheries",
   "country" : {"country_name" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "tel_code" : "260" },
-  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Northern" , "Central" , "Luapula" ]},
   "description" : "",
   "notes" : "",
   "attribution" : [],
