@@ -1,50 +1,52 @@
 {
+  "lz_code" : 1,
+  "lz_abbrev" : "ZM0",
+  "lz_name" : "",
+  "country" : "zambia",
+  "sub_national" : { "entity_name" : "provinces", "entities" : [  ]},
+  "description" : "",
+  "notes" : "",
+  "attribution" : [],
+  "owners" : [],
+}
+{
   "lz_code" : 59203,
   "lz_abbrev" : "ZANOC",
   "lz_name" : "Northern open access cattle and dry land crops",
   "country" : "South Africa",
-  "sub_national" : {
-    "entity_name" : "provinces",
-    "entities" : [ "Limpopo" ]
-  },
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Limpopo" ] },
   "description" : "",
-  "notes" : ""
-},
+  "notes" : "",
+  "attribution" : [],
+  "owners" : [],
+}
 {
   "lz_code" : 59204,
   "lz_abbrev" : "ZASLC",
   "lz_name" : "Southern Limpopo open access cattle and crops",
   "country" : "South Africa",
-  "sub_national" : {
-    "entity_name" : "provinces",
-    "entities" : [ "Limpopo" ]
-  },
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Limpopo" ] },
   "description" : "",
-  "notes" : ""
-},
+  "notes" : "",
+  "attribution" : [],
+  "owners" : [],
+}
 {
   "lz_code" : 59301,
   "lz_abbrev" : "ZALOF",
   "lz_name" : "North eastern Limpopo open access farming",
   "country" : "South Africa",
-  "sub_national" : {
-    "entity_name" : "provinces",
-    "entities" : [ "Limpopo" ]
-  },
+  "sub_national" : { "entity_name" : "provinces", "entities" : [ "Limpopo" ] },
   "map_gids" : [ 59301001, 59301002, 59301003 ],
   "description" : "A short description of the LZ",
   "notes" : "",
-  "consumption_year" : {
-    "start" : "1 April 2013",
-    "end" : "31 March 2014"
-  },
-  "map_image" : "graphics/maps/lzs/59301.png",
-  "image_path" : "graphics/images/59301/",
-  "images" : [ "59301001.jpg", "59301002.jpg" ],
-  "audio_path" : "media/audio/59301/",
-  "audio" : [],
-  "video_path" : "media/video/59301/",
-  "video" : [],
+  "attribution" : [],
+  "owners" : [],
+  "consumption_year" : { "start" : "1 April 2013", "end" : "31 March 2014" },
+  "map_images" : [],
+  "images" : [],
+  "audio_clips" : [],
+  "videos" : [],
   "interviews" : [
     {
       "data_entry" : "community interview",
@@ -54,11 +56,8 @@
       "num_women": 9,
       "num_men" : 14,
       "date_interviewed" : "20 February 2016",
-      "image_path" : "graphics/images/59301/wg/community",
       "images" : [],
-      "audio_path" : "media/audio/59301/wg/community",
-      "audio" : [],
-      "media_path" : "media/audio/59301/wg/community",
+      "media" : [],
       "gps_coords" : [ 30.2500, -22.9140 ],
       "notes": "",
       "wealth_group" : [
@@ -987,5 +986,7 @@
     "entities" : [ "Limpopo" ]
   },
   "description" : "",
-  "notes" : ""
+  "notes" : "",
+  "attribution" : [],
+  "owners" : [],
 }
