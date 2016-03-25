@@ -15,8 +15,10 @@ Access to local markets is generally fair with most areas having access roads to
 The most common hazards are flooding and livestock diseases, which occur once in three years, and prolonged dry spells, which occur at least once in five years. To mitigate the impact of negative production shocks, poor households tend to increase off-season cultivation of maize, particularly for households located close to the flood plain, and to increase the search for casual labor to improve access to food and cash income.
 ('Zambia Livelihood Zones and Descriptions': Government of the Republic of Zambia, FEWS NET)",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 2,
@@ -33,8 +35,10 @@ Access to major markets is generally satisfactory owing to the good road infrast
 Common hazards include flooding and livestock disease outbreaks, which occur once in three years. Drought or prolonged dry spells occur once every five years, lowering crop yields. In response, poor households increase the search for casual labor opportunities either locally or in towns or the nearby Commercial Rail Line Maize, Livestock, and Cotton Zone.
 ('Zambia Livelihood Zones and Descriptions': Government of the Republic of Zambia, FEWS NET)",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 3,
@@ -51,8 +55,10 @@ Physical access to major markets is fair to poor mainly because of poor road and
 Prolonged dry spells and/or droughts are a major hazard in the zone, leading to below-average maize yields. In these bad years, poor households respond by increasing local and migrant casual labor, charcoal sales, and small livestock sales to earn additional income to purchase more food, often at above-average prices. Increased charcoal production may cause environmental damage in the long run.
 ('Zambia Livelihood Zones and Descriptions': Government of the Republic of Zambia, FEWS NET)",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 4,
@@ -69,8 +75,10 @@ Road conditions are generally poor in the zone, posing a challenge for smaller-s
 Livestock disease outbreaks are the major hazard in the zone, caused by its proximity to Kafue national park. In response to poor agricultural production, poor households increase casual work activities locally and migrate to nearby urban areas like Kaoma to seek work.
 ('Zambia Livelihood Zones and Descriptions': Government of the Republic of Zambia, FEWS NET)",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 5,
@@ -88,8 +96,10 @@ Market access is relatively poor in the zone as most of the markets are located 
 Poor households have been able to cope relatively well with shocks in the past through intensifying wild food consumption and sale, migrating in search of labor income, and selling livestock. However, as the frequency of shocks increases and livestock ownership declines, the ability of households to mitigate food security risks without external support may also decline. The demand for unskilled labor during the cropping season is high, providing good opportunities for poor households to earn income.
 ('Zambia Livelihood Zones and Descriptions': Government of the Republic of Zambia, FEWS NET)",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 6,
@@ -102,8 +112,20 @@ Kasempa is sparsely populated with about three people per square kilometer; Solw
 Mining activities that are increasingly gaining prominence provide an important source of employment and market for local agricultural produce. Trade in agricultural produce and other basic non-food items is an important additional livelihood activity in the zone.
 ('Zambia Livelihood Zones and Descriptions': Government of the Republic of Zambia, FEWS NET)",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
+  "consumption_year" : { "start" : "1 April 2013", "end" : "31 March 2014" },
+  "map_images" : [],
+  "images" : [],
+  "audio_clips" : [],
+  "videos" : [],
+  "interviews" : [
+    {
+      
+    }
+  ]
 }
 {
   "lz_code" : 7,
@@ -113,8 +135,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" , "Central" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 8,
@@ -124,8 +148,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" , "Central" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 9,
@@ -135,8 +161,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 10,
@@ -146,8 +174,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Southern" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 11,
@@ -157,8 +187,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Central" , "Copperbelt" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 12,
@@ -168,8 +200,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "North Western" , "Copperbelt" , "Central" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 13,
@@ -179,8 +213,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Copperbelt" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 14,
@@ -190,8 +226,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Central" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 15,
@@ -201,8 +239,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Central" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 16,
@@ -212,8 +252,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Eastern" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 17,
@@ -223,8 +265,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Eastern" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 18,
@@ -234,8 +278,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Eastern" , "Northern" , "Central" , "Lusaka" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 19,
@@ -245,8 +291,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Northern" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 20,
@@ -256,8 +304,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Northern" , "Central" , "Luapula" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 21,
@@ -267,8 +317,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Northern" , "Central" , "Luapula" ]},
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 59203,
@@ -278,8 +330,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Limpopo" ] },
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 59204,
@@ -289,8 +343,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "sub_national" : { "entity_name" : "provinces", "entities" : [ "Limpopo" ] },
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
 {
   "lz_code" : 59301,
@@ -301,8 +357,10 @@ Mining activities that are increasingly gaining prominence provide an important 
   "map_gids" : [ 59301001, 59301002, 59301003 ],
   "description" : "A short description of the LZ",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
   "consumption_year" : { "start" : "1 April 2013", "end" : "31 March 2014" },
   "map_images" : [],
   "images" : [],
@@ -312,7 +370,7 @@ Mining activities that are increasingly gaining prominence provide an important 
     {
       "data_entry" : "community interview",
       "interview_num": 1,
-      "location_id": 201,
+      "location_id": "201",
       "date_first_visited": "20 February 2015",
       "num_women": 9,
       "num_men" : 14,
@@ -1248,6 +1306,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   },
   "description" : "",
   "notes" : "",
+  "organisation" : [],
   "attribution" : [],
-  "owners" : [],
+  "owner" : "",
+  "users" : [],
 }
