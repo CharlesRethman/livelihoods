@@ -1,7 +1,7 @@
 { "name" : "kilogram", "abbrev" : ["kg"], "relational_unit" : "kg", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
-{ "name" : "gram", "abbrev" : "g", "relational_unit" : "kg", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
-{ "name" : "ton", "abbrev" : [ "t", "Mt", "MT" ], "relational_unit" : "kg", "conversion_factor" : 0.001, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
-{ "name" : "US pound", "abbrev" : [ "lb" ], "relational_unit" : "kg", "conversion_factor" : 0.028349523, "countries_used" : [ "United States" ] }
+{ "name" : "gram", "abbrev" : "g", "relational_unit" : "kg", "conversion_factor" : 0.001, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "ton", "abbrev" : [ "t", "Mt", "MT" ], "relational_unit" : "kg", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "US pound", "abbrev" : [ "lb" ], "relational_unit" : "kg", "conversion_factor" : 0.45359237, "countries_used" : [ "United States" ] }
 { "name" : "US ounce", "abbrev" : [ "oz" ], "relational_unit" : "kg", "conversion_factor" : 0.028349523, "countries_used" : [ "United States" ] }
 { "name" : "short ton", "abbrev" : [ "ton" ], "relational_unit" : "kg", "conversion_factor" : 907.18474, "countries_used" : [ "United States" ] }
 { "name" : "stone", "abbrev" : [ "st" ], "relational_unit" : "kg", "conversion_factor" : 6.3502932, "countries_used" : [ "United Kingdom" ] }
@@ -23,14 +23,14 @@
 {
   "name" : "hectare",
   "abbrev" : "ha",
-  "relational_unit" : "ha",
-  "conversion_factor" : 1
+  "relational_unit" : "sq m",
+  "conversion_factor" : 10000
 },
 {
   "name" : "square metre",
   "abbrev" : "sq m",
-  "relational_unit" : "ha",
-  "conversion_factor" : 0.0001
+  "relational_unit" : "sq m",
+  "conversion_factor" : 1
 },
 {
   "name" : "acre",
@@ -66,7 +66,7 @@
   "name" : "dekad",
   "abbrev" : "dk",
   "relational_unit" : "d",
-  "conversion_factor" : 0.1
+  "conversion_factor" : 10
 },
 {
   "name" : "day",
