@@ -20,30 +20,10 @@
 { "name" : "mile", "relational_unit" : "foot", "conversion_factor" : 1760, "countries_used" : ["United Kingdom", "United States" ] }
 { "name" : "foot" , "relational_unit" : "inch", "conversion_factor" : 12, "countries_used" : ["United Kingdom", "United States" ] }
 { "name" : "inch" , "relational_unit" : "m", "conversion_factor" : 0.0254, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
-{
-  "name" : "hectare",
-  "abbrev" : "ha",
-  "relational_unit" : "sq m",
-  "conversion_factor" : 10000
-},
-{
-  "name" : "square metre",
-  "abbrev" : "sq m",
-  "relational_unit" : "sq m",
-  "conversion_factor" : 1
-},
-{
-  "name" : "acre",
-  "abbrev" : "a",
-  "relational_unit" : "ha",
-  "conversion_factor" : 0.42
-},
-{
-  "name" : "morgen",
-  "abbrev" : "mn",
-  "relational_unit" : "ha",
-  "conversion_factor" : 0.8567
-},
+{ "name" : "hectare", "abbrev" : "ha", "relational_unit" : "sq m", "conversion_factor" : 10000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "square metre", "abbrev" : "sq m", "relational_unit" : "sq m", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "acre", "abbrev" : "a", "relational_unit" : "ha", "conversion_factor" : 0.42, "countries_used" : [ "Kenya", "Malawi", "Tanzania", "United Kingdom", "United States" ] }
+{ "name" : "morgen", "abbrev" : "mrg", "relational_unit" : "ha", "conversion_factor" : 0.8567, "countries_used" : [ "South Africa"] }
 {
   "name" : "year",
   "abbrev" : "y",
