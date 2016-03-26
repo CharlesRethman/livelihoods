@@ -15,9 +15,11 @@
 { "name" : "head, pumpkin", "relational_unit" : "kg", "conversion_factor" : 25, "countries_used" : [ "South Africa" ] }
 { "name" : "metre", "relational_unit" : "metre", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
 { "name" : "kilometre", "relational_unit" : "metre", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "centimetre", "relational_unit" : "metre", "conversion_factor" : 0.01, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "millimetre", "relational_unit" : "metre", "conversion_factor" : 0.001, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
 { "name" : "mile", "relational_unit" : "foot", "conversion_factor" : 1760, "countries_used" : ["United Kingdom", "United States" ] }
 { "name" : "foot" , "relational_unit" : "inch", "conversion_factor" : 12, "countries_used" : ["United Kingdom", "United States" ] }
-{ "name" : "inch" , "relational_unit" : "cm" }
+{ "name" : "inch" , "relational_unit" : "m", "conversion_factor" : 0.0254, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
 {
   "name" : "hectare",
   "abbrev" : "ha",
