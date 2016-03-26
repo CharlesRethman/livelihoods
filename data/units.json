@@ -1,209 +1,90 @@
+{ "name" : "kilogram", "abbrev" : ["kg"], "relational_unit" : "kg", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "gram", "abbrev" : "g", "relational_unit" : "kg", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "ton", "abbrev" : [ "t", "Mt", "MT" ], "relational_unit" : "kg", "conversion_factor" : 0.001, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "US pound", "abbrev" : [ "lb" ], "relational_unit" : "kg", "conversion_factor" : 0.028349523, "countries_used" : [ "United States" ] }
+{ "name" : "US ounce", "abbrev" : [ "oz" ], "relational_unit" : "kg", "conversion_factor" : 0.028349523, "countries_used" : [ "United States" ] }
+{ "name" : "short ton", "abbrev" : [ "ton" ], "relational_unit" : "kg", "conversion_factor" : 907.18474, "countries_used" : [ "United States" ] }
+{ "name" : "stone", "abbrev" : [ "st" ], "relational_unit" : "kg", "conversion_factor" : 6.3502932, "countries_used" : [ "United Kingdom" ] }
+{ "name" : "long ton", "abbrev" : [ "ton" ], "relational_unit" : "kg", "conversion_factor" : 1016.0469, "countries_used" : [ "United Kingdom" ] }
+{ "name" : "bag", "relational_unit" : "kg", "conversion_factor" : 50, "countries_used" : [ "Kenya", "Malawi", "Zambia" ] }
+{ "name" : "bag", "relational_unit" : "kg", "conversion_factor" : 80, "countries_used" : [ "South Africa" ] }
+{ "name" : "sack", "relational_unit" : "kg", "conversion_factor" : 90, "countries_used" : [ "Burundi", "Kenya", "Rwanda", "Tanzania", "Uganda" ] }
+{ "name" : "quintal", "relational_unit" : "kg", "conversion_factor" : 100, "countries_used" : [ "Ethiopia" ] }
+{ "name" : "debe", "relational_unit" : "kg", "conversion_factor" : 18, "countries_used" : [ "Burundi", "Rwanda", "Tanzania", "Zambia" ] }
+{ "name" : "packet", "relational_unit" : "kg", "conversion_factor" : 10, "countries_used" : [ "South Africa" ] }
+{ "name" : "head, pumpkin", "relational_unit" : "kg", "conversion_factor" : 25, "countries_used" : [ "South Africa" ] }
+{ "name" : "metre", "relational_unit" : "metre", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "kilometre", "relational_unit" : "metre", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "mile", "relational_unit" : "foot", "conversion_factor" : 1760, "countries_used" : ["United Kingdom", "United States" ] }
+{ "name" : "foot" , "relational_unit" : "inch", "conversion_factor" : 12, "countries_used" : ["United Kingdom", "United States" ] }
+{ "name" : "inch" , "relational_unit" : "cm" }
 {
-  "_id" : 20000,
-  "name" : "kilogram",
-  "abbrev" : ["kg"],
-  "relational_unit" : "kg",
-  "conversion_factor" : 1,
-  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-},
-{
-  "_id" : 20001,
-  "name" : "gram",
-  "abbrev" : "g",
-  "relational_unit" : "kg",
-  "conversion_factor" : 1000,
-  "countries_used" : [ "South Africa" ]
-},
-{
-  "_id" : 20002,
-  "name" : "ton",
-  "abbrev" : [ "t", "Mt", "MT" ],
-  "relational_unit" : "kg",
-  "conversion_factor" : 0.001,
-  "countries_used" : [ "South Africa" ]
-},
-  {
-    "_id" : 20003,
-    "name" : "US pound",
-    "abbrev" : [ "lb" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 0.028349523,
-    "countries_used" : [ "United States" ]
-  },
-  {
-    "_id" : 20004,
-    "name" : "US ounce",
-    "abbrev" : [ "oz" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 0.028349523,
-    "countries_used" : [ "United States" ]
-  },
-  {
-    "_id" : 20005,
-    "name" : "short ton",
-    "abbrev" : [ "ton" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 907.18474,
-    "countries_used" : [ "United States" ]
-  },
-  {
-    "_id" : 20006,
-    "name" : "stone",
-    "abbrev" : [ "st" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 6.3502932,
-    "countries_used" : [ "United Kingdom" ]
-  },
-  {
-    "_id" : 20007,
-    "name" : "long ton",
-    "abbrev" : [ "ton" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 1016.0469,
-    "countries_used" : [ "United Kingdom" ]
-  },
-  {
-    "_id" : 20008,
-    "name" : "bag",
-    "relational_unit" : "kg",
-    "conversion_factor" : 50,
-    "countries_used" : [ "Malawi", "Zambia" ]
-  },
-  {
-    "_id" : 20009,
-    "name" : "bag",
-    "relational_unit" : "kg",
-    "conversion_factor" : 80,
-    "countries_used" : [ "South Africa" ]
-  },
-  {
-    "_id" : 20010,
-    "name" : "sack",
-    "relational_unit" : "kg",
-    "conversion_factor" : 90,
-    "countries_used" : [ "Burundi", "Kenya", "Rwanda", "Tanzania", "Uganda" ]
-  },
-  {
-    "_id" : 20011,
-    "name" : "quintal",
-    "relational_unit" : "kg",
-    "conversion_factor" : 100,
-    "countries_used" : [ "Ethiopia" ]
-  },
-  {
-    "_id" : 20012,
-    "name" : "debe",
-    "relational_unit" : "kg",
-    "conversion_factor" : 18,
-    "countries_used" : [ "Burundi", "Rwanda", "Tanzania" ]
-  },
-  {
-    "_id" : 20013,
-    "name" : "packet",
-    "relational_unit" : "kg",
-    "conversion_factor" : 10,
-    "countries_used" : [ "South Africa" ]
-  },
-  {
-    "_id" : 20030,
-    "name" : "head, pumpkin",
-    "relational_unit" : "kg",
-    "conversion_factor" : 25,
-    "countries_used" : [ "South Africa" ]
-  },
-{
-  "_id" : 20050,
-  "name" : "metre",
-  "relational_unit" : "metre",
-  "conversion_factor" : 1,
-  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-},
-{
-  "_id" : 20051,
-  "name" : "kilometre",
-  "relational_unit" : "metre",
-  "conversion_factor" : 1000,
-  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-},
-{
-  "_id" : 20100,
   "name" : "hectare",
   "abbrev" : "ha",
   "relational_unit" : "ha",
   "conversion_factor" : 1
 },
 {
-  "_id" : 20101,
   "name" : "square metre",
   "abbrev" : "sq m",
   "relational_unit" : "ha",
   "conversion_factor" : 0.0001
 },
 {
-  "_id" : 20102,
   "name" : "acre",
   "abbrev" : "a",
   "relational_unit" : "ha",
   "conversion_factor" : 0.42
 },
 {
-  "_id" : 20102,
   "name" : "morgen",
   "abbrev" : "mn",
   "relational_unit" : "ha",
   "conversion_factor" : 0.8567
 },
 {
-  "_id" : 20120,
   "name" : "year",
   "abbrev" : "y",
   "relational_unit" : "y",
     "conversion_factor" : 1
 },
 {
-  "_id" : 20121,
   "name" : "month",
   "abbrev" : "mo",
   "relational_unit" : "y",
     "conversion_factor" : 12
 },
 {
-  "_id" : 20122,
   "name" : "week",
   "abbrev" : "wk",
   "relational_unit" : "y",
   "conversion_factor" : 52
 },
 {
-  "_id" : 20123,
   "name" : "dekad",
   "abbrev" : "dk",
   "relational_unit" : "d",
   "conversion_factor" : 0.1
 },
 {
-  "_id" : 20124,
   "name" : "day",
   "abbrev" : "d",
   "relational_unit" : "y",
   "conversion_factor" : 365
 },
 {
-  "_id" : 20125,
   "name" : "hour",
   "abbrev" : "h",
   "relational_unit" : "d",
   "conversion_factor" : 24
 },
 {
-  "_id" : 20126,
   "name" : "minute",
   "abbrev" : "min",
   "relational_unit" : "h",
   "conversion_factor" : 60
 },
 {
-  "_id" : 20127,
   "name" : "second",
   "abbrev" : "s",
   "relational_unit" : "h",
