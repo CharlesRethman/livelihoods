@@ -37,12 +37,7 @@
 { "name" : "megajoule", "abbrev" : [ "Mj" ], "relational_unit" : "J", "conversion_factor" : 1000000, "countries_used" : [ "Algeria", "Belgium", "Benin", "Cameroon", "Chad", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "France", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo" ] }
 { "name" : "kilocalorie", "abbrev" : [ "kcal" ], "relational_unit" : "kJ", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
 { "name" : "Calorie", "abbrev" : [ "Cal" ], "relational_unit" : "kcal", "conversion_factor" : 1, "countries_used" : [] }
-  {
-    "_id" : 20154,
-    "name" : "calorie",
-    "abbrev" : "cal",
-    "relational_unit" : "J",
-    "conversion_factor" : 4.1868
+{ "name" : "calorie", "abbrev" : [ "cal" ], "relational_unit" : "J", "conversion_factor" : 4.1868, "countries_used" : [] }
   },
   {
     "_id" : 20200,
@@ -54,77 +49,77 @@
 {
   "_id" : 20400,
   "name" : "adult equivalent",
-  "abbrev" : "Aeq",
-  "relational_unit" : "Aeq",
+  "abbrev" : "AEq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 1
 },
 {
   "_id" : 20401,
   "name" : "adult man >19 years",
   "abbrev" : "man",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 1.048
 },
 {
   "_id" : 20402,
   "name" : "adult woman >19 years",
   "abbrev" : "woman",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 0.8477
 },
 {
   "_id" : 20402,
   "name" : "adult woman pregnant",
   "abbrev" : "woman preg",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 0.9698
 },
 {
   "_id" : 20402,
   "name" : "adult woman lactating",
   "abbrev" : "woman lact",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 1.0603
 },
 {
   "_id" : 20403,
   "name" : "teenager 15-19 years",
   "abbrev" : "teen",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 1.031
 },
 {
   "_id" : 20404,
   "name" : "child 5-14 years",
   "abbrev" : "child",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 0.867
 },
 {
   "_id" : 20405,
   "name" : "child 10-14 years",
   "abbrev" : "child mid",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 0.9413
 },
 {
   "_id" : 20406,
   "name" : "child 5-9 years",
   "abbrev" : "child young",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 0.7927
 },
 {
   "_id" : 20407,  "name" : "infant 0-4 years",
   "abbrev" : "infant",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 0.5495
 },
 {
   "_id" : 20408,
   "name" : "pensioner (man > 65, woman > 60)",
   "abbrev" : "pensioner",
-  "relational_unit" : "Aeq",
+  "relational_unit" : "AEq",
   "conversion_factor" : 1
 },
   {
