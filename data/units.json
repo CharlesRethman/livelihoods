@@ -32,18 +32,8 @@
 { "name" : "hour", "abbrev" : [ "h", "hr" ], "relational_unit" : "d", "conversion_factor" : 24, "countries_used" : [ "all" ] }
 { "name" : "minute", "abbrev" : [ "m", "min" ], "relational_unit" : "h", "conversion_factor" : 60, "countries_used" : [ "all" ] }
 { "name" : "second", "abbrev" : [ "s", "sec" ], "relational_unit" : "h", "conversion_factor" : 3600, "countries_used" : [ "all" ] }
-{ "name" : "kilojoule",
-    "abbrev" : "kJ",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 1
-  },
-  {
-    "_id" : 20151,
-    "name" : "joule",
-    "abbrev" : "J",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 0.001
-  },
+{ "name" : "kilojoule", "abbrev" : [ "kJ" ], "relational_unit" : "kJ", "conversion_factor" : 1, "countries_used" : [] }
+{ "name" : "joule", "abbrev" : [ "J" ], "relational_unit" : "kJ", "conversion_factor" : 0.001, "countries_used" : [] }
   {
     "_id" : 20152,
     "name" : "kilocalorie",
