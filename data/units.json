@@ -36,19 +36,13 @@
 { "name" : "kilojoule", "abbrev" : [ "kJ" ], "relational_unit" : "J", "conversion_factor" : 1000, "countries_used" : [ "Australia", "Belgium", "Botswana", "France", "Germany", "Malawi", "Namibia", "The Netherlands", "Russia", "South Africa", "Spain", "Zimbabwe" ] }
 { "name" : "megajoule", "abbrev" : [ "Mj" ], "relational_unit" : "J", "conversion_factor" : 1000000, "countries_used" : [ "Algeria", "Belgium", "Benin", "Cameroon", "Chad", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "France", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo" ] }
 { "name" : "kilocalorie", "abbrev" : [ "kcal" ], "relational_unit" : "kJ", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
-  {
-    "_id" : 20153,
-    "name" : "Calorie",
-    "abbrev" : "Cal",
-    "relational_unit" : "kcal",
-    "conversion_factor" : 1
-  },
+{ "name" : "Calorie", "abbrev" : [ "Cal" ], "relational_unit" : "kcal", "conversion_factor" : 1, "countries_used" : [] }
   {
     "_id" : 20154,
     "name" : "calorie",
     "abbrev" : "cal",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 0.0041868
+    "relational_unit" : "J",
+    "conversion_factor" : 4.1868
   },
   {
     "_id" : 20200,
