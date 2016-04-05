@@ -49,43 +49,10 @@
 { "name" : "child 10-14 years", "abbrev" : [ "child mid" ], "relational_unit" : "AEq", "conversion_factor" : 0.9413, "countries_used" : [ "all" ] }
 { "name" : "child 5-9 years", "abbrev" : [ "child young" ], "relational_unit" : "AEq", "conversion_factor" : 0.7927, "countries_used" : [ "all" ] }
 { "name" : "infant 0-4 years", "abbrev" : [ "infant" ], "relational_unit" : "AEq", "conversion_factor" : 0.5495, "countries_used" : [ "all" ] }
-{ "name" : "pensioner (man > 65, woman > 60)", "abbrev" : "pensioner", "relational_unit" : "AEq", "conversion_factor" : 1, "countries_used" : [ "all" ] }
-  {
-    "_id" : 20500,
-    "name" : "FAO southern Africa livestock unit",
-    "abbrev" : "SALU",
-    "relational_unit" : "SALU",
-    "conversion_factor" : 1
-  },
-  {
-    "_id" : 20501,
-    "name" : "tropical livestock unit",
-    "abbrev" : "TLU",
-    "relational_unit" : "SALU",
-    "conversion_factor" : 0.71429
-  },
-  {
-    "_id" : 20502,
-    "name" : "camel",
-    "relational_unit" : "SALU",
-    "conversion_factor": 1.1
-  },
-{
-  "_id" : 20503,
-  "name" : "cattle head",
-  "relational_unit" : "SALU",
-  "conversion_factor" : 0.5
-},
-{
-  "_id" : 20504,
-  "name" : "goat",
-  "relational_unit" : "SALU",
-  "conversion_factor" : 0.1
-},
-{
-  "_id" : 20900,
-  "name" : "unit",
-  "abbrev" : "unit",
-  "relational_unit" : "unit",
-  "conversion_factor" : 1
-}
+{ "name" : "pensioner (man > 65, woman > 60)", "abbrev" : [ "pensioner" ], "relational_unit" : "AEq", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "FAO southern Africa livestock unit", "abbrev" : [ "SALU" ], "relational_unit" : "SALU", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "tropical livestock unit", "abbrev" : [ "TLU" ], "relational_unit" : "SALU", "conversion_factor" : 0.71429, "countries_used" : [ "all" ] }
+{ "name" : "camel", "abbrev" : [ "camel" ], "relational_unit" : "SALU", "conversion_factor": 1.1, "countries_used" : [] }
+{ "name" : "cattle head", "abbrev" : [ "cattle" ], "relational_unit" : "SALU", "conversion_factor" : 0.5, "countries_used" : [] }
+{ "name" : "goat", "abbrev" : [ "goat" ], "relational_unit" : "SALU", "conversion_factor" : 0.1, "countries_used" : [] }
+{ "name" : "unit", "abbrev" : [ "unit" ], "relational_unit" : "unit", "conversion_factor" : 1, "countries_used" : [ "all" ] }
