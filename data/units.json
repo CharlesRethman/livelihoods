@@ -32,95 +32,24 @@
 { "name" : "hour", "abbrev" : [ "h", "hr" ], "relational_unit" : "d", "conversion_factor" : 24, "countries_used" : [ "all" ] }
 { "name" : "minute", "abbrev" : [ "m", "min" ], "relational_unit" : "h", "conversion_factor" : 60, "countries_used" : [ "all" ] }
 { "name" : "second", "abbrev" : [ "s", "sec" ], "relational_unit" : "h", "conversion_factor" : 3600, "countries_used" : [ "all" ] }
-{ "name" : "joule", "abbrev" : [ "J" ], "relational_unit" : "J", "conversion_factor" : 1, "countries_used" : [  "Australia", "Belgium", "Botswana", "France", "Germany", "Malawi", "Namibia", "The Netherlands", "Russia", "South Africa", "Spain", "Zimbabwe" ] }
-{ "name" : "kilojoule", "abbrev" : [ "kJ" ], "relational_unit" : "J", "conversion_factor" : 1000, "countries_used" : [ "Australia", "Belgium", "Botswana", "France", "Germany", "Malawi", "Namibia", "The Netherlands", "Russia", "South Africa", "Spain", "Zimbabwe" ] }
-{ "name" : "megajoule", "abbrev" : [ "Mj" ], "relational_unit" : "J", "conversion_factor" : { "$numberLong" : "1000000" }, "countries_used" : [ "Algeria", "Belgium", "Benin", "Cameroon", "Chad", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "France", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo" ] }
-{ "name" : "kilocalorie", "abbrev" : [ "kcal" ], "relational_unit" : "kJ", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
-{ "name" : "Calorie", "abbrev" : [ "Cal" ], "relational_unit" : "kcal", "conversion_factor" : 1, "countries_used" : [] }
-{ "name" : "calorie", "abbrev" : [ "cal" ], "relational_unit" : "J", "conversion_factor" : 4.1868, "countries_used" : [] }
-  {
-    "_id" : 20200,
-    "name" : "shirt eq",
-    "abbrev" : "shirt",
-    "relational_unit" : "shirt",
-    "conversion_factor" : 1
-  },
-{
-  "_id" : 20400,
-  "name" : "adult equivalent",
-  "abbrev" : "AEq",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 1
-},
-{
-  "_id" : 20401,
-  "name" : "adult man >19 years",
-  "abbrev" : "man",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 1.048
-},
-{
-  "_id" : 20402,
-  "name" : "adult woman >19 years",
-  "abbrev" : "woman",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 0.8477
-},
-{
-  "_id" : 20402,
-  "name" : "adult woman pregnant",
-  "abbrev" : "woman preg",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 0.9698
-},
-{
-  "_id" : 20402,
-  "name" : "adult woman lactating",
-  "abbrev" : "woman lact",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 1.0603
-},
-{
-  "_id" : 20403,
-  "name" : "teenager 15-19 years",
-  "abbrev" : "teen",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 1.031
-},
-{
-  "_id" : 20404,
-  "name" : "child 5-14 years",
-  "abbrev" : "child",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 0.867
-},
-{
-  "_id" : 20405,
-  "name" : "child 10-14 years",
-  "abbrev" : "child mid",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 0.9413
-},
-{
-  "_id" : 20406,
-  "name" : "child 5-9 years",
-  "abbrev" : "child young",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 0.7927
-},
-{
-  "_id" : 20407,  "name" : "infant 0-4 years",
-  "abbrev" : "infant",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 0.5495
-},
-{
-  "_id" : 20408,
-  "name" : "pensioner (man > 65, woman > 60)",
-  "abbrev" : "pensioner",
-  "relational_unit" : "AEq",
-  "conversion_factor" : 1
-},
+{ "name" : "joule", "abbrev" : [ "J" ], "relational_unit" : "J", "conversion_factor" : 1, "countries_used" : [ "Algeria", "Austria", "Belgium", "Benin", "Burkina Faso", "Cameroon", "Chad", "China", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "Finland", "France", "Georgia", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo", "Ukraine" ] }
+{ "name" : "kilojoule", "abbrev" : [ "kJ" ], "relational_unit" : "J", "conversion_factor" : 1000, "countries_used" : [ "Algeria", "Austria", "Belgium", "Benin", "Burkina Faso", "Cameroon", "Chad", "China", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "Finland", "France", "Georgia", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo", "Ukraine" ] }
+{ "name" : "megajoule", "abbrev" : [ "Mj" ], "relational_unit" : "J", "conversion_factor" : { "$numberLong" : "1000000" }, "countries_used" : [ "Algeria", "Austria", "Belgium", "Benin", "Burkina Faso", "Cameroon", "Chad", "China", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "Finland", "France", "Georgia", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo", "Ukraine" ] }
+{ "name" : "kilocalorie", "abbrev" : [ "kcal" ], "relational_unit" : "kJ", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "New Zealand", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
+{ "name" : "Calorie", "abbrev" : [ "Cal" ], "relational_unit" : "kcal", "conversion_factor" : 1, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "New Zealand", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
+{ "name" : "calorie", "abbrev" : [ "cal" ], "relational_unit" : "J", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "New Zealand", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
+{ "name" : "shirt eq", "abbrev" : [ "shirt" ], "relational_unit" : "shirt", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "adult equivalent", "abbrev" : [ "AEq" ], "relational_unit" : "AEq", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "adult man >19 years", "abbrev" : [ "man" ], "relational_unit" : "AEq", "conversion_factor" : 1.048, "countries_used" : [ "all" ] }
+{ "name" : "adult woman >19 years", "abbrev" : [ "woman" ], "relational_unit" : "AEq", "conversion_factor" : 0.8477, "countries_used" : [ "all" ] }
+{ "name" : "adult woman pregnant", "abbrev" : [ "woman preg" ], "relational_unit" : "AEq", "conversion_factor" : 0.9698, "countries_used" : [ "all" ] }
+{ "name" : "adult woman lactating", "abbrev" : [ "woman lact" ], "relational_unit" : "AEq", "conversion_factor" : 1.0603, "countries_used" : [ "all" ] }
+{ "name" : "teenager 15-19 years", "abbrev" : [ "teen" ], "relational_unit" : "AEq", "conversion_factor" : 1.031, "countries_used" : [ "all" ] }
+{ "name" : "child 5-14 years", "abbrev" : [ "child" ], "relational_unit" : "AEq", "conversion_factor" : 0.867, "countries_used" : [ "all" ] }
+{ "name" : "child 10-14 years", "abbrev" : [ "child mid" ], "relational_unit" : "AEq", "conversion_factor" : 0.9413, "countries_used" : [ "all" ] }
+{ "name" : "child 5-9 years", "abbrev" : [ "child young" ], "relational_unit" : "AEq", "conversion_factor" : 0.7927, "countries_used" : [ "all" ] }
+{ "name" : "infant 0-4 years", "abbrev" : [ "infant" ], "relational_unit" : "AEq", "conversion_factor" : 0.5495, "countries_used" : [ "all" ] }
+{ "name" : "pensioner (man > 65, woman > 60)", "abbrev" : "pensioner", "relational_unit" : "AEq", "conversion_factor" : 1, "countries_used" : [ "all" ] }
   {
     "_id" : 20500,
     "name" : "FAO southern Africa livestock unit",
