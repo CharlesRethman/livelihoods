@@ -53,6 +53,6 @@
 { "name" : "FAO southern Africa livestock unit", "abbrev" : [ "SALU" ], "relational_unit" : "SALU", "conversion_factor" : 1, "countries_used" : [ "all" ] }
 { "name" : "tropical livestock unit", "abbrev" : [ "TLU" ], "relational_unit" : "SALU", "conversion_factor" : 0.71429, "countries_used" : [ "all" ] }
 { "name" : "camel", "abbrev" : [ "camel" ], "relational_unit" : "SALU", "conversion_factor": 1.1, "countries_used" : [ "Afghanistan", "Algeria", "Bahrain", "Botswana", "Burkina Faso", "Cameroon", "Central African Republic", "Chad", "China", "Egypt", "Eritrea", "Ethiopia", "India", "Iraq", "Iran", "Israel", "Jordan", "Khazakhstan", "Kenya", "Krygystan", "Kuwait", "Libya", "Mali", "Mauritania", "Mongolia", "Nambia", "Niger", "Nigeria", "Oman", "Pakistan", "Qatar", "Senegal", "Somalia", "Somaliland", "Saudi Arabia", "South Africa", "South Sudan", "Sudan", "Syria", "Tanzania", "Tunisia", "Turkey", "Turkmenistan", "Uganda", "United Arab Emirates", "Uzbekistan", "Yemen" ] }
-{ "name" : "cattle head", "abbrev" : [ "cattle" ], "relational_unit" : "SALU", "conversion_factor" : 0.5, "countries_used" : [] }
-{ "name" : "goat", "abbrev" : [ "goat" ], "relational_unit" : "SALU", "conversion_factor" : 0.1, "countries_used" : [] }
+{ "name" : "cattle head", "abbrev" : [ "cattle" ], "relational_unit" : "SALU", "conversion_factor" : 0.5, "countries_used" : [ "all" ] }
+{ "name" : "goat", "abbrev" : [ "goat" ], "relational_unit" : "SALU", "conversion_factor" : 0.1, "countries_used" : [ "all" ] }
 { "name" : "unit", "abbrev" : [ "unit" ], "relational_unit" : "unit", "conversion_factor" : 1, "countries_used" : [ "all" ] }
