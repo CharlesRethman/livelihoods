@@ -1,5 +1,6 @@
 {
-  "lz_code" : 1,
+  "gid": 1,
+  "lz_code" : 894201,
   "lz_abbrev" : "ZM01",
   "lz_name" : "Zambezi Plain Rice, Livestock and Fishing",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -21,7 +22,8 @@ The most common hazards are flooding and livestock diseases, which occur once in
   "users" : [],
 }
 {
-  "lz_code" : 2,
+  "gid": 2,
+  "lz_code" : 894501,
   "lz_abbrev" : "ZM02",
   "lz_name" : "Southwestern Cereal, Livestock and Timber",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -41,7 +43,8 @@ Common hazards include flooding and livestock disease outbreaks, which occur onc
   "users" : [],
 }
 {
-  "lz_code" : 3,
+  "gid": 3,
+  "lz_code" : 894202,
   "lz_abbrev" : "ZM03",
   "lz_name" : "Western and Northwestern Cassava, Maize and Cattle",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -61,7 +64,8 @@ Prolonged dry spells and/or droughts are a major hazard in the zone, leading to 
   "users" : [],
 }
 {
-  "lz_code" : 4,
+  "gid": 4,
+  "lz_code" : 894301,
   "lz_abbrev" : "ZM04",
   "lz_name" : "Kaoma Smallholder Food Crop and Tobacco",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -81,7 +85,8 @@ Livestock disease outbreaks are the major hazard in the zone, caused by its prox
   "users" : [],
 }
 {
-  "lz_code" : 5,
+  "gid": 5,
+  "lz_code" : 894502,
   "lz_abbrev" : "ZM05",
   "lz_name" : "Northwestern Timber and Honey",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -102,7 +107,8 @@ Poor households have been able to cope relatively well with shocks in the past t
   "users" : [],
 }
 {
-  "lz_code" : 6,
+  "gid": 6,
+  "lz_code" : 894302,
   "lz_abbrev" : "ZM06",
   "lz_name" : "Solwezi and Kasempa Mining Labor and Agriculture",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -123,7 +129,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "videos" : [],
 }
 {
-  "lz_code" : 7,
+  "gid": 7,
+  "lz_code" : 894701,
   "lz_abbrev" : "ZM07",
   "lz_name" : "Kafue Plain Maize, Cattle and Fishing",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -136,7 +143,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 8,
+  "gid": 8,
+  "lz_code" : 894203,
   "lz_abbrev" : "ZM08",
   "lz_name" : "Commercial Rail Line Maize, Livestock and Cotton",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -149,7 +157,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 9,
+  "gid": 9,
+  "lz_code" : 894204,
   "lz_abbrev" : "ZM09",
   "lz_name" : "Southern Plateau Cattle, Maize and Tobacco",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -162,7 +171,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 10,
+  "gid": 10,
+  "lz_code" : 894702,
   "lz_abbrev" : "ZM10",
   "lz_name" : "Zambezi Valley Agro-fisheries",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -175,7 +185,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 11,
+  "gid": 11,
+  "lz_code" : 894250,
   "lz_abbrev" : "ZM11",
   "lz_name" : "Mkushi, Chisamba, and Mpongwe Commercial Farming Block",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -188,7 +199,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 12,
+  "gid": 12,
+  "lz_code" : 894303,
   "lz_abbrev" : "ZM12",
   "lz_name" : "Central Copperbelt Maize, Cassava and Sweet Potato",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -201,7 +213,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 13,
+  "lz_code" : 894830,
   "lz_abbrev" : "ZM13",
   "lz_name" : "Copperbelt Labor and Trade",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -214,7 +226,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 14,
+  "lz_code" : 894304,
   "lz_abbrev" : "ZM14",
   "lz_name" : "Mkushi and Serenje Maize, Sweet Potato and Horticulture",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -227,7 +239,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 15,
+  "lz_code" : 894601,
   "lz_abbrev" : "ZM15",
   "lz_name" : "Luangwa Valley Informal Mining, Fishing and Hunting",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -240,7 +252,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 16,
+  "lz_code" : 894305,
   "lz_abbrev" : "ZM16",
   "lz_name" : "Eastern Plateau Maize, Cotton and Groundnuts",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -253,7 +265,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 17,
+  "lz_code" : 894306,
   "lz_abbrev" : "ZM17",
   "lz_name" : "Eastern Plateau Maize, Groundnut, Tobacco, and Trade",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -266,7 +278,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 18,
+  "lz_code" : 894602,
   "lz_abbrev" : "ZM18",
   "lz_name" : "Luangwa Valley Subsistence Farming, Hunting and Tourism",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -279,7 +291,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 19,
+  "lz_code" : 894205,
   "lz_abbrev" : "ZM19",
   "lz_name" : "Northern Border Maize, Beans, Livestock and Trade",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -292,7 +304,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 20,
+  "lz_code" : 894307,
   "lz_abbrev" : "ZM20",
   "lz_name" : "Muchinga, Northern, and Luapula Cassava, Groundnut and Millet",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -305,7 +317,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 21,
+  "lz_code" : 894703,
   "lz_abbrev" : "ZM21",
   "lz_name" : "Mweru Bangweulu Tanganyika Fisheries",
   "country" : {"countryName" : "Zambia", "iso3" : "ZMB", "iso2" : "zm", "telCode" : "260" },
@@ -318,7 +330,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 59203,
+  "lz_code" : 710203,
   "lz_abbrev" : "ZANOC",
   "lz_name" : "Northern open access cattle and dry land crops",
   "country" : "South Africa",
@@ -331,7 +343,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 59204,
+  "lz_code" : 710204,
   "lz_abbrev" : "ZASLC",
   "lz_name" : "Southern Limpopo open access cattle and crops",
   "country" : "South Africa",
@@ -344,7 +356,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
-  "lz_code" : 59301,
+  "lz_code" : 710301,
   "lz_abbrev" : "ZALOF",
   "lz_name" : "North eastern Limpopo open access farming",
   "country" : "South Africa",
@@ -363,7 +375,7 @@ Mining activities that are increasingly gaining prominence provide an important 
   "videos" : [],
 }
 {
-  "lz_code" : 59302,
+  "lz_code" : 710302,
   "lz_abbrev" : "ZALOI",
   "lz_name" : "Lowveld open access irrigated cropping",
   "country" : "South Africa",
