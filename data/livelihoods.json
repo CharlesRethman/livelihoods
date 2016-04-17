@@ -1,5 +1,6 @@
 {
   "gid": 1,
+  "country_name":"Zambia",
   "lz_code" : 894201,
   "lz_abbrev" : "ZM01",
   "lz_name" : "Zambezi Plain Rice, Livestock and Fishing",
@@ -23,6 +24,7 @@ The most common hazards are flooding and livestock diseases, which occur once in
 }
 {
   "gid": 2,
+  "country_name":"Zambia",
   "lz_code" : 894501,
   "lz_abbrev" : "ZM02",
   "lz_name" : "Southwestern Cereal, Livestock and Timber",
@@ -44,6 +46,7 @@ Common hazards include flooding and livestock disease outbreaks, which occur onc
 }
 {
   "gid": 3,
+  "country_name":"Zambia",
   "lz_code" : 894202,
   "lz_abbrev" : "ZM03",
   "lz_name" : "Western and Northwestern Cassava, Maize and Cattle",
@@ -65,6 +68,7 @@ Prolonged dry spells and/or droughts are a major hazard in the zone, leading to 
 }
 {
   "gid": 4,
+  "country_name":"Zambia",
   "lz_code" : 894301,
   "lz_abbrev" : "ZM04",
   "lz_name" : "Kaoma Smallholder Food Crop and Tobacco",
@@ -86,6 +90,7 @@ Livestock disease outbreaks are the major hazard in the zone, caused by its prox
 }
 {
   "gid": 5,
+  "country_name":"Zambia",
   "lz_code" : 894502,
   "lz_abbrev" : "ZM05",
   "lz_name" : "Northwestern Timber and Honey",
@@ -108,6 +113,7 @@ Poor households have been able to cope relatively well with shocks in the past t
 }
 {
   "gid": 6,
+  "country_name":"Zambia",
   "lz_code" : 894302,
   "lz_abbrev" : "ZM06",
   "lz_name" : "Solwezi and Kasempa Mining Labor and Agriculture",
@@ -130,6 +136,7 @@ Mining activities that are increasingly gaining prominence provide an important 
 }
 {
   "gid": 7,
+  "country_name":"Zambia",
   "lz_code" : 894701,
   "lz_abbrev" : "ZM07",
   "lz_name" : "Kafue Plain Maize, Cattle and Fishing",
@@ -144,6 +151,7 @@ Mining activities that are increasingly gaining prominence provide an important 
 }
 {
   "gid": 8,
+  "country_name":"Zambia",
   "lz_code" : 894203,
   "lz_abbrev" : "ZM08",
   "lz_name" : "Commercial Rail Line Maize, Livestock and Cotton",
@@ -158,6 +166,7 @@ Mining activities that are increasingly gaining prominence provide an important 
 }
 {
   "gid": 9,
+  "country_name":"Zambia",
   "lz_code" : 894204,
   "lz_abbrev" : "ZM09",
   "lz_name" : "Southern Plateau Cattle, Maize and Tobacco",
@@ -172,6 +181,7 @@ Mining activities that are increasingly gaining prominence provide an important 
 }
 {
   "gid": 10,
+  "country_name":"Zambia",
   "lz_code" : 894702,
   "lz_abbrev" : "ZM10",
   "lz_name" : "Zambezi Valley Agro-fisheries",
@@ -186,6 +196,7 @@ Mining activities that are increasingly gaining prominence provide an important 
 }
 {
   "gid": 11,
+  "country_name":"Zambia",
   "lz_code" : 894250,
   "lz_abbrev" : "ZM11",
   "lz_name" : "Mkushi, Chisamba, and Mpongwe Commercial Farming Block",
@@ -200,6 +211,7 @@ Mining activities that are increasingly gaining prominence provide an important 
 }
 {
   "gid": 12,
+  "country_name":"Zambia",
   "lz_code" : 894303,
   "lz_abbrev" : "ZM12",
   "lz_name" : "Central Copperbelt Maize, Cassava and Sweet Potato",
@@ -213,6 +225,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 13,
+  "country_name":"Zambia",
   "lz_code" : 894830,
   "lz_abbrev" : "ZM13",
   "lz_name" : "Copperbelt Labor and Trade",
@@ -226,6 +240,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 14,
+  "country_name":"Zambia",
   "lz_code" : 894304,
   "lz_abbrev" : "ZM14",
   "lz_name" : "Mkushi and Serenje Maize, Sweet Potato and Horticulture",
@@ -239,6 +255,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 15,
+  "country_name":"Zambia",
   "lz_code" : 894601,
   "lz_abbrev" : "ZM15",
   "lz_name" : "Luangwa Valley Informal Mining, Fishing and Hunting",
@@ -252,6 +270,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 16,
+  "country_name":"Zambia",
   "lz_code" : 894305,
   "lz_abbrev" : "ZM16",
   "lz_name" : "Eastern Plateau Maize, Cotton and Groundnuts",
@@ -265,6 +285,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 17,
+  "country_name":"Zambia",
   "lz_code" : 894306,
   "lz_abbrev" : "ZM17",
   "lz_name" : "Eastern Plateau Maize, Groundnut, Tobacco, and Trade",
@@ -278,6 +300,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 18,
+  "country_name":"Zambia",
   "lz_code" : 894602,
   "lz_abbrev" : "ZM18",
   "lz_name" : "Luangwa Valley Subsistence Farming, Hunting and Tourism",
@@ -291,6 +315,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 19,
+  "country_name":"Zambia",
   "lz_code" : 894205,
   "lz_abbrev" : "ZM19",
   "lz_name" : "Northern Border Maize, Beans, Livestock and Trade",
@@ -304,6 +330,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 20,
+  "country_name":"Zambia",
   "lz_code" : 894307,
   "lz_abbrev" : "ZM20",
   "lz_name" : "Muchinga, Northern, and Luapula Cassava, Groundnut and Millet",
@@ -317,6 +345,8 @@ Mining activities that are increasingly gaining prominence provide an important 
   "users" : [],
 }
 {
+  "gid": 21,
+  "country_name":"Zambia",
   "lz_code" : 894703,
   "lz_abbrev" : "ZM21",
   "lz_name" : "Mweru Bangweulu Tanganyika Fisheries",
