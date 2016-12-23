@@ -1,368 +1,58 @@
-{
-  "_id" : 20000,
-  "name" : "kilogram",
-  "abbrev" : ["kg"],
-  "relational_unit" : "kg",
-  "conversion_factor" : 1,
-  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-},
-{
-  "_id" : 20001,
-  "name" : "gram",
-  "abbrev" : "g",
-  "relational_unit" : "kg",
-  "conversion_factor" : 1000,
-  "countries_used" : [ "South Africa" ]
-},
-{
-  "_id" : 20002,
-  "name" : "ton",
-  "abbrev" : [ "t", "Mt", "MT" ],
-  "relational_unit" : "kg",
-  "conversion_factor" : 0.001,
-  "countries_used" : [ "South Africa" ]
-},
-  {
-    "_id" : 20003,
-    "name" : "US pound",
-    "abbrev" : [ "lb" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 0.028349523,
-    "countries_used" : [ "United States" ]
-  },
-  {
-    "_id" : 20004,
-    "name" : "US ounce",
-    "abbrev" : [ "oz" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 0.028349523,
-    "countries_used" : [ "United States" ]
-  },
-  {
-    "_id" : 20005,
-    "name" : "short ton",
-    "abbrev" : [ "ton" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 907.18474,
-    "countries_used" : [ "United States" ]
-  },
-  {
-    "_id" : 20006,
-    "name" : "stone",
-    "abbrev" : [ "st" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 6.3502932,
-    "countries_used" : [ "United Kingdom" ]
-  },
-  {
-    "_id" : 20007,
-    "name" : "long ton",
-    "abbrev" : [ "ton" ],
-    "relational_unit" : "kg",
-    "conversion_factor" : 1016.0469,
-    "countries_used" : [ "United Kingdom" ]
-  },
-  {
-    "_id" : 20008,
-    "name" : "bag",
-    "relational_unit" : "kg",
-    "conversion_factor" : 50,
-    "countries_used" : [ "Malawi", "Zambia" ]
-  },
-  {
-    "_id" : 20009,
-    "name" : "bag",
-    "relational_unit" : "kg",
-    "conversion_factor" : 80,
-    "countries_used" : [ "South Africa" ]
-  },
-  {
-    "_id" : 20010,
-    "name" : "sack",
-    "relational_unit" : "kg",
-    "conversion_factor" : 90,
-    "countries_used" : [ "Burundi", "Kenya", "Rwanda", "Tanzania", "Uganda" ]
-  },
-  {
-    "_id" : 20011,
-    "name" : "quintal",
-    "relational_unit" : "kg",
-    "conversion_factor" : 100,
-    "countries_used" : [ "Ethiopia" ]
-  },
-  {
-    "_id" : 20012,
-    "name" : "debe",
-    "relational_unit" : "kg",
-    "conversion_factor" : 18,
-    "countries_used" : [ "Burundi", "Rwanda", "Tanzania" ]
-  },
-  {
-    "_id" : 20013,
-    "name" : "packet",
-    "relational_unit" : "kg",
-    "conversion_factor" : 10,
-    "countries_used" : [ "South Africa" ]
-  },
-  {
-    "_id" : 20030,
-    "name" : "head, pumpkin",
-    "relational_unit" : "kg",
-    "conversion_factor" : 25,
-    "countries_used" : [ "South Africa" ]
-  },
-{
-  "_id" : 20050,
-  "name" : "metre",
-  "relational_unit" : "metre",
-  "conversion_factor" : 1,
-  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-},
-{
-  "_id" : 20051,
-  "name" : "kilometre",
-  "relational_unit" : "metre",
-  "conversion_factor" : 1000,
-  "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "South Africa", "Zimbabwe" ]
-},
-{
-  "_id" : 20100,
-  "name" : "hectare",
-  "abbrev" : "ha",
-  "relational_unit" : "ha",
-  "conversion_factor" : 1
-},
-{
-  "_id" : 20101,
-  "name" : "square metre",
-  "abbrev" : "sq m",
-  "relational_unit" : "ha",
-  "conversion_factor" : 0.0001
-},
-{
-  "_id" : 20102,
-  "name" : "acre",
-  "abbrev" : "a",
-  "relational_unit" : "ha",
-  "conversion_factor" : 0.42
-},
-{
-  "_id" : 20102,
-  "name" : "morgen",
-  "abbrev" : "mn",
-  "relational_unit" : "ha",
-  "conversion_factor" : 0.8567
-},
-{
-  "_id" : 20120,
-  "name" : "year",
-  "abbrev" : "y",
-  "relational_unit" : "y",
-    "conversion_factor" : 1
-},
-{
-  "_id" : 20121,
-  "name" : "month",
-  "abbrev" : "mo",
-  "relational_unit" : "y",
-    "conversion_factor" : 12
-},
-{
-  "_id" : 20122,
-  "name" : "week",
-  "abbrev" : "wk",
-  "relational_unit" : "y",
-  "conversion_factor" : 52
-},
-{
-  "_id" : 20123,
-  "name" : "dekad",
-  "abbrev" : "dk",
-  "relational_unit" : "d",
-  "conversion_factor" : 0.1
-},
-{
-  "_id" : 20124,
-  "name" : "day",
-  "abbrev" : "d",
-  "relational_unit" : "y",
-  "conversion_factor" : 365
-},
-{
-  "_id" : 20125,
-  "name" : "hour",
-  "abbrev" : "h",
-  "relational_unit" : "d",
-  "conversion_factor" : 24
-},
-{
-  "_id" : 20126,
-  "name" : "minute",
-  "abbrev" : "min",
-  "relational_unit" : "h",
-  "conversion_factor" : 60
-},
-{
-  "_id" : 20127,
-  "name" : "second",
-  "abbrev" : "s",
-  "relational_unit" : "h",
-  "conversion_factor" : 3600
-},
-  {
-    "_id" : 20150,
-    "name" : "kilojoule",
-    "abbrev" : "kJ",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 1
-  },
-  {
-    "_id" : 20151,
-    "name" : "joule",
-    "abbrev" : "J",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 0.001
-  },
-  {
-    "_id" : 20152,
-    "name" : "kilocalorie",
-    "abbrev" : "kcal",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 4.1868
-  },
-  {
-    "_id" : 20153,
-    "name" : "Calorie",
-    "abbrev" : "Cal",
-    "relational_unit" : "kcal",
-    "conversion_factor" : 1
-  },
-  {
-    "_id" : 20154,
-    "name" : "calorie",
-    "abbrev" : "cal",
-    "relational_unit" : "kJ",
-    "conversion_factor" : 0.0041868
-  },
-  {
-    "_id" : 20200,
-    "name" : "shirt eq",
-    "abbrev" : "shirt",
-    "relational_unit" : "shirt",
-    "conversion_factor" : 1
-  },
-{
-  "_id" : 20400,
-  "name" : "adult equivalent",
-  "abbrev" : "Aeq",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 1
-},
-{
-  "_id" : 20401,
-  "name" : "adult man >19 years",
-  "abbrev" : "man",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 1.048
-},
-{
-  "_id" : 20402,
-  "name" : "adult woman >19 years",
-  "abbrev" : "woman",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 0.8477
-},
-{
-  "_id" : 20402,
-  "name" : "adult woman pregnant",
-  "abbrev" : "woman preg",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 0.9698
-},
-{
-  "_id" : 20402,
-  "name" : "adult woman lactating",
-  "abbrev" : "woman lact",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 1.0603
-},
-{
-  "_id" : 20403,
-  "name" : "teenager 15-19 years",
-  "abbrev" : "teen",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 1.031
-},
-{
-  "_id" : 20404,
-  "name" : "child 5-14 years",
-  "abbrev" : "child",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 0.867
-},
-{
-  "_id" : 20405,
-  "name" : "child 10-14 years",
-  "abbrev" : "child mid",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 0.9413
-},
-{
-  "_id" : 20406,
-  "name" : "child 5-9 years",
-  "abbrev" : "child young",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 0.7927
-},
-{
-  "_id" : 20407,  "name" : "infant 0-4 years",
-  "abbrev" : "infant",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 0.5495
-},
-{
-  "_id" : 20408,
-  "name" : "pensioner (man > 65, woman > 60)",
-  "abbrev" : "pensioner",
-  "relational_unit" : "Aeq",
-  "conversion_factor" : 1
-},
-  {
-    "_id" : 20500,
-    "name" : "FAO southern Africa livestock unit",
-    "abbrev" : "SALU",
-    "relational_unit" : "SALU",
-    "conversion_factor" : 1
-  },
-  {
-    "_id" : 20501,
-    "name" : "tropical livestock unit",
-    "abbrev" : "TLU",
-    "relational_unit" : "SALU",
-    "conversion_factor" : 0.71429
-  },
-  {
-    "_id" : 20502,
-    "name" : "camel",
-    "relational_unit" : "SALU",
-    "conversion_factor": 1.1
-  },
-{
-  "_id" : 20503,
-  "name" : "cattle head",
-  "relational_unit" : "SALU",
-  "conversion_factor" : 0.5
-},
-{
-  "_id" : 20504,
-  "name" : "goat",
-  "relational_unit" : "SALU",
-  "conversion_factor" : 0.1
-},
-{
-  "_id" : 20900,
-  "name" : "unit",
-  "abbrev" : "unit",
-  "relational_unit" : "unit",
-  "conversion_factor" : 1
-}
+{ "name" : "kilogram", "abbrev" : [ "kg" ], "relational_unit" : "kg", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "gram", "abbrev" : [ "g" ], "relational_unit" : "kg", "conversion_factor" : 0.001, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "ton", "abbrev" : [ "t", "Mt", "MT" ], "relational_unit" : "kg", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "US pound", "abbrev" : [ "lb" ], "relational_unit" : "kg", "conversion_factor" : 0.45359237, "countries_used" : [ "United States" ] }
+{ "name" : "US ounce", "abbrev" : [ "oz" ], "relational_unit" : "kg", "conversion_factor" : 0.028349523, "countries_used" : [ "United States" ] }
+{ "name" : "short ton", "abbrev" : [ "ton" ], "relational_unit" : "kg", "conversion_factor" : 907.18474, "countries_used" : [ "United States" ] }
+{ "name" : "stone", "abbrev" : [ "st" ], "relational_unit" : "kg", "conversion_factor" : 6.3502932, "countries_used" : [ "United Kingdom" ] }
+{ "name" : "long ton", "abbrev" : [ "ton" ], "relational_unit" : "kg", "conversion_factor" : 1016.0469, "countries_used" : [ "United Kingdom" ] }
+{ "name" : "bag", "abbrev" : [ "bag" ], "relational_unit" : "kg", "conversion_factor" : 50, "countries_used" : [ "Kenya", "Malawi", "Zambia" ] }
+{ "name" : "bag", "relational_unit" : "kg", "conversion_factor" : 80, "countries_used" : [ "South Africa" ] }
+{ "name" : "sack", "relational_unit" : "kg", "conversion_factor" : 90, "countries_used" : [ "Burundi", "Kenya", "Rwanda", "Tanzania", "Uganda" ] }
+{ "name" : "quintal", "relational_unit" : "kg", "conversion_factor" : 100, "countries_used" : [ "Ethiopia" ] }
+{ "name" : "debe", "relational_unit" : "kg", "conversion_factor" : 18, "countries_used" : [ "Burundi", "Rwanda", "Tanzania", "Zambia" ] }
+{ "name" : "packet", "relational_unit" : "kg", "conversion_factor" : 10, "countries_used" : [ "South Africa" ] }
+{ "name" : "head, pumpkin", "relational_unit" : "kg", "conversion_factor" : 25, "countries_used" : [ "South Africa" ] }
+{ "name" : "metre", "abbrev" : [ "m" ], "relational_unit" : "metre", "conversion_factor" : 1, "countries_used" : [ "Australia", "Belgium", "Botswana", "France", "Germany", "Malawi", "Nambia", "The Netherlands", "Russia", "South Africa", "Spain", "Zimbabwe" ] }
+{ "name" : "kilometre", "abbrev" : [ "km" ], "relational_unit" : "metre", "conversion_factor" : 1000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "centimetre", "abbrev" : [ "cm" ], "relational_unit" : "metre", "conversion_factor" : 0.01, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "millimetre", "abbrev" : [ "mm" ], "relational_unit" : "metre", "conversion_factor" : 0.001, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "mile", "abbrev" : [ "m", "mi" ], "relational_unit" : "foot", "conversion_factor" : 1760, "countries_used" : ["United Kingdom", "United States" ] }
+{ "name" : "foot", "abbrev" : [ "ft" ] , "relational_unit" : "inch", "conversion_factor" : 12, "countries_used" : ["United Kingdom", "United States" ] }
+{ "name" : "inch", "abbrev" : [ "in" ] , "relational_unit" : "m", "conversion_factor" : 0.0254, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "hectare", "abbrev" : [ "ha" ], "relational_unit" : "sq m", "conversion_factor" : 10000, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "square metre", "abbrev" : [ "sq m" ], "relational_unit" : "sq m", "conversion_factor" : 1, "countries_used" : [ "Botswana", "France", "Germany", "Malawi", "Nambibia", "Russia", "South Africa", "Zimbabwe" ] }
+{ "name" : "acre", "abbrev" : [ "ac" ], "relational_unit" : "ha", "conversion_factor" : 0.4046, "countries_used" : [ "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Malawi", "Montserrat", "Myanmar", "Northern Mariana Islands", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands" ] }
+{ "name" : "morgen", "abbrev" : [ "morg" ], "relational_unit" : "ha", "conversion_factor" : 0.8567, "countries_used" : [ "Germany", "The Netherlands", "Poland", "South Africa", "Taiwan" ] }
+{ "name" : "year", "abbrev" : [ "y", "yr", "a" ], "relational_unit" : "y", "conversion_factor" : 1, "countries_used" : ["all"] }
+{ "name" : "month", "abbrev" : [ "mo" ], "relational_unit" : "y", "conversion_factor" : 12, "countries_used" : [ "all" ] }
+{ "name" : "week", "abbrev" : [ "wk" ], "relational_unit" : "y", "conversion_factor" : 52, "countries_used" : [ "all" ] }
+{ "name" : "dekad", "abbrev" : [ "dk" ], "relational_unit" : "d", "conversion_factor" : 10, "countries_used" : [ "all" ] }
+{ "name" : "day", "abbrev" : [ "d" ], "relational_unit" : "y", "conversion_factor" : 365, "countries_used" : [ "all" ] }
+{ "name" : "hour", "abbrev" : [ "h", "hr" ], "relational_unit" : "d", "conversion_factor" : 24, "countries_used" : [ "all" ] }
+{ "name" : "minute", "abbrev" : [ "m", "min" ], "relational_unit" : "h", "conversion_factor" : 60, "countries_used" : [ "all" ] }
+{ "name" : "second", "abbrev" : [ "s", "sec" ], "relational_unit" : "h", "conversion_factor" : 3600, "countries_used" : [ "all" ] }
+{ "name" : "joule", "abbrev" : [ "J" ], "relational_unit" : "J", "conversion_factor" : 1, "countries_used" : [ "Algeria", "Austria", "Belgium", "Benin", "Burkina Faso", "Cameroon", "Chad", "China", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "Finland", "France", "Georgia", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo", "Ukraine" ] }
+{ "name" : "kilojoule", "abbrev" : [ "kJ" ], "relational_unit" : "J", "conversion_factor" : 1000, "countries_used" : [ "Algeria", "Austria", "Belgium", "Benin", "Burkina Faso", "Cameroon", "Chad", "China", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "Finland", "France", "Georgia", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo", "Ukraine" ] }
+{ "name" : "megajoule", "abbrev" : [ "Mj" ], "relational_unit" : "J", "conversion_factor" : { "$numberLong" : "1000000" }, "countries_used" : [ "Algeria", "Austria", "Belgium", "Benin", "Burkina Faso", "Cameroon", "Chad", "China", "Congo, Democratic Republic of the", "Congo, Republic of the", "Côte D'Ivoire", "Denmark", "Finland", "France", "Georgia", "Germany", "Guinea", "Guinea Bissau", "Italy", "Libya", "Luxembourg", "Mali", "Morocco", "Namibia", "The Netherlands", "Niger", "Norway", "Portugal", "Russia", "Senegal", "South Africa", "Spain", "Sweden", "Tunisia", "Togo", "Ukraine" ] }
+{ "name" : "kilocalorie", "abbrev" : [ "kcal" ], "relational_unit" : "kJ", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "New Zealand", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
+{ "name" : "Calorie", "abbrev" : [ "Cal" ], "relational_unit" : "kcal", "conversion_factor" : 1, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "New Zealand", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
+{ "name" : "calorie", "abbrev" : [ "cal" ], "relational_unit" : "J", "conversion_factor" : 4.1868, "countries_used" : [  "Antigua and Barbuda", "Australia", "American Samoa", "The Bahamas", "Belize", "Botswana", "British Virgin Islands", "Cayman Islands", "Canada", "Dominica", "Falkland Islands", "Grenada", "Ghana", "Guam", "India", "Ireland", "Jamaica", "Kenya", "Liberia", "Malawi", "Montserrat", "Myanmar", "New Zealand", "Nigeria", "Pakistan", "Samoa", "St. Lucia", "St. Helena", "St. Kitts and Nevis", "St. Vincent and the Grenadines", "Tanzania", "Turks and Caicos", "United Kingdom", "United States", "US Virgin Islands", "Zambia", "Zimbabwe" ] }
+{ "name" : "shirt eq", "abbrev" : [ "shirt" ], "relational_unit" : "shirt", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "adult equivalent", "abbrev" : [ "AEq" ], "relational_unit" : "AEq", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "adult man >19 years", "abbrev" : [ "man" ], "relational_unit" : "AEq", "conversion_factor" : 1.048, "countries_used" : [ "all" ] }
+{ "name" : "adult woman >19 years", "abbrev" : [ "woman" ], "relational_unit" : "AEq", "conversion_factor" : 0.8477, "countries_used" : [ "all" ] }
+{ "name" : "adult woman pregnant", "abbrev" : [ "woman preg" ], "relational_unit" : "AEq", "conversion_factor" : 0.9698, "countries_used" : [ "all" ] }
+{ "name" : "adult woman lactating", "abbrev" : [ "woman lact" ], "relational_unit" : "AEq", "conversion_factor" : 1.0603, "countries_used" : [ "all" ] }
+{ "name" : "teenager 15-19 years", "abbrev" : [ "teen" ], "relational_unit" : "AEq", "conversion_factor" : 1.031, "countries_used" : [ "all" ] }
+{ "name" : "child 5-14 years", "abbrev" : [ "child" ], "relational_unit" : "AEq", "conversion_factor" : 0.867, "countries_used" : [ "all" ] }
+{ "name" : "child 10-14 years", "abbrev" : [ "child mid" ], "relational_unit" : "AEq", "conversion_factor" : 0.9413, "countries_used" : [ "all" ] }
+{ "name" : "child 5-9 years", "abbrev" : [ "child young" ], "relational_unit" : "AEq", "conversion_factor" : 0.7927, "countries_used" : [ "all" ] }
+{ "name" : "infant 0-4 years", "abbrev" : [ "infant" ], "relational_unit" : "AEq", "conversion_factor" : 0.5495, "countries_used" : [ "all" ] }
+{ "name" : "pensioner (man > 65, woman > 60)", "abbrev" : [ "pensioner" ], "relational_unit" : "AEq", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "FAO southern Africa livestock unit", "abbrev" : [ "SALU" ], "relational_unit" : "SALU", "conversion_factor" : 1, "countries_used" : [ "all" ] }
+{ "name" : "tropical livestock unit", "abbrev" : [ "TLU" ], "relational_unit" : "SALU", "conversion_factor" : 0.71429, "countries_used" : [ "all" ] }
+{ "name" : "camel", "abbrev" : [ "camel" ], "relational_unit" : "SALU", "conversion_factor": 1.1, "countries_used" : [ "Afghanistan", "Algeria", "Bahrain", "Botswana", "Burkina Faso", "Cameroon", "Central African Republic", "Chad", "China", "Egypt", "Eritrea", "Ethiopia", "India", "Iraq", "Iran", "Israel", "Jordan", "Khazakhstan", "Kenya", "Krygystan", "Kuwait", "Libya", "Mali", "Mauritania", "Mongolia", "Nambia", "Niger", "Nigeria", "Oman", "Pakistan", "Qatar", "Senegal", "Somalia", "Somaliland", "Saudi Arabia", "South Africa", "South Sudan", "Sudan", "Syria", "Tanzania", "Tunisia", "Turkey", "Turkmenistan", "Uganda", "United Arab Emirates", "Uzbekistan", "Yemen" ] }
+{ "name" : "cattle head", "abbrev" : [ "cattle" ], "relational_unit" : "SALU", "conversion_factor" : 0.5, "countries_used" : [ "all" ] }
+{ "name" : "goat", "abbrev" : [ "goat" ], "relational_unit" : "SALU", "conversion_factor" : 0.1, "countries_used" : [ "all" ] }
+{ "name" : "unit", "abbrev" : [ "unit" ], "relational_unit" : "unit", "conversion_factor" : 1, "countries_used" : [ "all" ] }
