@@ -1,3 +1,647 @@
+<<<<<<< HEAD
+{ "source_type" : "formal cash transfers", "categories" : [
+    { "category" : "social grants", "sources" : [
+        { "source" : "destitute grant", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "household", "fields" : [ "num", "unit_id", "converts_to", "sub_items" ], "asset_type": "human" },
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "child grant", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "infants", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item": {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "children", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "old age grant", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "pensioners", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item": {
+                "item_name": "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] }
+      ] }
+  ] },
+{ "source_type" : "casual labour", "categories" : [
+    { "category" : "agricultural labour", "sources" : [
+        { "source" : "land clearing", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "land preparation", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        {  "source" : "planting", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "weeding", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "first weeding", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "second weeding", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "harvesting", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "threshing", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "whole season agricultural work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] },
+        { "source" : "herding work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            { "item_name" : "adult men", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "adult women", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } },
+            { "item_name" : "teenagers", "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ], "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              } }
+          ] }
+      ] },
+    { "category" : "domestic labour", "sources" : [
+        { "source" : "house work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "washing", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "wood collecting work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "fetching water work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "teenagers",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] }
+      ] },
+    { "category" : "construction work", "sources" : [
+        { "source" : "house construction work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "house smearing work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "thatching work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "brick-making work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "stone-collecting work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "pole cutting work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "stone breaking work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "fencing work", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] },
+        { "source" : "digging work (latrines, levelling, etc.)", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "sub_items" ],
+                "asset_type" : "human"
+              }
+            }
+          ] }
+      ] }
+  ] },
+{ "source_type" : "self-employment", "categories" : [
+    { "category" : "forest products", "sources" : [
+        { "source" : "firewood sales", "fields" : [ "num_asset", "freq_utilised", "num_per_occasion", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "adult men",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance"],
+                "asset_type" : "human"
+              }
+            },
+            {
+              "item_name" : "adult women",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "household",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance"],
+                "asset_type" : "human"
+              }
+            }
+          ] }
+      ] }
+  ] }
+{ "source_type" : "own crop production", "categories" : [
+    { "category" : "maize", "sources" : [
+        { "source" : "maize crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ],
+          "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ] },
+        { "source" : "green maize crop", "fields" : [ "num", "unit_id", "proportion_gained" ], "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num" , "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num",  "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ] }
+      ] },
+    { "category" : "sorghum", "sources" : [
+        { "Source" : "sorghum crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ], "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ] }
+      ] },
+    { "category" : "cowpeas", "sources" : [
+        { "source" : "cowpeas crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ], "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ] }
+      ] },
+    { "category" : "beans", "sources" : [
+        { "source" : "beans crop", "fields" : [ "num_asset", "commodity_id", "prod_unit_id", "produced", "consumed", "other", "asset_built" ], "asset_utilised" : [
+            {
+              "item_name" : "land food crops",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "super_item" : {
+                "item_name" : "land cultivated",
+                "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                "super_item" : {
+                  "item_name" : "land owned",
+                  "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+                  "asset_type" : "physical"
+                }
+              }
+            }
+          ] }
+      ] }
+  ] },
+{ "source_type" : "wild foods", "categories" : [
+    { "category" : "wild fruits and berries", "sources" : [
+        { "source" : "marula", "fields" : [ "commodity_id", "prod_unit_id", "collected", "consumed", "other", "asset_built" ], "asset_utilised" : [
+            {
+              "item_name" : "veld",
+              "fields" : [ "converts_to" ],
+              "asset_type" : "environmental"
+            }
+          ] }
+      ] }
+  ] },
+{ "source_type" : "gifts, cash", "categories" : [
+    { "category" : "remittances", "sources" : [
+        { "source" : "distant relatives", "fields" : [ "num_asset", "freq_utilised", "freq_paid", "period", "rate" ], "asset_utilised" : [
+            {
+              "item_name" : "distant kin",
+              "fields" : [ "num", "unit_id", "converts_to", "asset_balance" ],
+              "asset_type" : "social"
+            }
+          ] }
+      ] }
+  ] }
+=======
 { "source" : "destitute grant", "sourceType" : { "category" : "formal cash transfers", "group" : "social grants" }, "sourceDims" : [ "income" ], "dependsOn" : [ "political" ], "enhances" : [ "financial"], "fields" : [ "numAsset", "freqUtilised", "freqPaid", "period", "rate", "narrative" ], "assetUtilised" : [ { "itemName" : "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType": "human" }, { "itemName" : "adult men", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem" : { "itemName" : "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType" : "human" } }, { "itemName" : "adult women", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem" : { "itemName" : "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType" : "human" } } ] }
 { "source" : "child grant", "sourceType" : { "category" : "formal cash transfers", "group" : "social grants" }, "fields" : [ "numAsset", "freqUtilised", "freqPaid", "period", "rate", "narrative" ], "sourceDims" : [ "income" ], "dependsOn" : [ "political" ], "enhances" : [ "financial"], "assetUtilised" : [ { "itemName" : "infants", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem": { "itemName" : "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType" : "human" } }, { "itemName" : "children", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem" : { "itemName" : "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType" : "human" } }, { "itemName" : "teenagers", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem" : { "itemName" : "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType" : "human" } } ] }
 { "source" : "old age grant", "sourceType" : { "category" : "formal cash transfers", "group" : "social grants" }, "fields" : [ "numAsset", "freqUtilised", "freqPaid", "period", "rate", "narrative" ], "sourceDims" : [ "income" ], "dependsOn" : [ "political" ], "enhances" : [ "financial" ], "assetUtilised" : [ { "itemName" : "pensioners", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem": { "itemName": "household", "fields" : [ "num", "unitId", "convertsTo", "subItems" ], "assetType" : "human" } } ] }
@@ -32,3 +676,4 @@
 { "source" : "beans crop", "sourceType" : { "category" : "own crop production", "group" : "beans" }, "fields" : [ "numAsset", "commodity_id", "prod_unitId", "produced", "consumed", "other", "narrative" ], "sourceDims" : [ "income", "food" ], "dependsOn" : [ "human", "financial", "environmental" ], "enhances" : [ "financial", "human" ], "assetUtilised" : [ { "itemName" : "land food crops", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem" : { "itemName" : "land cultivated", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "superItem" : { "itemName" : "land owned", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "assetType" : "physical" } } } ] }
 { "source" : "marula", "sourceType" : { "category" : "wild foods", "group" : "wild fruits and berries" }, "fields" : [ "commodity_id", "prod_unitId", "collected", "consumed", "other", "narrative" ], "sourceDims" : [ "income", "food" ], "dependsOn" : [ "human", "financial", "environmental" ], "enhances" : [ "financial", "human" ], "assetUtilised" : [ { "itemName" : "veld", "fields" : [ "convertsTo" ], "assetType" : "environmental" } ] }
 { "source" : "remittances", "sourceType" : { "category" : "gifts, cash", "group" : "remittances" }, "fields" : [ "numAsset", "freqUtilised", "freqPaid", "period", "rate", "narrative" ], "sourceDims" : [ "income", "food" ], "dependsOn" : [ "human", "financial", "environmental" ], "enhances" : [ "financial", "human" ], "assetUtilised" : [ { "itemName" : "distant kin", "fields" : [ "num", "unitId", "convertsTo", "assetBalance" ], "assetType" : "social" } ] }
+>>>>>>> interview-priority
